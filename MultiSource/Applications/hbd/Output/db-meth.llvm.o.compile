@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/db-meth.cpp:58:22: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          e1->e->id->name = "super";
+                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/db-meth.cpp:67:27: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        Exp *e2 = new Exp(pcval, "super", VOID, NO);
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/db-meth.cpp:77:29: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          e1->e->id->name = "this";
+                            ^
+3 warnings generated.
+exit 0

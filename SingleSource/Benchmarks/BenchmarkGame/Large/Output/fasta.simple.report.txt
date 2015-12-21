@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/BenchmarkGame/Large/fasta' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/BenchmarkGame/Large/fasta
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d1f6697b725ba753ee9225f930b02de2
+TEST-RESULT-compile-time: user       0.0428
+TEST-RESULT-compile-real-time: real       0.0594
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/BenchmarkGame/Large/fasta
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.7433
+TEST-RESULT-exec-real-time: real       0.8007

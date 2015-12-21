@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/city/city' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/city/city
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 2a4472d76e2ec9bfb5ce0e11d91555e5
+TEST-RESULT-compile-time: user 1.254700
+TEST-RESULT-compile-real-time: real 1.469700
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/city/city
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0059
+TEST-RESULT-exec-real-time: real       0.0068

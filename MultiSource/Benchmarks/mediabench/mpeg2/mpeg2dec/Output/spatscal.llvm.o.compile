@@ -1,0 +1,14 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/spatscal.c:97:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif VERBOSE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/spatscal.c:128:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif VERBOSE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/spatscal.c:142:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif VERBOSE
+       ^
+       //
+3 warnings generated.
+exit 0

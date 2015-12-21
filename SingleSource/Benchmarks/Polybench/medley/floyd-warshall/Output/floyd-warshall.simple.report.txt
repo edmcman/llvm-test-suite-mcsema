@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/floyd-warshall' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/floyd-warshall
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ab606331b5b1ec9a6c28f81f53a714cf
+TEST-RESULT-compile-time: user       0.0665
+TEST-RESULT-compile-real-time: real       0.1155
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/floyd-warshall
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.1847
+TEST-RESULT-exec-real-time: real       1.2219

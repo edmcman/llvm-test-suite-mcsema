@@ -1,0 +1,14 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/gnugo/findnext.c:68:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/gnugo/findnext.c:96:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/gnugo/findnext.c:124:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/gnugo/findnext.c:152:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+4 warnings generated.
+exit 0

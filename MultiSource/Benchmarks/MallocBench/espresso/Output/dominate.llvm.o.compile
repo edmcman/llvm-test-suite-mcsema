@@ -1,0 +1,12 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/dominate.c:1:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/mincov_int.h:2:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:24:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:32:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif IGNOREFREE
+       ^
+       //
+2 warnings generated.
+exit 0

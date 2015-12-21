@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/2004-02-03-AggregateCopy
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 48e2d8a2b58c7d1396b855e7cfa97e7a
+TEST-RESULT-compile-time: user       0.0208
+TEST-RESULT-compile-real-time: real       0.0343

@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/tsp/build.c:36:9: warning: 'NULL' macro redefined
+#define NULL 0
+        ^
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:11: note: previous definition is here
+#  define NULL ((void*)0)
+          ^
+1 warning generated.
+exit 0

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/stepanov_abstraction
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: aa2e0a0ef1eff97683f701d9239c8e7b
+TEST-RESULT-compile-time: user       0.3522
+TEST-RESULT-compile-real-time: real       0.3773

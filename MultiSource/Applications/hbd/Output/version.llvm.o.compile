@@ -1,0 +1,6 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/version.cpp:12:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/file.h:16:3: warning: expression result unused [-Wunused-value]
+  *f_pos++;
+  ^~~~~~~~
+1 warning generated.
+exit 0

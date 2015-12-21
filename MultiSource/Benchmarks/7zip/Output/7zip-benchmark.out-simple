@@ -1,0 +1,17 @@
+
+7-Zip (A) [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+p7zip Version 9.20 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,1 CPU)
+
+RAM size:     128 MB,  # CPU hardware threads:   1
+RAM usage:    107 MB,  # Benchmark threads:      1
+
+Dict        Compressing          |        Decompressing
+      Speed Usage    R/U Rating  |    Speed Usage    R/U Rating
+       KB/s     %   MIPS   MIPS  |     KB/s     %   MIPS   MIPS
+
+22:    3180   100   3095   3093  |    37796   100   3413   3412
+23:    2979   100   3037   3035  |    37235   100   3410   3409
+----------------------------------------------------------------
+Avr:          100   3066   3064               100   3411   3411
+Tot:          100   3239   3237
+exit 0

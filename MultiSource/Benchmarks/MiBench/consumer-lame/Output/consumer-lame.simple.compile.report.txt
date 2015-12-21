@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/consumer-lame/consumer-lame
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: f5864f8a3f8f64bc157ae82366709aa9
+TEST-RESULT-compile-time: user 3.084800
+TEST-RESULT-compile-real-time: real 3.806000

@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/office-stringsearch/office-stringsearch' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/office-stringsearch/office-stringsearch
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ee4b7d733522c888cf8bda0ab76986a1
+TEST-RESULT-compile-time: user 0.148400
+TEST-RESULT-compile-real-time: real 0.210400
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/office-stringsearch/office-stringsearch
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0014
+TEST-RESULT-exec-real-time: real       0.0025

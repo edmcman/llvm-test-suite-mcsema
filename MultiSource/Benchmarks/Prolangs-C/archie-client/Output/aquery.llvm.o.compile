@@ -1,0 +1,14 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/aquery.c:195:6: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)'
+        if (strcmp(l->type,"DIRECTORY") == 0) {
+            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/aquery.c:195:6: note: please include the header <string.h> or explicitly provide a declaration for 'strcmp'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/aquery.c:196:10: warning: implicitly declaring library function 'strncmp' with type 'int (const char *, const char *, unsigned long)'
+            if (strncmp(l->filename,"ARCHIE/HOST",11) == 0) {
+                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/aquery.c:196:10: note: please include the header <string.h> or explicitly provide a declaration for 'strncmp'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/aquery.c:202:11: warning: implicitly declaring library function 'strchr' with type 'char *(const char *, int)'
+                slash = strchr(l->host,(int) '/');
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/aquery.c:202:11: note: please include the header <string.h> or explicitly provide a declaration for 'strchr'
+3 warnings generated.
+exit 0

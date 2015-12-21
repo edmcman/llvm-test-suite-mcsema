@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/chomp' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/chomp
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a4a41860fbd02c1525c3ba6c3cdfeb3a
+TEST-RESULT-compile-time: user       0.1314
+TEST-RESULT-compile-real-time: real       0.1493
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/chomp
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       2.1358
+TEST-RESULT-exec-real-time: real       2.1534

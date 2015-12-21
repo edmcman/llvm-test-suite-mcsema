@@ -1,0 +1,45 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/shared_cdiff.c:984:11: warning: incompatible pointer types assigning to 'gzFile *' (aka 'struct gzFile_s **') from 'gzFile' (aka 'struct gzFile_s *') [-Wincompatible-pointer-types]
+        if(!(gzh = gzdopen(desc, "rb"))) {
+                 ^ ~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/shared_cdiff.c:994:17: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+            if(!gzgets(gzh, line, bufsize)) {
+                       ^~~
+                       *
+/usr/include/zlib.h:1372:42: note: passing argument to parameter 'file' here
+ZEXTERN char * ZEXPORT gzgets OF((gzFile file, char *buf, int len));
+                                         ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/shared_cdiff.c:997:11: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                gzclose(gzh);
+                        ^~~
+                        *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/shared_cdiff.c:1010:11: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                gzclose(gzh);
+                        ^~~
+                        *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/shared_cdiff.c:1016:10: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+        gzclose(gzh);
+                ^~~
+                *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+5 warnings generated.
+exit 0

@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gdevmem.c:410:3: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                write_partial(right_mask);
+                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gdevmem.c:382:4: note: expanded from macro 'write_partial'
+   else write_loop(*ptr &= ~msk)
+   ^
+1 warning generated.
+exit 0

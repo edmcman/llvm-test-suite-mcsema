@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/loop_unroll' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/loop_unroll
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 22459f03ab10d2b8e740c7fc5fb789ba
+TEST-RESULT-compile-time: user       2.2332
+TEST-RESULT-compile-real-time: real       2.2956
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/loop_unroll
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.3738
+TEST-RESULT-exec-real-time: real       1.3781

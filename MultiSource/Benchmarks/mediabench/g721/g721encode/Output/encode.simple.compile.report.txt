@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/mediabench/g721/g721encode/encode
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: c150e1cd2b454d1011fc4ae674a461d3
+TEST-RESULT-compile-time: user 0.204800
+TEST-RESULT-compile-real-time: real 0.288000

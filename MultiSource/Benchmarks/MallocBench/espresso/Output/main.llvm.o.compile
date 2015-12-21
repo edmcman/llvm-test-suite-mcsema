@@ -1,0 +1,40 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:7:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/espresso.h:6:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:24:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:32:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif IGNOREFREE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:45:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:212:12: warning: enumeration value 'KEY_unknown' not handled in switch [-Wswitch]
+    switch(option_table[option].key) {
+           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:572:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:592:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:612:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:631:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:661:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:728:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/main.c:741:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+11 warnings generated.
+exit 0

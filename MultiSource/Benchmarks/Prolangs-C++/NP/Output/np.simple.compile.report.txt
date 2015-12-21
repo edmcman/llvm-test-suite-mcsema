@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/NP/np
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 655b10fb8b7abe46a0e4a12e3e16b009
+TEST-RESULT-compile-time: user 0.025500
+TEST-RESULT-compile-real-time: real 0.039200

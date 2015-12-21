@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C/globalrefs.c:26:14: warning: incompatible pointer types initializing 'long *' with an expression of type 'int *' [-Wincompatible-pointer-types]
+long*        Aptr         = &Test1.A;
+             ^              ~~~~~~~~
+1 warning generated.
+exit 0

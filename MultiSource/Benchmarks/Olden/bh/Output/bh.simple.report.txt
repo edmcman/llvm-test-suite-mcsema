@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/bh/bh' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/bh/bh
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 23c448663346dcd0569b05840aa218c9
+TEST-RESULT-compile-time: user 0.249000
+TEST-RESULT-compile-real-time: real 0.334300
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/bh/bh
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.3736
+TEST-RESULT-exec-real-time: real       1.3883

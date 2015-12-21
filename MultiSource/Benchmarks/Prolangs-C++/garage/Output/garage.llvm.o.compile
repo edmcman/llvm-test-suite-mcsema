@@ -1,0 +1,32 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:87:8: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Car c1("RVR 101");
+       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:88:8: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Car c2("SPT 202");
+       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:89:8: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Car c3("CHP 303");
+       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:90:8: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Car c4("BDY 404");
+       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:91:8: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Car c5("BCH 505");
+       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:93:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Truck t1("TBL 606");
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:94:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Truck t2("IKY 707");
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:95:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Truck t3("FFY 808");
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:96:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Truck t4("PCS 909");
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/garage/garage.cpp:97:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Truck t5("SLY 000");
+         ^
+10 warnings generated.
+exit 0

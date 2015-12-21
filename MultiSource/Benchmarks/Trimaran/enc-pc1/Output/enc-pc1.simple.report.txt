@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Trimaran/enc-pc1/enc-pc1' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Trimaran/enc-pc1/enc-pc1
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d0e71e99e8b452af5d923e67e037c612
+TEST-RESULT-compile-time: user 0.063500
+TEST-RESULT-compile-real-time: real 0.081900
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Trimaran/enc-pc1/enc-pc1
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.5538
+TEST-RESULT-exec-real-time: real       0.5562

@@ -1,0 +1,44 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:189:11: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                !name_v && !cmp.name_v ||
+                ~~~~~~~~^~~~~~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:189:11: note: place parentheses around the '&&' expression to silence this warning
+                !name_v && !cmp.name_v ||
+                        ^
+                (                     )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:190:24: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                name_v && cmp.name_v && 0==strcmp(name_v, cmp.name_v);
+                ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:190:24: note: place parentheses around the '&&' expression to silence this warning
+                name_v && cmp.name_v && 0==strcmp(name_v, cmp.name_v);
+                                     ^
+                (                                                    )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:198:11: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                !name_v && !cmp ||
+                ~~~~~~~~^~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:198:11: note: place parentheses around the '&&' expression to silence this warning
+                !name_v && !cmp ||
+                        ^
+                (              )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:199:17: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                name_v && cmp && 0==strcmp(name_v, cmp);
+                ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:199:17: note: place parentheses around the '&&' expression to silence this warning
+                name_v && cmp && 0==strcmp(name_v, cmp);
+                              ^
+                (                                      )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:488:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        b1 = !name() && !cmp.name() ||
+             ~~~~~~~~^~~~~~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:488:15: note: place parentheses around the '&&' expression to silence this warning
+        b1 = !name() && !cmp.name() ||
+                     ^
+             (                     )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:489:24: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                name() && cmp.name() && 0==strcmp(name(), cmp.name());
+                ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/node.cc:489:24: note: place parentheses around the '&&' expression to silence this warning
+                name() && cmp.name() && 0==strcmp(name(), cmp.name());
+                                     ^
+                (                                                    )
+6 warnings generated.
+exit 0

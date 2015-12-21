@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/TestLoop
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: f1605611b3a4c3ebbdc6da8f930fcfcb
+TEST-RESULT-compile-time: user       0.0229
+TEST-RESULT-compile-real-time: real       0.0372

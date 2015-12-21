@@ -1,0 +1,10 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/symtab.c:65:3: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)'
+  strcpy(result, s);
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/symtab.c:65:3: note: please include the header <string.h> or explicitly provide a declaration for 'strcpy'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/symtab.c:91:11: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)'
+      if (strcmp(key, bp->tag) == 0)
+          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/symtab.c:91:11: note: please include the header <string.h> or explicitly provide a declaration for 'strcmp'
+2 warnings generated.
+exit 0

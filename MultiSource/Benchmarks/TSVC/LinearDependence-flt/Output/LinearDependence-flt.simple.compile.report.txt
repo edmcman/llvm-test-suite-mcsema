@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/LinearDependence-flt/LinearDependence-flt
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: b45cef0a9f6a503f47fdf984a260cfa6
+TEST-RESULT-compile-time: user 0.740200
+TEST-RESULT-compile-real-time: real 0.787700

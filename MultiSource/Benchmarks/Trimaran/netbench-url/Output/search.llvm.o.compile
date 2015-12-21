@@ -1,0 +1,74 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/search.c:60:5: warning: passing 'const char [19]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    fatal ("Not enough virtual memory \n");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/search.c:170:5: warning: passing 'const char [15]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    fatal ("Run out of virtual memory \n");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/search.c:175:5: warning: passing 'const char [15]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    fatal ("Not enough virtual memory \n");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/search.c:190:5: warning: passing 'const char [15]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    fatal ("Run out of virtual memory \n");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/search.c:194:5: warning: passing 'const char [15]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    fatal ("Not enough virtual memory \n");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/search.c:360:5: warning: passing 'const char [8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    fatal ("Can not open the input file\n");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/search.c:379:4: warning: passing 'const char [8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+          fatal ("unrecognized input line start: %c \n", line[0]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/search.c:383:2: warning: passing 'const char [8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        fatal ("Not enough virtual memory \n");
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+8 warnings generated.
+exit 0

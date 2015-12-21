@@ -1,0 +1,104 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:35:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  m = strlen(Pattern);
+             ^~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:40:34: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  r_pat = (CHAR *) malloc(strlen(Pattern)+2*strlen(D_pattern));
+                                 ^~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:40:52: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  r_pat = (CHAR *) malloc(strlen(Pattern)+2*strlen(D_pattern));
+                                                   ^~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:41:10: warning: passing 'unsigned char [1024]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  strcpy(temp, D_pattern);
+         ^~~~
+/usr/include/string.h:129:39: note: passing argument to parameter '__dest' here
+extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:41:16: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  strcpy(temp, D_pattern);
+               ^~~~~~~~~
+/usr/include/string.h:129:70: note: passing argument to parameter '__src' here
+extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:42:22: warning: passing 'unsigned char [1024]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  d_end = t = strlen(temp);  /* size of D_pattern, including '; ' */
+                     ^~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:47:27: warning: passing 'unsigned char [1024]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                   strcat(temp, Pattern);
+                          ^~~~
+/usr/include/string.h:137:39: note: passing argument to parameter '__dest' here
+extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:47:33: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                   strcat(temp, Pattern);
+                                ^~~~~~~
+/usr/include/string.h:137:70: note: passing argument to parameter '__src' here
+extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:48:31: warning: passing 'unsigned char [1024]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                   m = strlen(temp);
+                              ^~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:58:13: warning: passing 'unsigned char [1024]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+     strcat(temp, Pattern);
+            ^~~~
+/usr/include/string.h:137:39: note: passing argument to parameter '__dest' here
+extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:58:19: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+     strcat(temp, Pattern);
+                  ^~~~~~~
+/usr/include/string.h:137:70: note: passing argument to parameter '__src' here
+extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:59:17: warning: passing 'unsigned char [1024]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+     m = strlen(temp);
+                ^~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:96:10: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  strcpy(D_pattern, old_D_pat);
+         ^~~~~~~~~
+/usr/include/string.h:129:39: note: passing argument to parameter '__dest' here
+extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:96:21: warning: passing 'unsigned char [16]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  strcpy(D_pattern, old_D_pat);
+                    ^~~~~~~~~
+/usr/include/string.h:129:70: note: passing argument to parameter '__src' here
+extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:202:21: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+     num_pos = init(r_pat, table);
+                    ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:25:23: note: passing argument to parameter 's' here
+extern int init(char *s, int table[32][32]);
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:211:10: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  strcpy(old_pat, Pattern); /* do real change to the Pattern to be returned */
+         ^~~~~~~
+/usr/include/string.h:129:39: note: passing argument to parameter '__dest' here
+extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/preprocess.c:211:19: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  strcpy(old_pat, Pattern); /* do real change to the Pattern to be returned */
+                  ^~~~~~~
+/usr/include/string.h:129:70: note: passing argument to parameter '__src' here
+extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+                                                                     ^
+17 warnings generated.
+exit 0

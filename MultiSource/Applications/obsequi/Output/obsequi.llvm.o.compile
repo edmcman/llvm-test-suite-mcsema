@@ -1,0 +1,35 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/obsequi.c:311:12: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+    printf(line);
+           ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/obsequi.c:354:14: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+      printf(option_string);
+             ^~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/obsequi.c:577:34: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+    if(len <= 18) fatal_error(1, line);
+                                 ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/utils.h:77:53: note: expanded from macro 'fatal_error'
+         (_fatal_error((err_num) ? (err_num) : 256, format, ## rest ))
+                                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/utils.h:94:59: note: expanded from macro '_fatal_error'
+         (_fatal_error_aux(__FILE__, __LINE__, (err_num), format, ## rest ))
+                                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/obsequi.c:609:26: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+          fatal_error(1, line);
+                         ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/utils.h:77:53: note: expanded from macro 'fatal_error'
+         (_fatal_error((err_num) ? (err_num) : 256, format, ## rest ))
+                                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/utils.h:94:59: note: expanded from macro '_fatal_error'
+         (_fatal_error_aux(__FILE__, __LINE__, (err_num), format, ## rest ))
+                                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/obsequi.c:613:26: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+          fatal_error(1, line);
+                         ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/utils.h:77:53: note: expanded from macro 'fatal_error'
+         (_fatal_error((err_num) ? (err_num) : 256, format, ## rest ))
+                                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/utils.h:94:59: note: expanded from macro '_fatal_error'
+         (_fatal_error_aux(__FILE__, __LINE__, (err_num), format, ## rest ))
+                                                          ^
+5 warnings generated.
+exit 0

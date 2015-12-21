@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/fibo' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/fibo
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ebf43d445f5d2b25e4defac323078f32
+TEST-RESULT-compile-time: user       0.1604
+TEST-RESULT-compile-real-time: real       0.1854
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/fibo
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.9306
+TEST-RESULT-exec-real-time: real       1.9352

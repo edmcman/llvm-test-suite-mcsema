@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/url.c:102:5: warning: passing 'const char [5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    fatal ("Usage: url inputfilename #numberofpackets");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:20:20: note: expanded from macro 'fatal'
+  _fatal(__FILE__, __FUNCTION__, __LINE__, fmt, ## args)
+                   ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/netbench-url/utils.h:23:26: note: passing argument to parameter 'func' here
+_fatal(char *file, char *func, int line, char *fmt, ...)
+                         ^
+1 warning generated.
+exit 0

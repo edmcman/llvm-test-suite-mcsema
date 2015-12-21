@@ -1,0 +1,15 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/cvrm.c:9:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/espresso.h:6:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:24:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:32:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif IGNOREFREE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/cvrm.c:390:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+3 warnings generated.
+exit 0

@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/getblk.c:269:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/getblk.c:440:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+2 warnings generated.
+exit 0

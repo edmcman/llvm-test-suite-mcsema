@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Ptrdist/yacr2/yacr2' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Ptrdist/yacr2/yacr2
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ca2cdd57afd1b26c087f7038d660e927
+TEST-RESULT-compile-time: user 0.486700
+TEST-RESULT-compile-real-time: real 0.607500
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Ptrdist/yacr2/yacr2
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.5596
+TEST-RESULT-exec-real-time: real       0.5714

@@ -1,0 +1,563 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:210:13: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (fgets(line, max_len, stream) == NULL) {
+                          ^~~~
+/usr/include/stdio.h:622:38: note: passing argument to parameter '__s' here
+extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:215:19: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                line_len=strlen(line);
+                                ^~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:281:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:803:40: note: expanded from macro 'strcmp'
+      && (__s1_len = __builtin_strlen (s1), __s2_len = __builtin_strlen (s2), \
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:281:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:806:27: note: expanded from macro 'strcmp'
+      ? __builtin_strcmp (s1, s2)                                             \
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:281:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:808:36: note: expanded from macro 'strcmp'
+         && (__s1_len = __builtin_strlen (s1), __s1_len < 4)                  \
+                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:281:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:810:26: note: expanded from macro 'strcmp'
+            ? __builtin_strcmp (s1, s2)                                       \
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:281:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:815:29: note: expanded from macro 'strcmp'
+               ? __builtin_strcmp (s1, s2)                                    \
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:281:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:817:26: note: expanded from macro 'strcmp'
+            : __builtin_strcmp (s1, s2)))); })
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:282:11: warning: returning 'unsigned char *' from a function with result type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        return tags->value[i];
+                               ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:293:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:803:40: note: expanded from macro 'strcmp'
+      && (__s1_len = __builtin_strlen (s1), __s2_len = __builtin_strlen (s2), \
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:293:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:806:27: note: expanded from macro 'strcmp'
+      ? __builtin_strcmp (s1, s2)                                             \
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:293:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:808:36: note: expanded from macro 'strcmp'
+         && (__s1_len = __builtin_strlen (s1), __s1_len < 4)                  \
+                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:293:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:810:26: note: expanded from macro 'strcmp'
+            ? __builtin_strcmp (s1, s2)                                       \
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:293:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:815:29: note: expanded from macro 'strcmp'
+               ? __builtin_strcmp (s1, s2)                                    \
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:293:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(tags->tag[i], tag) == 0) {
+                           ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:817:26: note: expanded from macro 'strcmp'
+            : __builtin_strcmp (s1, s2)))); })
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:295:19: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        tags->value[i] = cli_strdup(value);
+                                       ^ ~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:324:40: warning: passing 'const unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        tags->tag[tags->count-1] = cli_strdup(tag);
+                                              ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/others.h:188:30: note: passing argument to parameter 's' here
+char *cli_strdup(const char *s);
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:324:27: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        tags->tag[tags->count-1] = cli_strdup(tag);
+                                 ^ ~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:327:44: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        tags->value[tags->count-1] = cli_strdup(value+1);
+                                                                ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/others.h:188:30: note: passing argument to parameter 's' here
+char *cli_strdup(const char *s);
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:327:31: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        tags->value[tags->count-1] = cli_strdup(value+1);
+                                                   ^ ~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:328:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        len = strlen(value+1);
+                                     ^~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:333:44: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        tags->value[tags->count-1] = cli_strdup(value);
+                                                                ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/others.h:188:30: note: passing argument to parameter 's' here
+char *cli_strdup(const char *s);
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:333:31: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        tags->value[tags->count-1] = cli_strdup(value);
+                                                   ^ ~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:374:25: warning: passing 'char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        html_output_str(fbuff, tag, strlen(tag));
+                               ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:260:70: note: passing argument to parameter 'str' here
+static void html_output_str(file_buff_t *fbuff, const unsigned char *str, int len)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:377:47: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                html_output_str(fbuff, tags->tag[i], strlen(tags->tag[i]));
+                                                            ^~~~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:379:27: warning: passing 'char [3]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        html_output_str(fbuff, "=\"", 2);
+                                               ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:260:70: note: passing argument to parameter 'str' here
+static void html_output_str(file_buff_t *fbuff, const unsigned char *str, int len)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:380:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        len = strlen(tags->value[i]);
+                                     ^~~~~~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:422:67: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        blobAddData(tags->contents[idx-1],tags->value[in_ahref-1],strlen(tags->value[in_ahref-1]));
+                                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:423:37: warning: passing 'char [1]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        blobAddData(tags->contents[idx-1], "",1);
+                                           ^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/blob.h:41:47: note: passing argument to parameter 'data' here
+int     blobAddData(blob *b, const unsigned char *data, size_t len);
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:445:37: warning: passing 'char [1]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        blobAddData(tags->contents[idx-1], "", 1);
+                                           ^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/blob.h:41:47: note: passing argument to parameter 'data' here
+int     blobAddData(blob *b, const unsigned char *data, size_t len);
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:722:35: warning: passing 'char [1025]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                html_tag_arg_add(&tag_args, tag_arg, NULL);
+                                                                            ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:751:35: warning: passing 'char [1025]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                html_tag_arg_add(&tag_args, tag_arg, NULL);
+                                                                            ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:813:36: warning: passing 'char [1025]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(&tag_args, tag_arg, tag_val);
+                                                                                    ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:813:45: warning: passing 'char [1025]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(&tag_args, tag_arg, tag_val);
+                                                                                             ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:44: note: passing argument to parameter 'value' here
+                const unsigned char *tag, unsigned char *value)
+                                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:841:36: warning: passing 'char [1025]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(&tag_args, tag_arg, tag_val);
+                                                                                    ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:841:45: warning: passing 'char [1025]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(&tag_args, tag_arg, tag_val);
+                                                                                             ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:44: note: passing argument to parameter 'value' here
+                const unsigned char *tag, unsigned char *value)
+                                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:857:35: warning: passing 'char [1025]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                html_tag_arg_add(&tag_args, tag_arg, tag_val);
+                                                                            ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:857:44: warning: passing 'char [1025]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                html_tag_arg_add(&tag_args, tag_arg, tag_val);
+                                                                                     ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:44: note: passing argument to parameter 'value' here
+                const unsigned char *tag, unsigned char *value)
+                                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:928:16: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        arg_value = html_tag_arg_value(&tag_args, "language");
+                                                  ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:929:35: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        if (arg_value && (strcasecmp(arg_value, "jscript.encode") == 0)) {
+                                                                     ^~~~~~~~~
+/usr/include/string.h:534:36: note: passing argument to parameter '__s1' here
+extern int strcasecmp (const char *__s1, const char *__s2)
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:933:42: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        } else if (arg_value && (strcasecmp(arg_value, "vbscript.encode") == 0)) {
+                                                                            ^~~~~~~~~
+/usr/include/string.h:534:36: note: passing argument to parameter '__s1' here
+extern int strcasecmp (const char *__s1, const char *__s2)
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:942:27: warning: initializing 'const unsigned char *' with an expression of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        const unsigned char* http_equiv = html_tag_arg_value(&tag_args, "http-equiv");
+                                                             ^            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:943:27: warning: initializing 'const unsigned char *' with an expression of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        const unsigned char* http_content = html_tag_arg_value(&tag_args, "content");
+                                                             ^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:944:50: warning: passing 'const unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        if(http_equiv && http_content && strcasecmp(http_equiv,"content-type") == 0) {
+                                                                                    ^~~~~~~~~~
+/usr/include/string.h:534:36: note: passing argument to parameter '__s1' here
+extern int strcasecmp (const char *__s1, const char *__s2)
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:973:17: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                arg_value = html_tag_arg_value(&tag_args, "href");
+                                                          ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:974:31: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                if (arg_value && strlen(arg_value) > 0) {
+                                                                        ^~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:976:24: warning: initializing 'unsigned char *' with an expression of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                unsigned char* arg_value_title = html_tag_arg_value(&tag_args,"title");
+                                                                               ^                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:989:33: warning: passing 'char [11]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                        html_tag_arg_add(hrefs,"href_title",arg_value_title);
+                                                                                               ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:992:28: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                                arg_value+strlen(arg_value));
+                                                                                                 ^~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:997:33: warning: passing 'char [5]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                        html_tag_arg_add(hrefs,"form",arg_value);
+                                                                                               ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1000:36: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                                        in_form_action + strlen(in_form_action));
+                                                                                                                ^~~~~~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1004:32: warning: passing 'char [5]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(hrefs, "href", arg_value);
+                                                                                ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1012:28: warning: initializing 'const unsigned char *' with an expression of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                const unsigned char* arg_action_value = html_tag_arg_value(&tag_args,"action");
+                                                                     ^                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1016:36: warning: passing 'const unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        in_form_action = cli_strdup(arg_action_value);
+                                                                                    ^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/others.h:188:30: note: passing argument to parameter 's' here
+char *cli_strdup(const char *s);
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1016:23: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        in_form_action = cli_strdup(arg_action_value);
+                                                                       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1019:17: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                arg_value = html_tag_arg_value(&tag_args, "src");
+                                                          ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1020:31: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                if (arg_value && strlen(arg_value) > 0) {
+                                                                        ^~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1021:32: warning: passing 'char [4]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(hrefs, "src", arg_value);
+                                                                                ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1027:32: warning: passing 'char [5]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                html_tag_arg_add(hrefs,"form",arg_value);
+                                                                                       ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1030:35: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                                in_form_action + strlen(in_form_action));
+                                                                                                        ^~~~~~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1034:17: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                arg_value = html_tag_arg_value(&tag_args, "dynsrc");
+                                                          ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1035:31: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                if (arg_value && strlen(arg_value) > 0) {
+                                                                        ^~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1036:32: warning: passing 'char [7]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(hrefs, "dynsrc", arg_value);
+                                                                                ^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1042:32: warning: passing 'char [5]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                html_tag_arg_add(hrefs,"form",arg_value);
+                                                                                       ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1045:35: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                                in_form_action + strlen(in_form_action));
+                                                                                                        ^~~~~~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1050:17: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                arg_value = html_tag_arg_value(&tag_args, "src");
+                                                          ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1051:31: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                if (arg_value && strlen(arg_value) > 0) {
+                                                                        ^~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1052:32: warning: passing 'char [7]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(hrefs, "iframe", arg_value);
+                                                                                ^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1058:32: warning: passing 'char [5]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                html_tag_arg_add(hrefs,"form",arg_value);
+                                                                                       ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1061:35: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                                in_form_action + strlen(in_form_action));
+                                                                                                        ^~~~~~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1066:17: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                arg_value = html_tag_arg_value(&tag_args,"href");
+                                                          ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1067:31: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                if (arg_value && strlen(arg_value) > 0) {
+                                                                        ^~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1068:32: warning: passing 'char [5]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_tag_arg_add(hrefs, "area", arg_value);
+                                                                                ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1074:32: warning: passing 'char [5]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                html_tag_arg_add(hrefs,"form",arg_value);
+                                                                                       ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:302:24: note: passing argument to parameter 'tag' here
+                const unsigned char *tag, unsigned char *value)
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1077:34: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                                        in_form_action + strlen(in_form_action));
+                                                                                                ^~~~~~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1113:27: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                for(i=0; i < strlen(normalized); i++) {
+                                                                    ^~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1183:51: warning: passing 'unsigned char [10]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_output_str(file_buff_o1, buff, strlen(buff));
+                                                                                                   ^~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1184:51: warning: passing 'unsigned char [10]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                        html_output_str(file_buff_o2, buff, strlen(buff));
+                                                                                                   ^~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1211:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strncmp(ptr, "#@~^", 4) == 0) {
+                                            ^~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:899:21: note: expanded from macro 'strncmp'
+                       && strlen (s1) < ((size_t) (n)))                       \
+                                  ^
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1211:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strncmp(ptr, "#@~^", 4) == 0) {
+                                            ^~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:15: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                            ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:803:40: note: expanded from macro 'strcmp'
+      && (__s1_len = __builtin_strlen (s1), __s2_len = __builtin_strlen (s2), \
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1211:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strncmp(ptr, "#@~^", 4) == 0) {
+                                            ^~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:15: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                            ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:806:27: note: expanded from macro 'strcmp'
+      ? __builtin_strcmp (s1, s2)                                             \
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1211:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strncmp(ptr, "#@~^", 4) == 0) {
+                                            ^~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:15: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                            ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:808:36: note: expanded from macro 'strcmp'
+         && (__s1_len = __builtin_strlen (s1), __s1_len < 4)                  \
+                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1211:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strncmp(ptr, "#@~^", 4) == 0) {
+                                            ^~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:15: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                            ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:810:26: note: expanded from macro 'strcmp'
+            ? __builtin_strcmp (s1, s2)                                       \
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1211:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strncmp(ptr, "#@~^", 4) == 0) {
+                                            ^~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:15: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                            ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:815:29: note: expanded from macro 'strcmp'
+               ? __builtin_strcmp (s1, s2)                                    \
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1211:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strncmp(ptr, "#@~^", 4) == 0) {
+                                            ^~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:15: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                            ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:817:26: note: expanded from macro 'strcmp'
+            : __builtin_strcmp (s1, s2)))); })
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1211:17: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strncmp(ptr, "#@~^", 4) == 0) {
+                                            ^~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:34: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                                               ^
+/usr/include/string.h:147:33: note: passing argument to parameter '__s1' here
+extern int strncmp (const char *__s1, const char *__s2, size_t __n)
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1222:16: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                if (strlen(ptr) < 8) {
+                                           ^~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1242:40: warning: passing 'char [11]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        html_output_str(file_buff_script, "</script>\n", 10);
+                                                                          ^~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:260:70: note: passing argument to parameter 'str' here
+static void html_output_str(file_buff_t *fbuff, const unsigned char *str, int len)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1374:35: warning: passing 'char [21]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        html_output_str(file_tmp_o1, "From html-normalise\n", 20);
+                                                                     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:260:70: note: passing argument to parameter 'str' here
+static void html_output_str(file_buff_t *fbuff, const unsigned char *str, int len)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1375:35: warning: passing 'char [15]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        html_output_str(file_tmp_o1, "Content-type: ", 14);
+                                                                     ^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:260:70: note: passing argument to parameter 'str' here
+static void html_output_str(file_buff_t *fbuff, const unsigned char *str, int len)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1377:36: warning: passing 'char [12]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                html_output_str(file_tmp_o1, "text/plain\n", 11);
+                                                                             ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:260:70: note: passing argument to parameter 'str' here
+static void html_output_str(file_buff_t *fbuff, const unsigned char *str, int len)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1379:35: warning: passing 'char [1025]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        html_output_str(file_tmp_o1, tag_val, tag_val_length);
+                                                                     ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:260:70: note: passing argument to parameter 'str' here
+static void html_output_str(file_buff_t *fbuff, const unsigned char *str, int len)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1382:36: warning: passing 'char [35]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                html_output_str(file_tmp_o1, "Content-transfer-encoding: base64\n", 34);
+                                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:260:70: note: passing argument to parameter 'str' here
+static void html_output_str(file_buff_t *fbuff, const unsigned char *str, int len)
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1496:24: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        for(i=0; i < strlen(normalized); i++)
+                                            ^~~~~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1599:11: warning: passing 'unsigned char [1024]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        snprintf(filename, 1024, "%s/screnc.html", dirname);
+                 ^~~~~~~~
+/usr/include/stdio.h:386:39: note: passing argument to parameter '__s' here
+extern int snprintf (char *__restrict __s, size_t __maxlen,
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1600:22: warning: passing 'unsigned char [1024]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        file_buff.fd = open(filename, O_WRONLY|O_CREAT|O_TRUNC, S_IWUSR|S_IRUSR);
+                            ^~~~~~~~
+/usr/include/fcntl.h:146:30: note: passing argument to parameter '__file' here
+extern int open (const char *__file, int __oflag, ...) __nonnull ((1));
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1610:16: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                ptr = strstr(line, "#@~^");
+                             ^~~~
+/usr/include/string.h:342:34: note: passing argument to parameter '__haystack' here
+extern char *strstr (const char *__haystack, const char *__needle)
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_htmlnorm.c:1610:7: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                ptr = strstr(line, "#@~^");
+                    ^ ~~~~~~~~~~~~~~~~~~~~
+98 warnings generated.
+exit 0

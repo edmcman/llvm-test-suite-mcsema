@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/C++11/stdthreadbug
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a8d15fcc3f4fd959ab5d9d9540f6494e
+TEST-RESULT-compile-time: user       0.0158
+TEST-RESULT-compile-real-time: real       0.0274

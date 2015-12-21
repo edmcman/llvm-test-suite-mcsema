@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2008-07-13-InlineSetjmp
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 405910345032b697cefe8b1c5790f52c
+TEST-RESULT-compile-time: user       0.0225
+TEST-RESULT-compile-real-time: real       0.0453

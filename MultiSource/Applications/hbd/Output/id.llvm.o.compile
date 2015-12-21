@@ -1,0 +1,53 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:11:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+Id idnull  = {"null",  OBJECT,  IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:12:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   idneg1  = {"-1",    INT,     IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:13:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id0i    = {"0",     INT,     IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:14:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id1i    = {"1",     INT,     IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:15:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id2i    = {"2",     INT,     IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:16:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id3i    = {"3",     INT,     IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:17:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id4i    = {"4",     INT,     IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:18:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id5i    = {"5",     INT,     IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:19:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id0L    = {"0L",    LONG,    IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:20:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id1L    = {"1L",    LONG,    IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:21:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id0f    = {"0.0f",  FLOAT,   IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:22:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id1f    = {"1.0f",  FLOAT,   IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:23:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id2f    = {"2.0f",  FLOAT,   IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:24:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id0d    = {"0.0d",  DOUBLE,  IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:25:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   id1d    = {"1.0d",  DOUBLE,  IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:26:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   idfalse = {"false", BOOLEAN, IM, 0},
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/id.cpp:27:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   idtrue  = {"true",  BOOLEAN, IM, 0};
+              ^
+17 warnings generated.
+exit 0

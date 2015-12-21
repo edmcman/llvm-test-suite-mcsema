@@ -1,0 +1,74 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:103:19: warning: '/*' within block comment [-Wcomment]
+/*#define TIMES                 /* Use times(2) time function */
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:104:18: warning: '/*' within block comment [-Wcomment]
+/*#define TIME                  /* Use time(2) time function */
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:107:18: warning: '/*' within block comment [-Wcomment]
+/*#define HZ    50              /* times(2) returns 1/50 second (europe?) */
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:109:19: warning: '/*' within block comment [-Wcomment]
+/*#define HZ    100             /* times(2) returns 1/100 second (WECo) */
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:112:17: warning: '/*' within block comment [-Wcomment]
+/*#undef GOOF                   /* Define if you want the goofed up version */
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:184:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main()
+^~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:202:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc0()
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:327:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:329:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc1(PtrParIn)
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:351:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:353:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc2(IntParIO)
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:371:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:373:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc3(PtrParOut)
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:381:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:383:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc4()
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:390:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:392:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc5()
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:396:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:400:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc6(EnumParIn, EnumParOut)
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:417:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:419:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc7(IntParI1, IntParI2, IntParOut)
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:428:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:430:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+Proc8(Array1Par, Array2Par, IntParI1, IntParI2)
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Dhrystone/dry.c:448:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+24 warnings generated.
+exit 0

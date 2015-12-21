@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/ASCI_Purple/SMG2000/smg2000
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 13c775dc8f3dfd1a103962a565f62aa5
+TEST-RESULT-compile-time: user 4.996900
+TEST-RESULT-compile-real-time: real 5.930100

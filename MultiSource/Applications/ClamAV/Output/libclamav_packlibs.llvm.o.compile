@@ -1,0 +1,34 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:281:62: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+        cli_dbgmsg("MEW: rete: %d %d %d %d %d || %d %d %d %d %d\n", dest, dsize, cdst, myecx_backsize,
+                               ~~                                   ^~~~
+                               %s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:281:75: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+        cli_dbgmsg("MEW: rete: %d %d %d %d %d || %d %d %d %d %d\n", dest, dsize, cdst, myecx_backsize,
+                                     ~~                                          ^~~~
+                                     %s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:283:4: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+                        dest, dsize, cdst-myeax_backbytes, myecx_backsize,
+                        ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:283:17: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+                        dest, dsize, cdst-myeax_backbytes, myecx_backsize,
+                                     ^~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:297:4: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cdst, dest, dsize, dest+dsize, csrc, source, ssize, source+ssize);
+                        ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:297:10: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cdst, dest, dsize, dest+dsize, csrc, source, ssize, source+ssize);
+                              ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:297:23: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cdst, dest, dsize, dest+dsize, csrc, source, ssize, source+ssize);
+                                           ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:297:35: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cdst, dest, dsize, dest+dsize, csrc, source, ssize, source+ssize);
+                                                       ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:297:41: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cdst, dest, dsize, dest+dsize, csrc, source, ssize, source+ssize);
+                                                             ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_packlibs.c:297:56: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cdst, dest, dsize, dest+dsize, csrc, source, ssize, source+ssize);
+                                                                            ^~~~~~~~~~~~
+10 warnings generated.
+exit 0

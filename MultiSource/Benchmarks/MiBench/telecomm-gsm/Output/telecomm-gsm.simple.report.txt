@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/telecomm-gsm/telecomm-gsm' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/telecomm-gsm/telecomm-gsm
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 17e040f4098232bd4ca172e27b57dd8a
+TEST-RESULT-compile-time: user 1.027500
+TEST-RESULT-compile-real-time: real 1.470000
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/telecomm-gsm/telecomm-gsm
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.1330
+TEST-RESULT-exec-real-time: real       0.1373

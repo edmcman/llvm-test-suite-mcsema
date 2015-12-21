@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2002-05-02-CastTest2
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d231f4a613cf742a049deb22a0a43243
+TEST-RESULT-compile-time: user       0.0260
+TEST-RESULT-compile-real-time: real       0.0401

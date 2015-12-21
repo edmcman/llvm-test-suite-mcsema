@@ -1,0 +1,56 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:45:36: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct _IO_FILE *') [-Wformat]
+        "unable to open input file [%s]", inFile, 0, 0,
+                                    ~~    ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:45: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:45:44: warning: data argument not used by format string [-Wformat-extra-args]
+        "unable to open input file [%s]", inFile, 0, 0,
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:51: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:50:41: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct _IO_FILE *') [-Wformat]
+        "unable to parse header in file [%s]", inFile, 0, 0,
+                                         ~~    ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:45: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:50:49: warning: data argument not used by format string [-Wformat-extra-args]
+        "unable to parse header in file [%s]", inFile, 0, 0,
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:51: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:62:47: warning: data argument not used by format string [-Wformat-extra-args]
+            "unable to allocate a module list node", 0, 0, 0,
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:45: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:69:44: warning: data argument not used by format string [-Wformat-extra-args]
+                "unable to allocate a module list node", 0, 0, 0,
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:45: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:95:39: warning: data argument not used by format string [-Wformat-extra-args]
+                "unable to allocate net list node", 0, 0, 0,
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:45: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:144:38: warning: data argument not used by format string [-Wformat-extra-args]
+            "unable to allocate ModuleRec", 0, 0, 0,
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:45: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-1.c:163:38: warning: data argument not used by format string [-Wformat-extra-args]
+            "unable to allocate ModuleRec", 0, 0, 0,
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS.h:35:45: note: expanded from macro 'TRY'
+                  fprintf(stderr, fail_fmt, arg1, arg2, arg3); \
+                                            ^
+9 warnings generated.
+exit 0

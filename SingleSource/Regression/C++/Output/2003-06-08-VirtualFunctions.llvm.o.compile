@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C++/2003-06-08-VirtualFunctions.cpp:11:12: warning: control reaches end of non-void function [-Wreturn-type]
+  int T() {}
+           ^
+1 warning generated.
+exit 0

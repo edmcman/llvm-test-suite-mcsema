@@ -1,0 +1,22 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/clamscan_manager.c:51:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/manager.h:31:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/options.h:22:9: warning: '_GNU_SOURCE' macro redefined
+#define _GNU_SOURCE
+        ^
+<command line>:6:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/clamscan_manager.c:493:15: warning: passing 'const char **' to parameter of type 'char *const *' discards qualifiers in nested pointer types [-Wincompatible-pointer-types-discards-qualifiers]
+                execv(prog, args);
+                            ^~~~
+/usr/include/unistd.h:563:51: note: passing argument to parameter '__argv' here
+extern int execv (const char *__path, char *const __argv[])
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/clamscan_manager.c:495:16: warning: passing 'const char **' to parameter of type 'char *const *' discards qualifiers in nested pointer types [-Wincompatible-pointer-types-discards-qualifiers]
+                execvp(prog, args);
+                             ^~~~
+/usr/include/unistd.h:578:52: note: passing argument to parameter '__argv' here
+extern int execvp (const char *__file, char *const __argv[])
+                                                   ^
+3 warnings generated.
+exit 0

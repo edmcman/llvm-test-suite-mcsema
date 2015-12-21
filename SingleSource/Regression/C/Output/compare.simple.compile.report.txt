@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/compare
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: aab416294edb96fd68b203a95a9e469c
+TEST-RESULT-compile-time: user       0.0270
+TEST-RESULT-compile-real-time: real       0.0410

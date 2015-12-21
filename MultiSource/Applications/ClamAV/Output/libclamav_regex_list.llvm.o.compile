@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_regex_list.c:27:9: warning: 'NDEBUG' macro redefined
+#define NDEBUG
+        ^
+<command line>:8:9: note: previous definition is here
+#define NDEBUG 1
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_regex_list.c:734:22: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                                if(snprintf(&c,1,fmt)!=1) {
+                                                 ^~~
+2 warnings generated.
+exit 0

@@ -1,0 +1,17 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/bc.c:276:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+yyparse() {
+^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/bc.c:289:9: warning: array index -1 is before the beginning of the array [-Warray-bounds]
+        yyps= &yys[-1];
+               ^   ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/bc.c:278:2: note: array 'yys' declared here
+        short yys[YYMAXDEPTH];
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/bc.c:290:9: warning: array index -1 is before the beginning of the array [-Warray-bounds]
+        yypv= &yyv[-1];
+               ^   ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/bc.c:271:1: note: array 'yyv' declared here
+YYSTYPE yyv[YYMAXDEPTH]; /* where the values are stored */
+^
+3 warnings generated.
+exit 0

@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/allroots/allroots' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/allroots/allroots
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a017763ec665efff414bed98166b3a05
+TEST-RESULT-compile-time: user 0.093800
+TEST-RESULT-compile-real-time: real 0.139000
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/allroots/allroots
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0020

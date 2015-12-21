@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc-C++/stepanov_container
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: dc695118fb2e52d704cd4a12f9c3cb99
+TEST-RESULT-compile-time: user       0.5755
+TEST-RESULT-compile-real-time: real       0.6140

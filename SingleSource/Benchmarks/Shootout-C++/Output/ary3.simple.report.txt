@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/ary3' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/ary3
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 094ec11a4717009981cecf18c57abf08
+TEST-RESULT-compile-time: user       0.2061
+TEST-RESULT-compile-real-time: real       0.2332
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/ary3
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.3493
+TEST-RESULT-exec-real-time: real       1.3615

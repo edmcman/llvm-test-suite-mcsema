@@ -1,0 +1,21 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:87:5: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)'
+    strcpy(linkpath,l->filename);
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:87:5: note: please include the header <string.h> or explicitly provide a declaration for 'strcpy'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:88:19: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)'
+    *(linkpath + (strlen(linkpath) - strlen(l->name) - 1)) = '\0';
+                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:88:19: note: please include the header <string.h> or explicitly provide a declaration for 'strlen'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:91:9: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)'
+    if (strcmp(l->host,lasthost) != 0) {
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:91:9: note: please include the header <string.h> or explicitly provide a declaration for 'strcmp'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:187:21: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+                    (char*) perrno,0);
+                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:204:2: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+        exit (1);
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/procquery.c:204:2: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+5 warnings generated.
+exit 0

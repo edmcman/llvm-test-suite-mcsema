@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/ControlLoops-flt/ControlLoops-flt
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 7ac218c8560a8297b0246d29c02bb6a0
+TEST-RESULT-compile-time: user 0.733200
+TEST-RESULT-compile-real-time: real 0.779700

@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mafft/pairlocalalign.c:302:16: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                fprintf( fp, *bpp1++ );
+                             ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mafft/pairlocalalign.c:306:16: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                fprintf( fp, *bpp2++ );
+                             ^~~~~~~
+2 warnings generated.
+exit 0

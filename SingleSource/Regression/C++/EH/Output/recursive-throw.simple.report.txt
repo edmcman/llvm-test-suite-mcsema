@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/EH/recursive-throw' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/EH/recursive-throw
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 6d62ba111c46c018edcc9945e755dc53
+TEST-RESULT-compile-time: user       0.0286
+TEST-RESULT-compile-real-time: real       0.0433
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/EH/recursive-throw
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0017

@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_phish_domaincheck_db.c:28:9: warning: 'NDEBUG' macro redefined
+#define NDEBUG
+        ^
+<command line>:8:9: note: previous definition is here
+#define NDEBUG 1
+        ^
+1 warning generated.
+exit 0

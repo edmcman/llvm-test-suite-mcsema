@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/C/XzDec.c:298:80: warning: implicit conversion from enumeration type 'ECoderFinishMode' to different enumeration type 'ELzmaFinishMode' [-Wenum-conversion]
+  SRes res = Lzma2Dec_DecodeToBuf((CLzma2Dec *)pp, dest, destLen, src, srcLen, finishMode, &status);
+             ~~~~~~~~~~~~~~~~~~~~                                              ^~~~~~~~~~
+1 warning generated.
+exit 0

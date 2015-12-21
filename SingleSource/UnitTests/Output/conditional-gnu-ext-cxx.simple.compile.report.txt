@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/conditional-gnu-ext-cxx
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 5f0d1df9d3953ed93af6cd42f1767c25
+TEST-RESULT-compile-time: user       0.0201
+TEST-RESULT-compile-real-time: real       0.0335

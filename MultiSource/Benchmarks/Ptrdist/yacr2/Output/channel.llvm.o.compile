@@ -1,0 +1,14 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/channel.c:117:62: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("\tChannel file description invalid at line %d.\n", line);
+                                                                   ~~      ^~~~
+                                                                   %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/channel.c:221:66: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                    printf("\tChannel file description invalid at line %d.\n", line);
+                                                                       ~~      ^~~~
+                                                                       %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/channel.c:238:62: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("\tChannel file description invalid at line %d.\n", line);
+                                                                   ~~      ^~~~
+                                                                   %lu
+3 warnings generated.
+exit 0

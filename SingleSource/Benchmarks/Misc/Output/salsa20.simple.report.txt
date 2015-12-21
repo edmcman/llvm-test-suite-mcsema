@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/salsa20' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/salsa20
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 49902d4d8e25751dfc71a76a39d5a52c
+TEST-RESULT-compile-time: user       0.0420
+TEST-RESULT-compile-real-time: real       0.0568
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/salsa20
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       6.1850
+TEST-RESULT-exec-real-time: real       6.1986

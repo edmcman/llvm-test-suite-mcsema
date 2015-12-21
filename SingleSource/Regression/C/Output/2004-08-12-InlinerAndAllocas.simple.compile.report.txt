@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/2004-08-12-InlinerAndAllocas
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 82ba18568ee95f9a5e7a1f42c6a4a7a8
+TEST-RESULT-compile-time: user       0.0234
+TEST-RESULT-compile-real-time: real       0.0378

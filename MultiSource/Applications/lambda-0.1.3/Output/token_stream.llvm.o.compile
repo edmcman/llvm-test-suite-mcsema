@@ -1,0 +1,29 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:38:22: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        {token_stream::DEF, "def"},
+                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:39:23: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        {token_stream::LOAD, "load"},
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:40:23: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        {token_stream::SAVE, "save"},
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:41:23: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        {token_stream::QUIT, "quit"},
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:42:23: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        {token_stream::LIST, "list"},
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:43:23: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        {token_stream::SET,  "set"},
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:44:23: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        {token_stream::EXT,  "ext"},
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:67:13: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                        dderrmsg("Cannot Open \"%s\":%s\n",
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/token_stream.cc:77:21: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        push_token(NOTOKEN,"");
+                           ^
+9 warnings generated.
+exit 0

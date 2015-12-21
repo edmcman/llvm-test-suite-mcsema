@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/2006-01-23-UnionInit.c:11:40: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+union task_union init_task_union = { { comm: "swapper" } };
+                                       ^~~~~
+                                       .comm = 
+1 warning generated.
+exit 0

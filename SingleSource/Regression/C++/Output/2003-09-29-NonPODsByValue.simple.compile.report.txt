@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/2003-09-29-NonPODsByValue
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 3ed160514ceec931607747d120aa344c
+TEST-RESULT-compile-time: user       0.0228
+TEST-RESULT-compile-real-time: real       0.0366

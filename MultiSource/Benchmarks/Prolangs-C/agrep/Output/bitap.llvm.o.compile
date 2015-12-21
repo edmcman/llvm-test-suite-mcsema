@@ -1,0 +1,26 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/bitap.c:58:16: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+     { asearch(old_D_pat, fd, D); return; }
+               ^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/bitap.c:27:26: note: passing argument to parameter 'old_D_pat' here
+extern void asearch(CHAR old_D_pat[], int text, register unsigned D);
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/bitap.c:74:35: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  while ((num_read = fill_buf(fd, buffer + Max_record, Max_record)) > 0)
+                                  ^~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/bitap.c:28:44: note: passing argument to parameter 'buf' here
+extern int fill_buf(int fd, unsigned char *buf, int record_size);
+                                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/bitap.c:108:28: warning: passing 'char [147456]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                    output(buffer, lasti, print_end, j); 
+                           ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/bitap.c:29:35: note: passing argument to parameter 'buffer' here
+extern void output(register CHAR *buffer, int i1, int i2, int j);
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/bitap.c:130:28: warning: passing 'char [147456]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                    output(buffer, lasti, print_end, j);
+                           ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/bitap.c:29:35: note: passing argument to parameter 'buffer' here
+extern void output(register CHAR *buffer, int i1, int i2, int j);
+                                  ^
+4 warnings generated.
+exit 0

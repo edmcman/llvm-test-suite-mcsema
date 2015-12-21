@@ -1,0 +1,108 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:785:140: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                cli_dbgmsg("Broken PE file - Section %d starts beyond the end of file (Offset@ %d, Total filesize %d)\n", i, exe_sections[i].raw, fsize);
+                                                                                                                  ~~                              ^~~~~
+                                                                                                                  %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1097:93: warning: format specifies type 'int' but the argument has type 'ssize_t' (aka 'long') [-Wformat]
+                cli_dbgmsg("MEW: Can't read 0xb0 bytes at 0x%x (%d) %d\n", fileoffset, fileoffset, bytes);
+                                                                    ~~                             ^~~~~
+                                                                    %zd
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1119:6: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+            CLI_UNPSIZELIMITS("MEW", MAX(ssize, dsize));
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1120:6: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+            CLI_UNPSIZELIMITS("MEW", MAX(ssize + dsize, exe_sections[i + 1].rsz));
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1135:87: warning: format specifies type 'int' but the argument has type 'ssize_t' (aka 'long') [-Wformat]
+                cli_dbgmsg("MEW: Can't read %d bytes [read: %d]\n", exe_sections[i + 1].rsz, bytes);
+                                                            ~~                               ^~~~~
+                                                            %zd
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1140:48: warning: format specifies type 'int' but the argument has type 'ssize_t' (aka 'long') [-Wformat]
+            cli_dbgmsg("MEW: %d (%08x) bytes read\n", bytes, bytes);
+                             ~~                       ^~~~~
+                             %zd
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1140:55: warning: format specifies type 'unsigned int' but the argument has type 'ssize_t' (aka 'long') [-Wformat]
+            cli_dbgmsg("MEW: %d (%08x) bytes read\n", bytes, bytes);
+                                 ~~~~                        ^~~~~
+                                 %08zx
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1234:6: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+            CLI_UNPSIZELIMITS("Upack", MAX(MAX(dsize, ssize), exe_sections[1].ursz));
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1281:2: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+        CLI_UNPSIZELIMITS("FSG", MAX(dsize, ssize));
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1378:2: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+        CLI_UNPSIZELIMITS("FSG", MAX(dsize, ssize));
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1394:2: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        CLI_UNPSIZELIMITS("FSG", gp)
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1521:2: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+        CLI_UNPSIZELIMITS("FSG", MAX(dsize, ssize));
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1532:2: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        CLI_UNPSIZELIMITS("FSG", gp)
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1619:2: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+        CLI_UNPSIZELIMITS("UPX", MAX(dsize, ssize));
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1774:6: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+            CLI_UNPSIZELIMITS("Petite", dsize);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1815:50: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+            cli_dbgmsg("PESpin: Can't read %d bytes\n", fsize);
+                                           ~~           ^~~~~
+                                           %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1841:46: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+            cli_dbgmsg("yC: Can't read %d bytes\n", fsize);
+                                       ~~           ^~~~~
+                                       %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1868:2: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+        CLI_UNPSIZELIMITS("WWPack", dsize);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:1964:2: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+        CLI_UNPSIZELIMITS("Aspack", ssize);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:2023:2: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        CLI_UNPSIZELIMITS("NsPack", MAX(ssize,dsize));
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_pe.c:85:54: note: expanded from macro 'CLI_UNPSIZELIMITS'
+    cli_dbgmsg(NAME": Sizes exceeded (%lu > %lu)\n", (CHK), ctx->limits->maxfilesize); \
+                                      ~~~            ^~~~~
+20 warnings generated.
+exit 0

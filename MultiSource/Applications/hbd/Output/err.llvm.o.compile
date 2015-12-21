@@ -1,0 +1,17 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/err.cpp:15:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "Unknown error.",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/err.cpp:16:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "Out of memory error.",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/err.cpp:21:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "Not a class.",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/err.cpp:22:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "Unsupported Class Version.",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/err.cpp:23:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "3"
+  ^
+5 warnings generated.
+exit 0

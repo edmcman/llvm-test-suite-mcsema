@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout/random
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 50af650b6775e596e9b5555ee63e544e
+TEST-RESULT-compile-time: user       0.0360
+TEST-RESULT-compile-real-time: real       0.0510

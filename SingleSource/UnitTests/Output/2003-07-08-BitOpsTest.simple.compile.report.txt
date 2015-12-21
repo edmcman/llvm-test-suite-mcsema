@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2003-07-08-BitOpsTest
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 77ef587d85da7e5543ec47fa4191eda5
+TEST-RESULT-compile-time: user       0.0215
+TEST-RESULT-compile-real-time: real       0.0346

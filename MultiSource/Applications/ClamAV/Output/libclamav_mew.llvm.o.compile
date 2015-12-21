@@ -1,0 +1,40 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:389:9: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                var18 = orgsource + temp;
+                      ^ ~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:565:13: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                                new_ecx = var18;
+                                        ^ ~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:696:62: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("contain error! %08x %08x ecx: %08x [%08x]\n", bb, bl, old_ecx,bb+bl);
+                                                   ~~~~                           ^~
+                                                   %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:696:70: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("contain error! %08x %08x ecx: %08x [%08x]\n", bb, bl, old_ecx,bb+bl);
+                                                                  ~~~~                    ^~~~~~~
+                                                                  %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:696:78: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("contain error! %08x %08x ecx: %08x [%08x]\n", bb, bl, old_ecx,bb+bl);
+                                                                        ~~~~                      ^~~~~
+                                                                        %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:698:61: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("contain error! %08x %08x p0: %08x [%08x]\n", bb, bl, p->p0,bb+bl);
+                                                   ~~~~                          ^~
+                                                   %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:698:69: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("contain error! %08x %08x p0: %08x [%08x]\n", bb, bl, p->p0,bb+bl);
+                                                                 ~~~~                    ^~~~~
+                                                                 %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:698:75: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("contain error! %08x %08x p0: %08x [%08x]\n", bb, bl, p->p0,bb+bl);
+                                                                       ~~~~                    ^~~~~
+                                                                       %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:793:62: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                cli_dbgmsg("MEW unpacking section %d (%08x->%08x)\n", i, lesi, ledi);
+                                                      ~~~~               ^~~~
+                                                      %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mew.c:793:68: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                cli_dbgmsg("MEW unpacking section %d (%08x->%08x)\n", i, lesi, ledi);
+                                                            ~~~~               ^~~~
+                                                            %8s
+10 warnings generated.
+exit 0

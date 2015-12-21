@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2005-07-15-Bitfield-ABI
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 0db6cef266b48920cba39d61019465f8
+TEST-RESULT-compile-time: user       0.0173
+TEST-RESULT-compile-real-time: real       0.0297

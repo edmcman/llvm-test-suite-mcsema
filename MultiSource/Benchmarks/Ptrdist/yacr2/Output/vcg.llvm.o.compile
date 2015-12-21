@@ -1,0 +1,30 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/vcg.c:166:19: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("[%d]\n", net);
+                 ~~      ^~~
+                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/vcg.c:171:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("%d ", VCG[net].netsAboveHook[which].bot);
+                        ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/vcg.c:180:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("%d ", VCG[net].netsBelowHook[which].top);
+                        ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/vcg.c:356:19: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("[%d]\t", scc);
+                 ~~      ^~~
+                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/vcg.c:359:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("%d ", net);
+                        ~~    ^~~
+                        %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/vcg.c:362:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("<%d>", perSCC[scc]);
+                 ~~    ^~~~~~~~~~~
+                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/vcg.c:496:40: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("*** VC's removed (%d) ***\n", total);
+                                  ~~          ^~~~~
+                                  %lu
+7 warnings generated.
+exit 0

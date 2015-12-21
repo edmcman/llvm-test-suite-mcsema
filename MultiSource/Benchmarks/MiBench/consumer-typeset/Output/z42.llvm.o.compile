@@ -1,0 +1,23 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z42.c:113:39: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+  if( ctab_name(*S, pos) == nilobj )  New(ctab_name(*S, pos), ACAT);
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z42.c:114:3: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+  Link(ctab_name(*S, pos), x);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+2 warnings generated.
+exit 0

@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/AtomicOps.c:3:19: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+int foo(volatile *mem, int val, int c) {
+        ~~~~~~~~  ^
+1 warning generated.
+exit 0

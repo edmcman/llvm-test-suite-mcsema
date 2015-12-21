@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/life/life.cpp:150:7: warning: delete called on 'living' that is abstract but has non-virtual destructor [-Wdelete-non-virtual-dtor]
+      delete (w[i][j]);
+      ^
+1 warning generated.
+exit 0

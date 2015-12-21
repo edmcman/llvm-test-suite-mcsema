@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t9.c:7:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static useln;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t9.c:27:8: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+domore((char *)leftover);
+       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t9.c:62:26: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+                        table[0][icol].rcol = (char *)maknew(table[0][icol].col);
+                                              ^
+3 warnings generated.
+exit 0

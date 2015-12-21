@@ -1,0 +1,9 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/tu.c:135:45: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                fprintf(tabout, "\\l'|\\n(TWu%s%s'", exhr,lnch);
+                                               ~~         ^~~~
+                                               %d
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/tu.c:138:22: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                        cr+1+CLEFT, exhr, lnch);
+                                          ^~~~
+2 warnings generated.
+exit 0

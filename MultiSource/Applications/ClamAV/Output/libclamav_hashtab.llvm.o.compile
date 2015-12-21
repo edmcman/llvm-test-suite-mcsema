@@ -1,0 +1,14 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_hashtab.c:347:8: warning: passing 'const unsigned char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                free(e->key);/*FIXME: any way to shut up warnings here? if I make key char*, I get tons of warnings in entitylist.h */
+                     ^~~~~~
+/usr/include/stdlib.h:483:25: note: passing argument to parameter '__ptr' here
+extern void free (void *__ptr) __THROW;
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_hashtab.c:359:9: warning: passing 'const unsigned char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                        free(s->htable[i].key);/*FIXME: shut up warnings */
+                             ^~~~~~~~~~~~~~~~
+/usr/include/stdlib.h:483:25: note: passing argument to parameter '__ptr' here
+extern void free (void *__ptr) __THROW;
+                        ^
+2 warnings generated.
+exit 0

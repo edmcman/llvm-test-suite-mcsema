@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2005-05-11-Popcount-ffs-fls' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2005-05-11-Popcount-ffs-fls
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 7c79702ecd149375f39728d14d800ae4
+TEST-RESULT-compile-time: user       0.0384
+TEST-RESULT-compile-real-time: real       0.0541
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2005-05-11-Popcount-ffs-fls
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0017

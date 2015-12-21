@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-lame/id3tag.c:37:18: warning: illegal character encoding in character literal [-Winvalid-source-encoding]
+        tag->genre[0] = '<FF>';    /* unset genre */
+                        ^
+1 warning generated.
+exit 0

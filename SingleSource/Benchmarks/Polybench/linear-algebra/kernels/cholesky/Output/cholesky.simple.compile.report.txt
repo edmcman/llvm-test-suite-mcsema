@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/cholesky
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 1aab2fc893076f102b5bdff92bdf276a
+TEST-RESULT-compile-time: user       0.0654
+TEST-RESULT-compile-real-time: real       0.0839

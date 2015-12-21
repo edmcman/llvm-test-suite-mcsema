@@ -1,0 +1,24 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/irred.c:1:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/espresso.h:6:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:24:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:32:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif IGNOREFREE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/irred.c:298:21: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+                cdata.vars_unate, CUBELISTSIZE(T));
+                                  ^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/espresso.h:313:33: note: expanded from macro 'CUBELISTSIZE'
+#define CUBELISTSIZE(T)         (((pcube *) T[1] - T) - 3)
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/irred.c:424:21: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+                cdata.vars_unate, CUBELISTSIZE(T));
+                                  ^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/espresso.h:313:33: note: expanded from macro 'CUBELISTSIZE'
+#define CUBELISTSIZE(T)         (((pcube *) T[1] - T) - 3)
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+exit 0

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/DuffsDevice
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 93628a78d30f27ac283ae141b19232c9
+TEST-RESULT-compile-time: user       0.0281
+TEST-RESULT-compile-real-time: real       0.0424

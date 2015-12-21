@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/simple' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/simple
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: f8169ebeeb41bbf5401bb2d6515cf3d8
+TEST-RESULT-compile-time: user       0.0262
+TEST-RESULT-compile-real-time: real       0.0416
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/simple
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0019

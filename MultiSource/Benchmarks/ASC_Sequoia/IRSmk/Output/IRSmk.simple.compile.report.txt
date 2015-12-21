@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/ASC_Sequoia/IRSmk/IRSmk
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 2d30b85d5b83d5bee6951193867737ce
+TEST-RESULT-compile-time: user 0.105100
+TEST-RESULT-compile-real-time: real 0.159600

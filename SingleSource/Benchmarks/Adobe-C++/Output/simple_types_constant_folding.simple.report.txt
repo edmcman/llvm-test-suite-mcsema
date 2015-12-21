@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/simple_types_constant_folding' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/simple_types_constant_folding
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 2f5d731e773e5ec38a8890c4a5d2ecfa
+TEST-RESULT-compile-time: user       1.6159
+TEST-RESULT-compile-real-time: real       1.6568
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/simple_types_constant_folding
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.6671
+TEST-RESULT-exec-real-time: real       0.6697

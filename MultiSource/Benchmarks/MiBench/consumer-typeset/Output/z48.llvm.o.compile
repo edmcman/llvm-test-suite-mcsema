@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z48.c:2792:2: warning: expression result unused [-Wunused-value]
+        (char*) PDFPage_EvalExpr(g_expr, outResult);
+        ^       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+exit 0

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/trmm
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 49a0e2166e30f99343db47df3c1b8780
+TEST-RESULT-compile-time: user       0.0612
+TEST-RESULT-compile-real-time: real       0.0812

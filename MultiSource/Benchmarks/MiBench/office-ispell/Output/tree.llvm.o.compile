@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/office-ispell/tree.c:110:10: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static                  newwords = 0;
+~~~~~~                  ^
+1 warning generated.
+exit 0

@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/BitBench/five11/five11' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/BitBench/five11/five11
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 7f10d3c37947092e0c55c83682f82f7b
+TEST-RESULT-compile-time: user 0.049700
+TEST-RESULT-compile-real-time: real 0.064800
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/BitBench/five11/five11
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.5688
+TEST-RESULT-exec-real-time: real       1.5728

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/multiplies
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 78511cc8a2b379f05e290635623eb1a0
+TEST-RESULT-compile-time: user       0.0309
+TEST-RESULT-compile-real-time: real       0.0450

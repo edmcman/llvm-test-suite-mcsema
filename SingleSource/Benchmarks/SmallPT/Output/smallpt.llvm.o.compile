@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/SmallPT/smallpt.cpp:55:48: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+  if (++depth>5) if (erand48(Xi)<p) f=f*(1/p); else return obj.e; //R.R.
+                                               ^
+1 warning generated.
+exit 0

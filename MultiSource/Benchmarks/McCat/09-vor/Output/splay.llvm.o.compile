@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/09-vor/splay.c:52:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/09-vor/splay.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/09-vor/splay.c:149:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+3 warnings generated.
+exit 0

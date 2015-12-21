@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-lame/parse.c:640:7: warning: data argument not used by format string [-Wformat-extra-args]
+                    programName, arg);
+                    ^
+1 warning generated.
+exit 0

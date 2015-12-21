@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/office-ispell/office-ispell' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/office-ispell/office-ispell
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 23450f5e98b368ec8159cd04f34e805f
+TEST-RESULT-compile-time: user 1.315200
+TEST-RESULT-compile-real-time: real 1.657300
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/office-ispell/office-ispell
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0062

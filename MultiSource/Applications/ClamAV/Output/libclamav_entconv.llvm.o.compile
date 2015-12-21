@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_entconv.c:193:31: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        iconv->size = encoding_bytes(fromcode,&iconv->encoding);
+                                     ^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_entconv.c:146:51: note: passing argument to parameter 'fromcode' here
+static size_t encoding_bytes(const unsigned char* fromcode, enum encodings* encoding)
+                                                  ^
+1 warning generated.
+exit 0

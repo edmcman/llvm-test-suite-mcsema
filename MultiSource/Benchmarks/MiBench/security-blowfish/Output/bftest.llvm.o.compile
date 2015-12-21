@@ -1,0 +1,18 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-blowfish/bftest.c:300:30: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("\ndata[%d]  = '%s'",strlen(cbc_data)+1,cbc_data);
+                       ~~           ^~~~~~~~~~~~~~~~~~
+                       %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-blowfish/bftest.c:301:26: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("\ndata[%d]  = ",strlen(cbc_data)+1);
+                       ~~       ^~~~~~~~~~~~~~~~~~
+                       %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-blowfish/bftest.c:312:24: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("cipher[%d]= ",strlen(cbc_data)+1);
+                       ~~     ^~~~~~~~~~~~~~~~~~
+                       %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-blowfish/bftest.c:318:24: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("cipher[%d]= ",strlen(cbc_data)+1);
+                       ~~     ^~~~~~~~~~~~~~~~~~
+                       %lu
+4 warnings generated.
+exit 0

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Threads/2010-12-08-tls
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 2a6242b6951bbb2dfb91cdc35b92ed7b
+TEST-RESULT-compile-time: user       0.0211
+TEST-RESULT-compile-real-time: real       0.0359

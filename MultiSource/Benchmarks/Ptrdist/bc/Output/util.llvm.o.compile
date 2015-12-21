@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/util.c:539:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+exit 0

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/unix-tbl/unix-tbl
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 73b4c1bd2a0614cebda084eb35b1c247
+TEST-RESULT-compile-time: user 1.046200
+TEST-RESULT-compile-real-time: real 1.433000

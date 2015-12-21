@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/SIBsim4/SIBsim4
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: e401f2dda4748acb2b84e1c8b8fc538a
+TEST-RESULT-compile-time: user 0.944600
+TEST-RESULT-compile-real-time: real 1.026200

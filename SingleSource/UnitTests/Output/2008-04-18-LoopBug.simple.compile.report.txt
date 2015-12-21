@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2008-04-18-LoopBug
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 165d4df1a6d52be14d081c91aeaa3168
+TEST-RESULT-compile-time: user       0.0199
+TEST-RESULT-compile-real-time: real       0.0326

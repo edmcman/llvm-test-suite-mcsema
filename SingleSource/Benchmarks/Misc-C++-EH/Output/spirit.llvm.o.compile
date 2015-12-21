@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Misc-C++-EH/spirit.cpp:8067:21: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                    else
+                    ^
+1 warning generated.
+exit 0

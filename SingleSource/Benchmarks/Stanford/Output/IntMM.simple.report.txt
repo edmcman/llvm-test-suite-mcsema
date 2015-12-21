@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Stanford/IntMM' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Stanford/IntMM
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d983c915564ce402799d6612242144dc
+TEST-RESULT-compile-time: user       0.0383
+TEST-RESULT-compile-real-time: real       0.0536
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Stanford/IntMM
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0015
+TEST-RESULT-exec-real-time: real       0.0023

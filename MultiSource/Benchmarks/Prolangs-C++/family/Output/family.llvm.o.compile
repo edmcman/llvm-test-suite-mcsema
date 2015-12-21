@@ -1,0 +1,41 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:17:5: warning: ignoring return value of function declared with pure attribute [-Wunused-value]
+    strlen(aLastName), lastName = new char[100]; // was char[strlen(aLastName) + 1]
+    ^~~~~~ ~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:22:5: warning: ignoring return value of function declared with pure attribute [-Wunused-value]
+    strlen(aParent.lastName), lastName = new char[100];
+    ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:29:5: warning: ignoring return value of function declared with pure attribute [-Wunused-value]
+    strlen(aName), lastName = new char[100];
+    ^~~~~~ ~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:52:5: warning: ignoring return value of function declared with pure attribute [-Wunused-value]
+    strlen(aFirstName), firstName = new char[100];
+    ^~~~~~ ~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:58:5: warning: ignoring return value of function declared with pure attribute [-Wunused-value]
+    strlen(aChild.firstName), firstName = new char[100];
+    ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:67:5: warning: ignoring return value of function declared with pure attribute [-Wunused-value]
+    strlen(aName), firstName = new char[100];
+    ^~~~~~ ~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:87:5: warning: ignoring return value of function declared with pure attribute [-Wunused-value]
+    strlen(aGrandFatherName), grandFatherName = new char[100];
+    ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:101:12: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  Parent p("Jones");
+           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:102:11: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  Child c("Jones", "Henry");
+          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:102:20: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  Child c("Jones", "Henry");
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:103:16: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  GrandChild g("Jones", "Cynthia", "Murray");
+               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:103:25: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  GrandChild g("Jones", "Cynthia", "Murray");
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/family/family.cpp:103:36: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  GrandChild g("Jones", "Cynthia", "Murray");
+                                   ^
+13 warnings generated.
+exit 0

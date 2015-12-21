@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/FreeBench/mason/mason' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/FreeBench/mason/mason
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 934df38595a8969558c54e8af53cfe5f
+TEST-RESULT-compile-time: user 0.051500
+TEST-RESULT-compile-real-time: real 0.067500
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/FreeBench/mason/mason
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.1371
+TEST-RESULT-exec-real-time: real       0.1390

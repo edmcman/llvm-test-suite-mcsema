@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/StructModifyTest' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/StructModifyTest
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 92f7de09666578defb20ab136ce0dc25
+TEST-RESULT-compile-time: user       0.0175
+TEST-RESULT-compile-real-time: real       0.0298
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/StructModifyTest
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0017

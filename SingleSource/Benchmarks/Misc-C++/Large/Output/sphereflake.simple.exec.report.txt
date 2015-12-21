@@ -1,0 +1,5 @@
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc-C++/Large/sphereflake
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       4.6921
+TEST-RESULT-exec-real-time: real       4.7104

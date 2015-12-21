@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/ControlLoops-dbl/ControlLoops-dbl
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 73612757e8e61c745cd953123d1735b6
+TEST-RESULT-compile-time: user 0.732100
+TEST-RESULT-compile-real-time: real 0.778000

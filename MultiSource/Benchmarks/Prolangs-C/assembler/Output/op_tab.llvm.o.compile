@@ -1,0 +1,302 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:32:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+   {{"ADD",THREE_FOUR,"18",MEM,NULL},    
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:33:30: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"ADDR",TWO,"90",REG_REG,NULL},
+                             ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:34:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"AND",THREE_FOUR,"40",MEM,NULL},    
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:36:27: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"CLEAR",TWO,"B4",REG,NULL},         
+                          ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:37:33: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"COMP",THREE_FOUR,"28",MEM,NULL},
+                                ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:38:31: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"COMPR",TWO,"A0",REG_REG,NULL},     
+                              ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:40:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"DIV",THREE_FOUR,"24",MEM,NULL},    {"DIVR",TWO,"9C",REG_REG,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:40:67: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"DIV",THREE_FOUR,"24",MEM,NULL},    {"DIVR",TWO,"9C",REG_REG,NULL},
+                                                                  ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:45:26: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"HIO",ONE,"F4",NONE,NULL},          {"J",THREE_FOUR,"3C",MEM,NULL},
+                         ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:45:67: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"HIO",ONE,"F4",NONE,NULL},          {"J",THREE_FOUR,"3C",MEM,NULL},
+                                                                  ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:46:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"JEQ",THREE_FOUR,"30",MEM,NULL},    {"JGT",THREE_FOUR,"34",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:46:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"JEQ",THREE_FOUR,"30",MEM,NULL},    {"JGT",THREE_FOUR,"34",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:47:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"JLT",THREE_FOUR,"38",MEM,NULL},    {"JSUB",THREE_FOUR,"48",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:47:70: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"JLT",THREE_FOUR,"38",MEM,NULL},    {"JSUB",THREE_FOUR,"48",MEM,NULL},
+                                                                     ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:48:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"LDA",THREE_FOUR,"00",MEM,NULL},    {"LDB",THREE_FOUR,"68",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:48:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"LDA",THREE_FOUR,"00",MEM,NULL},    {"LDB",THREE_FOUR,"68",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:49:33: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"LDCH",THREE_FOUR,"50",MEM,NULL},   {"LDL",THREE_FOUR,"08",MEM,NULL},
+                                ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:49:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"LDCH",THREE_FOUR,"50",MEM,NULL},   {"LDL",THREE_FOUR,"08",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:50:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"LDS",THREE_FOUR,"6C",MEM,NULL},    {"LDT",THREE_FOUR,"74",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:50:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"LDS",THREE_FOUR,"6C",MEM,NULL},    {"LDT",THREE_FOUR,"74",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:51:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"LDX",THREE_FOUR,"04",MEM,NULL},    {"LPS",THREE_FOUR,"D0",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:51:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"LDX",THREE_FOUR,"04",MEM,NULL},    {"LPS",THREE_FOUR,"D0",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:52:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"MUL",THREE_FOUR,"20",MEM,NULL},    {"MULR",TWO,"98",REG_REG,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:52:67: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"MUL",THREE_FOUR,"20",MEM,NULL},    {"MULR",TWO,"98",REG_REG,NULL},
+                                                                  ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:53:31: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"OR",THREE_FOUR,"44",MEM,NULL},     {"RD",THREE_FOUR,"D8",MEM,NULL},
+                              ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:53:68: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"OR",THREE_FOUR,"44",MEM,NULL},     {"RD",THREE_FOUR,"D8",MEM,NULL},
+                                                                   ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:56:29: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"RMO",TWO,"AC",REG_REG,NULL},       {"RSUB",THREE_FOUR,"4C",NONE,NULL},
+                            ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:56:71: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"RMO",TWO,"AC",REG_REG,NULL},       {"RSUB",THREE_FOUR,"4C",NONE,NULL},
+                                                                      ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:57:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"SHIFTL",TWO,"A4",REG_NUM,NULL},    {"SHIFTR",TWO,"A8",REG_NUM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:57:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"SHIFTL",TWO,"A4",REG_NUM,NULL},    {"SHIFTR",TWO,"A8",REG_NUM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:58:26: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"SIO",ONE,"F0",NONE,NULL},          {"SSK",THREE_FOUR,"EC",MEM,NULL},
+                         ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:58:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"SIO",ONE,"F0",NONE,NULL},          {"SSK",THREE_FOUR,"EC",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:59:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STA",THREE_FOUR,"0C",MEM,NULL},    
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:61:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STB",THREE_FOUR,"78",MEM,NULL},    {"STCH",THREE_FOUR,"54",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:61:70: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STB",THREE_FOUR,"78",MEM,NULL},    {"STCH",THREE_FOUR,"54",MEM,NULL},
+                                                                     ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:62:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STI",THREE_FOUR,"D4",MEM,NULL},    {"STL",THREE_FOUR,"14",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:62:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STI",THREE_FOUR,"D4",MEM,NULL},    {"STL",THREE_FOUR,"14",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:63:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STS",THREE_FOUR,"7C",MEM,NULL},    {"STSW",THREE_FOUR,"E8",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:63:70: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STS",THREE_FOUR,"7C",MEM,NULL},    {"STSW",THREE_FOUR,"E8",MEM,NULL},
+                                                                     ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:64:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STT",THREE_FOUR,"84",MEM,NULL},    {"STX",THREE_FOUR,"10",MEM,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:64:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"STT",THREE_FOUR,"84",MEM,NULL},    {"STX",THREE_FOUR,"10",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:65:32: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"SUB",THREE_FOUR,"1C",MEM,NULL},    {"SUBR",TWO,"94",REG_REG,NULL},
+                               ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:65:67: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"SUB",THREE_FOUR,"1C",MEM,NULL},    {"SUBR",TWO,"94",REG_REG,NULL},
+                                                                  ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:66:25: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"SVC",TWO,"B0",NUM,NULL},           {"TD",THREE_FOUR,"E0",MEM,NULL},
+                        ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:66:68: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"SVC",TWO,"B0",NUM,NULL},           {"TD",THREE_FOUR,"E0",MEM,NULL},
+                                                                   ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:67:26: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"TIO",ONE,"F8",NONE,NULL},          {"TIX",THREE_FOUR,"2C",MEM,NULL},
+                         ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:67:69: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"TIO",ONE,"F8",NONE,NULL},          {"TIX",THREE_FOUR,"2C",MEM,NULL},
+                                                                    ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:68:26: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"TIXR",TWO,"B8",REG,NULL},          {"WD",THREE_FOUR,"DC",MEM,NULL},
+                         ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:68:68: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"TIXR",TWO,"B8",REG,NULL},          {"WD",THREE_FOUR,"DC",MEM,NULL},
+                                                                   ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/op_tab.c:71:43: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'void *' [-Wint-conversion]
+    {"*END OF TABLE*",NOT_FOUND,"00",NONE,NULL}};
+                                          ^~~~
+/usr/bin/../lib/clang/3.4/include/stddef.h:77:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+50 warnings generated.
+exit 0

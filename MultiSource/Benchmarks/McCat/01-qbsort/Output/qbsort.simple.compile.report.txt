@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/01-qbsort/qbsort
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 4cdb3761f0e7fca4e00ed240ca72f4eb
+TEST-RESULT-compile-time: user 0.104600
+TEST-RESULT-compile-real-time: real 0.158400

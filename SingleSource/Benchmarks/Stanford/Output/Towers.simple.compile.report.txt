@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Stanford/Towers
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: cfd3448c3bfcf5254bf65ac3680248df
+TEST-RESULT-compile-time: user       0.0424
+TEST-RESULT-compile-real-time: real       0.0573

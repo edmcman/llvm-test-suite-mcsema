@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/automotive-susan/automotive-susan
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: e3f6a3d057c39790b32d78f703c837f3
+TEST-RESULT-compile-time: user 0.477900
+TEST-RESULT-compile-real-time: real 0.510400

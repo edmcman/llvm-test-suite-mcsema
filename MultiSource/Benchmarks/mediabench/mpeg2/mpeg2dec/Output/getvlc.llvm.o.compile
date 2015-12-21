@@ -1,0 +1,10 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/getvlc.c:350:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif TRACE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/getvlc.c:370:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif TRACE
+       ^
+       //
+2 warnings generated.
+exit 0

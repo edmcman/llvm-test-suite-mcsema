@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/UI/Common/ArchiveExtractCallback.cpp:285:14: warning: enumeration values 'kWithoutPrompt', 'kAutoRename', and 'kAutoRenameExisting' not handled in switch [-Wswitch]
+      switch(_overwriteMode)
+             ^
+1 warning generated.
+exit 0

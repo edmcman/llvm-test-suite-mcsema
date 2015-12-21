@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/annexb.c:47:17: warning: use of unary operator that may be intended as compound assignment (+=)
+    BitsWritten =+ 8;
+                ^~
+1 warning generated.
+exit 0

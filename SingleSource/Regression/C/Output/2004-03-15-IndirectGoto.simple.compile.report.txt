@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/2004-03-15-IndirectGoto
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 71dc950514fd59fc8732e3342d880f4b
+TEST-RESULT-compile-time: user       0.0216
+TEST-RESULT-compile-real-time: real       0.0350

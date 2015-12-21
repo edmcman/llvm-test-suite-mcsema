@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/PR10189' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/PR10189
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: c463bd94074cdc06762e28a97c272ba2
+TEST-RESULT-compile-time: user       0.0247
+TEST-RESULT-compile-real-time: real       0.0378
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/PR10189
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0011
+TEST-RESULT-exec-real-time: real       0.0021

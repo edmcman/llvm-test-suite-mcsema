@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/Equivalencing-flt/Equivalencing-flt
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: e94c76c7b525ef6d78fab01e0bdd358d
+TEST-RESULT-compile-time: user 0.698600
+TEST-RESULT-compile-real-time: real 0.742800

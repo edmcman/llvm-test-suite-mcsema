@@ -1,0 +1,32 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:744:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+  if ((img->type==P_SLICE ))    // inter frame
+       ~~~~~~~~~^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:744:17: note: remove extraneous parentheses around the comparison to silence this warning
+  if ((img->type==P_SLICE ))    // inter frame
+      ~         ^         ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:744:17: note: use '=' to turn this equality comparison into an assignment
+  if ((img->type==P_SLICE ))    // inter frame
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:748:22: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+  else if ((img->type==B_SLICE))       // B frame
+            ~~~~~~~~~^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:748:22: note: remove extraneous parentheses around the comparison to silence this warning
+  else if ((img->type==B_SLICE))       // B frame
+           ~         ^        ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:748:22: note: use '=' to turn this equality comparison into an assignment
+  else if ((img->type==B_SLICE))       // B frame
+                     ^~
+                     =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:750:22: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+  else if ((img->type==SP_SLICE))     // SP frame
+            ~~~~~~~~~^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:750:22: note: remove extraneous parentheses around the comparison to silence this warning
+  else if ((img->type==SP_SLICE))     // SP frame
+           ~         ^         ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/ldecod/macroblock.c:750:22: note: use '=' to turn this equality comparison into an assignment
+  else if ((img->type==SP_SLICE))     // SP frame
+                     ^~
+                     =
+3 warnings generated.
+exit 0

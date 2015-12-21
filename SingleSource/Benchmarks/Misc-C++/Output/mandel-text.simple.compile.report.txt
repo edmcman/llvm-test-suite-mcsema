@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc-C++/mandel-text
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 72394e70438066bb9e81e6adcf0af953
+TEST-RESULT-compile-time: user       0.0274
+TEST-RESULT-compile-real-time: real       0.0418

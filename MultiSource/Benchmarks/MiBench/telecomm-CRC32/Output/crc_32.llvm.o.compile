@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-CRC32/crc_32.c:184:16: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+      register errors = 0;
+      ~~~~~~~~ ^
+1 warning generated.
+exit 0

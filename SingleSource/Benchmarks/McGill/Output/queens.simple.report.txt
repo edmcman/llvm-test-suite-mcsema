@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/queens' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/queens
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 5dd0ff443e85f9787401e12814ff1f71
+TEST-RESULT-compile-time: user       0.0444
+TEST-RESULT-compile-real-time: real       0.0605
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/queens
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.7021
+TEST-RESULT-exec-real-time: real       1.7057

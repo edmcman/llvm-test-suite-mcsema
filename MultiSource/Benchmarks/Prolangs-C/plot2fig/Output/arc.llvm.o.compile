@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/plot2fig/arc.c:49:3: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+         (int) ((xc - x_input_min)/ x_scale + x_output_min),
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/plot2fig/arc.c:50:3: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+         (int) ((yc - y_input_min)/ y_scale + y_output_min),
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+exit 0

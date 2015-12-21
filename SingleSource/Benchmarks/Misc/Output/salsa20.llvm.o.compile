@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Misc/salsa20.c:45:5: warning: expression result unused [-Wunused-value]
+    (uint64_t)STATE[0]++;
+    ^         ~~~~~~~~~~
+1 warning generated.
+exit 0

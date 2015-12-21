@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/g721/g721encode/g72x.c:376:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else
+                        ^
+1 warning generated.
+exit 0

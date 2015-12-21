@@ -1,0 +1,10 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/employ/driver.cpp:35:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/employ/hourly-no-over.h:36:9: warning: '_HOURLY_NO_OVER_H' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _HOURLY_NO_OVER_H
+        ^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/employ/hourly-no-over.h:37:9: note: '_HOURLY__NO_OVER_H' is defined here; did you mean '_HOURLY_NO_OVER_H'?
+#define _HOURLY__NO_OVER_H
+        ^~~~~~~~~~~~~~~~~~
+        _HOURLY_NO_OVER_H
+1 warning generated.
+exit 0

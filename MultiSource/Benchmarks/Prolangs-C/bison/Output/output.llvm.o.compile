@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/output.c:195:64: warning: data argument not used by format string [-Wformat-extra-args]
+  fprintf(faction, (semantic_parser ? ACTSTR : ACTSTR_SIMPLE), attrsfile);
+                                               ~~~~~~~~~~~~~   ^
+1 warning generated.
+exit 0

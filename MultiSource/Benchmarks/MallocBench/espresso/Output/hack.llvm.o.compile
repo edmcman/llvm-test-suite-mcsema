@@ -1,0 +1,33 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/hack.c:1:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/espresso.h:6:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:24:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:32:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif IGNOREFREE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/hack.c:75:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/hack.c:178:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/hack.c:233:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/hack.c:355:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/hack.c:395:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/hack.c:455:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/hack.c:632:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+9 warnings generated.
+exit 0

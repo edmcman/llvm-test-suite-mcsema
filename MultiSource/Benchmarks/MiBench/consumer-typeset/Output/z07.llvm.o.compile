@@ -1,0 +1,295 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:77:63: warning: for loop has empty body [-Wempty-body]
+         link = NextDown(link), uplink = NextUp(uplink), i++ );
+                                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:77:63: note: put the semicolon on a separate line to silence this warning
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:90:63: warning: for loop has empty body [-Wempty-body]
+         link = NextDown(link), uplink = NextUp(uplink), i++ );
+                                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:90:63: note: put the semicolon on a separate line to silence this warning
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:137:3: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+  NewWord(res, typ, StringLength(str), pos);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2492:3: note: expanded from macro 'NewWord'
+  GetMem(zz_hold, ceiling(zz_size, sizeof(ALIGN)), pos);                \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:160:3: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+  NewWord(res, typ, len1 + len2, pos);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2492:3: note: expanded from macro 'NewWord'
+  GetMem(zz_hold, ceiling(zz_size, sizeof(ALIGN)), pos);                \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:184:3: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+  NewWord(res, WORD, len1 + len2 + len3, no_fpos);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2492:3: note: expanded from macro 'NewWord'
+  GetMem(zz_hold, ceiling(zz_size, sizeof(ALIGN)), pos);                \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:212:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      NewWord(res, type(x), StringLength(string(x)), pos);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2492:3: note: expanded from macro 'NewWord'
+  GetMem(zz_hold, ceiling(zz_size, sizeof(ALIGN)), pos);                \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:219:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      New(res, GAP_OBJ);
+      ^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:227:2: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(res, tmp);
+        ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:310:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      New(res, type(x));
+      ^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:314:2: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(res, tmp);
+        ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:321:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      New(res, type(x));
+      ^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:324:2: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(res, y);   /* do not copy children of FILTERED */
+        ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:339:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      New(res, PAR);
+      ^~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:344:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      Link(res, tmp);
+      ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:350:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      New(res, CLOSURE);
+      ^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:355:2: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(res, tmp);
+        ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:393:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      New(res, ACAT);
+      ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:396:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      Link(res, x);
+      ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:475:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      New(g, GAP_OBJ);
+      ^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:479:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      Link(Down(x), g);
+      ^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:480:7: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+      Link(Down(x), *ins);
+      ^~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:613:3: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+  New(res, ACAT);
+  ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:623:9: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(Down(res), xcomp[xi]);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:634:9: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(Down(res), ycomp[yi]);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:644:9: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(Down(res), xcomp[xi]);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:655:2: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        New(g, GAP_OBJ);
+        ^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:661:2: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(g, tmp);
+        ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:662:9: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(Down(res), g);
+        ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z07.c:667:9: warning: multiple unsequenced modifications to 'zz_hold' [-Wunsequenced]
+        Link(Down(res), g);
+        ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2626:3: note: expanded from macro 'Link'
+{ New(xx_link, LINK);                                                   \
+  ^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2482:3: note: expanded from macro 'New'
+  GetMem(zz_hold, zz_lengths[typ], no_fpos);                            \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/externs.h:2474:17: note: expanded from macro 'GetMem'
+  { x = zz_hold = zz_free[zz_size];                                     \
+      ~         ^
+29 warnings generated.
+exit 0

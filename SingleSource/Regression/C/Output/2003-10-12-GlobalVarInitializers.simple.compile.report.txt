@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/2003-10-12-GlobalVarInitializers
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 54fe8257c2f1e55ba75b5c4d68e09d51
+TEST-RESULT-compile-time: user       0.0210
+TEST-RESULT-compile-real-time: real       0.0344

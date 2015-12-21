@@ -1,0 +1,25 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t6.c:58:60: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+                                        fprintf(tabout, ".if \\n(%c->\\n(%d .nr %d \\n(%c-\n",s,S2,S2,s);
+                                                                 ~~                           ^
+                                                                 %s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t6.c:58:68: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+                                        fprintf(tabout, ".if \\n(%c->\\n(%d .nr %d \\n(%c-\n",s,S2,S2,s);
+                                                                                       ~~             ^
+                                                                                       %s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t6.c:110:7: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (k=lspan(ilin, icol))
+            ~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t6.c:110:7: note: place parentheses around the assignment to silence this warning
+        if (k=lspan(ilin, icol))
+             ^
+            (                  )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t6.c:110:7: note: use '==' to turn this assignment into an equality comparison
+        if (k=lspan(ilin, icol))
+             ^
+             ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t6.c:216:29: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+        fprintf(tabout, "\\n(%c-", s);
+                             ~~    ^
+                             %s
+4 warnings generated.
+exit 0

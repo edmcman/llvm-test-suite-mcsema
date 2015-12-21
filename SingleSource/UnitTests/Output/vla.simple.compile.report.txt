@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/vla
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: f84d7a876ae243b0ee0b5df07b74ddf2
+TEST-RESULT-compile-time: user       0.0358
+TEST-RESULT-compile-real-time: real       0.0505

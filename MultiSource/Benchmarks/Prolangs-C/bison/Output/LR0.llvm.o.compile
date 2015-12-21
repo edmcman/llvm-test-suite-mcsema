@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/LR0.c:83:12: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+  register count;
+  ~~~~~~~~ ^
+1 warning generated.
+exit 0

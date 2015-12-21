@@ -1,0 +1,32 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:88:26: warning: control reaches end of non-void function [-Wreturn-type]
+    point *east() const {}
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:89:26: warning: control reaches end of non-void function [-Wreturn-type]
+    point *west() const {}
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:90:27: warning: control reaches end of non-void function [-Wreturn-type]
+    point *neast() const {}
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:91:27: warning: control reaches end of non-void function [-Wreturn-type]
+    point *seast() const {}
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:92:27: warning: control reaches end of non-void function [-Wreturn-type]
+    point *nwest() const {}
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:93:27: warning: control reaches end of non-void function [-Wreturn-type]
+    point *swest() const {}
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:114:26: warning: control reaches end of non-void function [-Wreturn-type]
+    point *east() const {}
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:115:26: warning: control reaches end of non-void function [-Wreturn-type]
+    point *west() const {}
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:117:27: warning: control reaches end of non-void function [-Wreturn-type]
+    point *seast() const {}
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/shapes/bjarne.cpp:118:27: warning: control reaches end of non-void function [-Wreturn-type]
+    point *nwest() const {}
+                          ^
+10 warnings generated.
+exit 0

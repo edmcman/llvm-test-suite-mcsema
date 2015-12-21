@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/mpeg2dec.c:268:18: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  fprintf(stderr,text);
+                 ^~~~
+1 warning generated.
+exit 0

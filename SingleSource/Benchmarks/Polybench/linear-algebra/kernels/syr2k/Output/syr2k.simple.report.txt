@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/syr2k' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/syr2k
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 5347a5e98fb0efb4cd6ded43e25ff08f
+TEST-RESULT-compile-time: user       0.0644
+TEST-RESULT-compile-real-time: real       0.0832
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/syr2k
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       3.4998
+TEST-RESULT-exec-real-time: real       3.5485

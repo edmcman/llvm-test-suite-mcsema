@@ -1,0 +1,26 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_upack.c:285:47: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("Upack: %08x %08x %08x %08x\n", loc_esi, dest, cli_readint32(loc_esi), base);
+                                           ~~~~                    ^~~~~~~
+                                           %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_upack.c:285:56: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("Upack: %08x %08x %08x %08x\n", loc_esi, dest, cli_readint32(loc_esi), base);
+                                                ~~~~                        ^~~~
+                                                %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_upack.c:404:61: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("Upack: callfixerr %08x %08x = %08x, %08x\n", dest, dsize, dest+dsize, pushed_esi+loc_ecx);
+                                                      ~~~~                       ^~~~
+                                                      %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_upack.c:404:74: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("Upack: callfixerr %08x %08x = %08x, %08x\n", dest, dsize, dest+dsize, pushed_esi+loc_ecx);
+                                                                  ~~~~                        ^~~~~~~~~~
+                                                                  %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_upack.c:404:86: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+                        cli_dbgmsg("Upack: callfixerr %08x %08x = %08x, %08x\n", dest, dsize, dest+dsize, pushed_esi+loc_ecx);
+                                                                        ~~~~                              ^~~~~~~~~~~~~~~~~~
+                                                                        %8s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_upack.c:448:55: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+        cli_dbgmsg("\n\tp0: %08x\n\tp1: %08x\n\tp2: %08x\n", p.p0, p.p1, p.p2);
+                            ~~~~                             ^~~~
+                            %8s
+6 warnings generated.
+exit 0

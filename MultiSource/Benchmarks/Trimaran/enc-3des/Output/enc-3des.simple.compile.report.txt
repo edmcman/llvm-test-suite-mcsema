@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Trimaran/enc-3des/enc-3des
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 4f8debbaaf3423cd39fbc693cae89ab4
+TEST-RESULT-compile-time: user 0.218400
+TEST-RESULT-compile-real-time: real 0.261800

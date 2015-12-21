@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bh/newbh.c:1191:51: warning: format specifies type 'unsigned int' but the argument has type 'nodeptr' (aka 'struct node *') [-Wformat]
+      chatting("%2d BODY@%x %f, %f, %f\n", level, n, Pos(n)[0], Pos(n)[1], Pos(n)[2]);
+                         ~~                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bh/newbh.c:1196:51: warning: format specifies type 'unsigned int' but the argument has type 'nodeptr' (aka 'struct node *') [-Wformat]
+      chatting("%2d CELL@%x %f, %f, %f\n", level, n,Pos(n)[0], Pos(n)[1], Pos(n)[2]);
+                         ~~                       ^
+2 warnings generated.
+exit 0

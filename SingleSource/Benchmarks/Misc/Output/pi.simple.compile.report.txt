@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/pi
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 5ef17f5305b8a382ef585bf5a54c764c
+TEST-RESULT-compile-time: user       0.0241
+TEST-RESULT-compile-real-time: real       0.0381

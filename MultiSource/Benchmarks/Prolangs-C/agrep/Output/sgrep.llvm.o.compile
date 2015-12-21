@@ -1,0 +1,88 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:24:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:24:15: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:24:22: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:24:30: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:24:44: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:25:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern DNA ;  /* DNA flag is set in checksg when pattern is DNA pattern and
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:27:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern WORDBOUND, WHOLELINE, NOUPPER;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:27:19: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern WORDBOUND, WHOLELINE, NOUPPER;
+~~~~~~            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:27:30: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern WORDBOUND, WHOLELINE, NOUPPER;
+~~~~~~                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:107:42: warning: unsequenced modification and access to 'last' [-Wunsequenced]
+       if(A[last] < D) A[last+1] = A[last++]+1;
+                         ~~~~            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:124:42: warning: unsequenced modification and access to 'last' [-Wunsequenced]
+       if(B[last] < D) B[last+1] = B[last++]+1;
+                         ~~~~            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:338:55: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                       s_output(text, &currentpos); 
+                                                      ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:68:37: note: passing argument to parameter 'i' here
+void s_output (CHARTYPE *text, int *i)
+                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:357:55: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                       s_output(text, &currentpos); 
+                                                      ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:68:37: note: passing argument to parameter 'i' here
+void s_output (CHARTYPE *text, int *i)
+                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:368:47: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+void prep_bm(unsigned char *Pattern, register m)
+                                     ~~~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:422:30: warning: while loop has empty body [-Wempty-body]
+                                        while(*(--text) != '\n');
+                                                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:422:30: note: put the semicolon on a separate line to silence this warning
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:487:13: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        m = strlen(Pattern);
+                   ^~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:504:13: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        m = strlen(Pattern);
+                   ^~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:556:30: warning: while loop has empty body [-Wempty-body]
+                                        while(*(--text) != '\n');
+                                                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:556:30: note: put the semicolon on a separate line to silence this warning
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:633:25: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    else if (DNA) prep4(pat, m);
+                        ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:581:18: note: passing argument to parameter 'Pattern' here
+void prep4(char *Pattern, int m)
+                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:665:16: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+       strncpy(text+start, text+end, residue);
+               ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:760:52: note: expanded from macro 'strncpy'
+#  define strncpy(dest, src, n) __builtin_strncpy (dest, src, n)
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/sgrep.c:665:28: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+       strncpy(text+start, text+end, residue);
+                           ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:760:58: note: expanded from macro 'strncpy'
+#  define strncpy(dest, src, n) __builtin_strncpy (dest, src, n)
+                                                         ^
+21 warnings generated.
+exit 0

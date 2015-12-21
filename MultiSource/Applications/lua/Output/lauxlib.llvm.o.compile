@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lua/lauxlib.c:577:61: warning: while loop has empty body [-Wempty-body]
+   while ((c = getc(lf.f)) != EOF && c != LUA_SIGNATURE[0]) ;
+                                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lua/lauxlib.c:577:61: note: put the semicolon on a separate line to silence this warning
+1 warning generated.
+exit 0

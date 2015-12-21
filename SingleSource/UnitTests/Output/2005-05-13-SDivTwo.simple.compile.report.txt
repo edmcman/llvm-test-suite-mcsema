@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2005-05-13-SDivTwo
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ee8f69fe181bd38135b6d135ecf493f1
+TEST-RESULT-compile-time: user       0.0217
+TEST-RESULT-compile-real-time: real       0.0353

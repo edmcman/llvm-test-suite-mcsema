@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/simple_types_loop_invariant
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 04987c9cbd72926b4e824033d4b0d625
+TEST-RESULT-compile-time: user       1.2249
+TEST-RESULT-compile-real-time: real       1.2600

@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Misc/lowercase.c:40:63: warning: data argument not used by format string [-Wformat-extra-args]
+  printf("iterations (%ld characters)\n", numberOfIterations, numberOfCharacters);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                      ^
+1 warning generated.
+exit 0

@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/UI/Common/ArchiveCommandLine.cpp:266:11: warning: enumeration value 'kNonRecursed' not handled in switch [-Wswitch]
+  switch (type)
+          ^
+1 warning generated.
+exit 0

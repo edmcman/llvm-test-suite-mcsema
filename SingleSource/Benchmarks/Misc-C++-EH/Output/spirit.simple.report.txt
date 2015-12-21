@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc-C++-EH/spirit' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc-C++-EH/spirit
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: eb13f0038727ace8954a50fa9dfc8cff
+TEST-RESULT-compile-time: user       3.4792
+TEST-RESULT-compile-real-time: real       3.6124
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc-C++-EH/spirit
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       3.3066
+TEST-RESULT-exec-real-time: real       3.3133

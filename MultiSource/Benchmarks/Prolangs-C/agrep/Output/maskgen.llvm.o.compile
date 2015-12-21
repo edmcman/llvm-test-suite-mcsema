@@ -1,0 +1,20 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/maskgen.c:5:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern Mask[], Bit[], Init[], NO_ERR_MASK;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/maskgen.c:5:16: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern Mask[], Bit[], Init[], NO_ERR_MASK;
+~~~~~~         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/maskgen.c:5:23: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern Mask[], Bit[], Init[], NO_ERR_MASK;
+~~~~~~                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/maskgen.c:5:31: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern Mask[], Bit[], Init[], NO_ERR_MASK;
+~~~~~~                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/maskgen.c:22:12: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+M = strlen(Pattern);
+           ^~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+5 warnings generated.
+exit 0

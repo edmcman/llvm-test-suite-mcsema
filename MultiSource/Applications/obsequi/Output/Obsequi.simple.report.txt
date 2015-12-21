@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/obsequi/Obsequi' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/obsequi/Obsequi
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 13d9968856abcbb914a78d2a87b41e9a
+TEST-RESULT-compile-time: user 0.854400
+TEST-RESULT-compile-real-time: real 1.091400
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/obsequi/Obsequi
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.5456
+TEST-RESULT-exec-real-time: real       2.1045

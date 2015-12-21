@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/mediabench/jpeg/jpeg-6a/cjpeg
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d5bf7f732ba962c1f1cb122ed8e89728
+TEST-RESULT-compile-time: user 3.851000
+TEST-RESULT-compile-real-time: real 4.850900

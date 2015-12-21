@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gxpath.c:76:4: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+                        exit(1);
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gxpath.c:76:4: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning generated.
+exit 0

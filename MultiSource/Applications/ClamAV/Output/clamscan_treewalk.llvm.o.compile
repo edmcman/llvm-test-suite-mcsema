@@ -1,0 +1,10 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/clamscan_treewalk.c:46:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/manager.h:31:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/options.h:22:9: warning: '_GNU_SOURCE' macro redefined
+#define _GNU_SOURCE
+        ^
+<command line>:6:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+1 warning generated.
+exit 0

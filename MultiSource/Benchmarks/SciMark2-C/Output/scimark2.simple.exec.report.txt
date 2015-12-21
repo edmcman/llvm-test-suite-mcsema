@@ -1,0 +1,5 @@
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/SciMark2-C/scimark2
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       35.9283
+TEST-RESULT-exec-real-time: real       35.9971

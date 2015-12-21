@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/sieve' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/sieve
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 37dbafcd3a70d917829ab60dd483e0bb
+TEST-RESULT-compile-time: user       0.2263
+TEST-RESULT-compile-real-time: real       0.2552
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/sieve
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.3512
+TEST-RESULT-exec-real-time: real       1.3547

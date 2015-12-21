@@ -1,0 +1,20 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mbox.c:30:9: warning: 'NDEBUG' macro redefined
+#define NDEBUG  /* map CLAMAV debug onto standard */
+        ^
+<command line>:8:9: note: previous definition is here
+#define NDEBUG 1
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mbox.c:39:9: warning: '_GNU_SOURCE' macro redefined
+#define _GNU_SOURCE
+        ^
+<command line>:6:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mbox.c:1418:11: warning: enumeration values 'OK' and 'OK_ATTACHMENTS_NOT_SAVED' not handled in switch [-Wswitch]
+                        switch(parseEmailBody(body, NULL, &mctx, 0)) {
+                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mbox.c:3033:34: warning: '/*' within block comment [-Wcomment]
+                rc = OK_ATTACHMENTS_NOT_SAVED;  /* nothing saved */
+                                                ^
+4 warnings generated.
+exit 0

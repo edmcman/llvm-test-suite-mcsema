@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/StatementReordering-dbl/StatementReordering-dbl
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: cabd931d7e8bc80e2d9bb45f1a39daad
+TEST-RESULT-compile-time: user 0.661200
+TEST-RESULT-compile-real-time: real 0.702600

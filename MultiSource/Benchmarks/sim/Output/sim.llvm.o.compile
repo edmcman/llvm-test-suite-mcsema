@@ -1,0 +1,149 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:130:41: warning: '/*' within block comment [-Wcomment]
+/*#define round(x) nint(x)              /* round to larger magnitude */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:133:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(argc, argv) int argc; char *argv[];
+^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:355:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+SIM(A,B,M,N,K,V,Q,R,nseq)
+^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:458:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:462:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+big_pass(A,B,M,N,K,nseq) char A[],B[]; long M,N,K,nseq;
+^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:538:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:542:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+locate(A,B,nseq) char A[],B[]; long nseq;
+^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:674:30: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                  if ( ! rflag && (ci > rl && cj > cl || di > rl && dj>cl
+                                   ~~~~~~~~^~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:674:30: note: place parentheses around the '&&' expression to silence this warning
+                  if ( ! rflag && (ci > rl && cj > cl || di > rl && dj>cl
+                                           ^
+                                   (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:674:52: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                  if ( ! rflag && (ci > rl && cj > cl || di > rl && dj>cl
+                                                      ~~ ~~~~~~~~^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:674:52: note: place parentheses around the '&&' expression to silence this warning
+                  if ( ! rflag && (ci > rl && cj > cl || di > rl && dj>cl
+                                                                 ^
+                                                         (               )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:675:20: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                                  || fi > rl && fj > cl))
+                                                  ~~ ~~~~~~~~^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:675:20: note: place parentheses around the '&&' expression to silence this warning
+                                                  || fi > rl && fj > cl))
+                                                             ^
+                                                     (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:684:29: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if ( ! cflag && ( ci > rl && cj > cl || di > rl && dj > cl
+                                  ~~~~~~~~^~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:684:29: note: place parentheses around the '&&' expression to silence this warning
+                if ( ! cflag && ( ci > rl && cj > cl || di > rl && dj > cl
+                                          ^
+                                  (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:684:51: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if ( ! cflag && ( ci > rl && cj > cl || di > rl && dj > cl
+                                                     ~~ ~~~~~~~~^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:684:51: note: place parentheses around the '&&' expression to silence this warning
+                if ( ! cflag && ( ci > rl && cj > cl || di > rl && dj > cl
+                                                                ^
+                                                        (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:685:20: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                             || fi > rl && fj > cl ) )
+                             ~~ ~~~~~~~~^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:685:20: note: place parentheses around the '&&' expression to silence this warning
+                             || fi > rl && fj > cl ) )
+                                        ^
+                                (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:741:29: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                  if (! cflag && (ci > rl && cj > cl || di > rl && dj >cl
+                                  ~~~~~~~~^~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:741:29: note: place parentheses around the '&&' expression to silence this warning
+                  if (! cflag && (ci > rl && cj > cl || di > rl && dj >cl
+                                          ^
+                                  (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:741:51: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                  if (! cflag && (ci > rl && cj > cl || di > rl && dj >cl
+                                                     ~~ ~~~~~~~~^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:741:51: note: place parentheses around the '&&' expression to silence this warning
+                  if (! cflag && (ci > rl && cj > cl || di > rl && dj >cl
+                                                                ^
+                                                        (                )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:742:17: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                 || fi > rl && fj > cl ) )
+                                 ~~ ~~~~~~~~^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:742:17: note: place parentheses around the '&&' expression to silence this warning
+                                 || fi > rl && fj > cl ) )
+                                            ^
+                                    (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:751:29: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if ( ! rflag && ( ci > rl && cj > cl || di > rl && dj > cl
+                                  ~~~~~~~~^~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:751:29: note: place parentheses around the '&&' expression to silence this warning
+                if ( ! rflag && ( ci > rl && cj > cl || di > rl && dj > cl
+                                          ^
+                                  (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:751:51: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if ( ! rflag && ( ci > rl && cj > cl || di > rl && dj > cl
+                                                     ~~ ~~~~~~~~^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:751:51: note: place parentheses around the '&&' expression to silence this warning
+                if ( ! rflag && ( ci > rl && cj > cl || di > rl && dj > cl
+                                                                ^
+                                                        (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:752:19: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                                 || fi > rl && fj > cl ))
+                                                 ~~ ~~~~~~~~^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:752:19: note: place parentheses around the '&&' expression to silence this warning
+                                                 || fi > rl && fj > cl ))
+                                                            ^
+                                                    (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:756:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        if ( m1 == 1 && n1 == 1 || no_cross() )
+             ~~~~~~~~^~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:756:15: note: place parentheses around the '&&' expression to silence this warning
+        if ( m1 == 1 && n1 == 1 || no_cross() )
+                     ^
+             (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:761:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:764:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+small_pass(A,B,count,nseq) char A[], B[]; long count, nseq;
+^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:836:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:912:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+no_cross()
+^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:1050:33: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        if (c > midc || CC[j] != DD[j] && RR[j] == SS[j])
+                     ~~ ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:1050:33: note: place parentheses around the '&&' expression to silence this warning
+        if (c > midc || CC[j] != DD[j] && RR[j] == SS[j])
+                                       ^
+                        (                               )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:1126:30: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        if (a >= ALINE+50 || i >= M && j >= N)
+                          ~~ ~~~~~~~^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:1126:30: note: place parentheses around the '&&' expression to silence this warning
+        if (a >= ALINE+50 || i >= M && j >= N)
+                                    ^
+                             (               )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:1141:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:1146:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+fatal(msg)
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/sim/sim.c:1154:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+fatalf(msg, val)
+^~~~~~
+29 warnings generated.
+exit 0

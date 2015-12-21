@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/fp-convert
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: dc4c312ee78afc4292a1082cba502b63
+TEST-RESULT-compile-time: user       0.0313
+TEST-RESULT-compile-real-time: real       0.0459

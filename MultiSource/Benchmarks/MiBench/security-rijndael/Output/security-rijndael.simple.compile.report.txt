@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/security-rijndael/security-rijndael
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ad9cdb8eaccb928a3cda6eb15f3c00a0
+TEST-RESULT-compile-time: user 0.364100
+TEST-RESULT-compile-real-time: real 0.451400

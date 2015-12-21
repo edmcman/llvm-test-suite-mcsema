@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2004-11-28-GlobalBoolLayout
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: c8866c6ecded3a04c94f1a7c97526375
+TEST-RESULT-compile-time: user       0.0310
+TEST-RESULT-compile-real-time: real       0.0457

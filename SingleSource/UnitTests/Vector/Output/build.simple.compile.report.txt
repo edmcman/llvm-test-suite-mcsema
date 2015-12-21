@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/build
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 515b9b766ed4832a0d326fb2938ea933
+TEST-RESULT-compile-time: user       0.0235
+TEST-RESULT-compile-real-time: real       0.0373

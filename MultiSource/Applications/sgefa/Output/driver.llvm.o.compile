@@ -1,0 +1,15 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sgefa/driver.c:24:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main()
+^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sgefa/driver.c:117:9: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  char *malloc();
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sgefa/driver.c:117:9: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sgefa/driver.c:329:9: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  char *malloc();
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sgefa/driver.c:117:9: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+  char *malloc();
+        ^
+3 warnings generated.
+exit 0

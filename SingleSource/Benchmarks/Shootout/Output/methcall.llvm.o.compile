@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Shootout/methcall.c:89:23: warning: incompatible pointer types passing 'NthToggle *' (aka 'struct NthToggle *') to parameter of type 'struct Toggle *' [-Wincompatible-pointer-types]
+        val = ntog->activate(ntog)->value(ntog);
+                             ^~~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Shootout/methcall.c:89:36: warning: incompatible pointer types passing 'NthToggle *' (aka 'struct NthToggle *') to parameter of type 'struct Toggle *' [-Wincompatible-pointer-types]
+        val = ntog->activate(ntog)->value(ntog);
+                                          ^~~~
+2 warnings generated.
+exit 0

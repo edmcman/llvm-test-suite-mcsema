@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/utils.c:49:19: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  fprintf(stderr, msg_type);
+                  ^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/utils.c:50:21: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  fprintf(err_file, msg_type);
+                    ^~~~~~~~
+2 warnings generated.
+exit 0

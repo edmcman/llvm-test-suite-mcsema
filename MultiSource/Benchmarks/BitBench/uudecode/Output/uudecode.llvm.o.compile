@@ -1,0 +1,17 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uudecode/uudecode.c:70:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+decode_char(char in) {                                                          /*5*/
+^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uudecode/uudecode.c:172:25: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    outsize = do_decode(inbuf,outbuf,outfilename);
+                        ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uudecode/uudecode.c:116:21: note: passing argument to parameter 'input' here
+int do_decode(char* input, char* output, char* outfilename) {                   /*38*/
+                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uudecode/uudecode.c:172:31: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    outsize = do_decode(inbuf,outbuf,outfilename);
+                              ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uudecode/uudecode.c:116:34: note: passing argument to parameter 'output' here
+int do_decode(char* input, char* output, char* outfilename) {                   /*38*/
+                                 ^
+3 warnings generated.
+exit 0

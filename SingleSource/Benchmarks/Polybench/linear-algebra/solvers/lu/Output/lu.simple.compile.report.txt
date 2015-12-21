@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/lu
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 27cf13a2bc205281ba8237ba9bf48fda
+TEST-RESULT-compile-time: user       0.0680
+TEST-RESULT-compile-real-time: real       0.1011

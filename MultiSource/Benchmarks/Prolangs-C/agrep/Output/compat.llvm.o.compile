@@ -1,0 +1,29 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:6:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern FILEOUT;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:7:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern REGEX;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:8:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern DELIMITER;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:9:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern WHOLELINE;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:10:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern LINENUM;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:11:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern I, S, DD;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:11:11: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern I, S, DD;
+~~~~~~    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:11:14: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern I, S, DD;
+~~~~~~       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/compat.c:12:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern JUMP;
+~~~~~~ ^
+9 warnings generated.
+exit 0

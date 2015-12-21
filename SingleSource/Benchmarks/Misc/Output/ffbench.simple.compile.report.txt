@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/ffbench
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 8b3e1252a87f146e1ded564a583dbfb4
+TEST-RESULT-compile-time: user       0.0610
+TEST-RESULT-compile-real-time: real       0.0777

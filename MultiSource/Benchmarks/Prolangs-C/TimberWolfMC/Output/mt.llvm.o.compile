@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/mt.c:105:7: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+      else y = 1; }
+      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/mt.c:110:7: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+      else x = 1; }
+      ^
+2 warnings generated.
+exit 0

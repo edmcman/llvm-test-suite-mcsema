@@ -1,0 +1,9 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-2.c:310:42: warning: format specifies type 'unsigned long' but the argument has type 'int' [-Wformat]
+                    fprintf(stdout, "Net %3lu cut.\n", i+1);
+                                         ~~~~          ^~~
+                                         %3d
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ks/KS-2.c:322:3: warning: format specifies type 'unsigned long' but the argument has type 'int' [-Wformat]
+                i, netStats[i].total,
+                ^
+2 warnings generated.
+exit 0

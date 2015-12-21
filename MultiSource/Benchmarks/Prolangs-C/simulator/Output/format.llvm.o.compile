@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/format.c:53:2: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+        else {
+        ^
+1 warning generated.
+exit 0

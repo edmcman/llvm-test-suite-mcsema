@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/ControlFlow-dbl/ControlFlow-dbl
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 3eedd46f338aaf56c0a41fd9c170ce5f
+TEST-RESULT-compile-time: user 0.784300
+TEST-RESULT-compile-real-time: real 0.829200

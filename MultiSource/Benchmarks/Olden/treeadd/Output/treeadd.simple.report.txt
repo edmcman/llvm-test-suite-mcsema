@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/treeadd/treeadd' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/treeadd/treeadd
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d24ddc27dca98bec28456cd8a8637a8c
+TEST-RESULT-compile-time: user 0.065400
+TEST-RESULT-compile-real-time: real 0.113000
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/treeadd/treeadd
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.1671
+TEST-RESULT-exec-real-time: real       0.2329

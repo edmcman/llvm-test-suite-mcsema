@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/Compress/DeflateEncoder.cpp:612:83: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      if (m_Pos >= kMatchArrayLimit || BlockSizeRes >= blockSize || !m_SecondPass &&
+                                                                 ~~ ~~~~~~~~~~~~~~^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/Compress/DeflateEncoder.cpp:612:83: note: place parentheses around the '&&' expression to silence this warning
+      if (m_Pos >= kMatchArrayLimit || BlockSizeRes >= blockSize || !m_SecondPass &&
+                                                                                  ^
+1 warning generated.
+exit 0

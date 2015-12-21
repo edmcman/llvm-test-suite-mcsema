@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/ms_struct_pack_layout-1
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 7f7cd53e307b71517ab835b279337d8e
+TEST-RESULT-compile-time: user       0.0161
+TEST-RESULT-compile-real-time: real       0.0289

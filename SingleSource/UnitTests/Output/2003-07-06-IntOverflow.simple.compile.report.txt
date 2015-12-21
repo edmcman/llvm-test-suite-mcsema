@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2003-07-06-IntOverflow
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 73b9754c85671ad4852fd156295c0c1d
+TEST-RESULT-compile-time: user       0.0242
+TEST-RESULT-compile-real-time: real       0.0379

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/03-testtrie/testtrie
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: c01d80bf5d319411045209bfbc0ed3bb
+TEST-RESULT-compile-time: user 0.104100
+TEST-RESULT-compile-real-time: real 0.152000

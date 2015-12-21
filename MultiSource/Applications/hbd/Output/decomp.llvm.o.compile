@@ -1,0 +1,12 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/decomp.cpp:22:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/file.h:16:3: warning: expression result unused [-Wunused-value]
+  *f_pos++;
+  ^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/decomp.cpp:144:16: warning: result of comparison against a string literal is unspecified (use strncmp instead) [-Wstring-compare]
+  if (mi->name == "<init>") {
+               ^  ~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/decomp.cpp:239:46: warning: data argument not used by format string [-Wformat-extra-args]
+           fprintf(c->outfile, "    do {\n", str);
+                               ~~~~~~~~~~~~  ^
+3 warnings generated.
+exit 0

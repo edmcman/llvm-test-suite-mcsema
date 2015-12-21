@@ -1,0 +1,89 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:316:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+usage()
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:415:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+put_image(filename,in,x_size,y_size)
+^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:438:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:443:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+int_to_uchar(r,in,size)
+^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:465:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:496:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+susan_principle(in,r,bp,max_no,x_size,y_size)
+^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:570:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+susan_principle_small(in,r,bp,max_no,x_size,y_size)
+^~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:605:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:644:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+enlarge(in,tmp_image,x_size,y_size,border)
+^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:670:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:698:9: warning: implicit conversion from 'double' to 'TOTAL_TYPE' (aka 'int') changes value from 0.1 to 0 [-Wliteral-conversion]
+  total=0.1; /* test for total's type */
+       ~^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:816:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+edge_draw(in,mid,x_size,y_size,drawing_mode)
+^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:833:21: warning: expression result unused [-Wunused-value]
+        *inp++=255; *inp++;     *inp=255; inp+=x_size-2;
+                    ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:848:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:856:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+susan_thin(r,mid,x_size,y_size)
+^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1061:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1066:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+susan_edges(in,r,mid,bp,max_no,x_size,y_size)
+^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1298:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1303:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+susan_edges_small(in,r,mid,bp,max_no,x_size,y_size)
+^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1427:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1436:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+corner_draw(in,corner_list,x_size,drawing_mode)
+^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1461:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1466:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+susan_corners(in,r,bp,max_no,corner_list,x_size,y_size)
+^~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1744:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1749:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+susan_corners_quick(in,r,bp,max_no,corner_list,x_size,y_size)
+^~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1957:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:1964:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(argc, argv)
+^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/susan.c:2121:21: warning: passing 'uchar *' (aka 'unsigned char *') to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  put_image(argv[2],in,x_size,y_size);
+                    ^~
+29 warnings generated.
+exit 0

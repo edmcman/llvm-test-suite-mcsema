@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/dynprog
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 1e0f1a9cb2b3f7521e31fd45bf6664fc
+TEST-RESULT-compile-time: user       0.0637
+TEST-RESULT-compile-real-time: real       0.0974

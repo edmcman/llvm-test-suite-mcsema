@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/mpeg2decode
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 05b9f8a1db77a5c495c081c374da8277
+TEST-RESULT-compile-time: user 1.027400
+TEST-RESULT-compile-real-time: real 1.313000

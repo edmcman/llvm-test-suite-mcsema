@@ -1,0 +1,17 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bisort/bitonic.c:5:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bisort/node.h:17:14: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+extern void *malloc(unsigned);
+             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bisort/node.h:17:14: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bisort/bitonic.c:214:19: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+  if ((root->left == NIL))  /* <---- 8.7% load penalty */
+       ~~~~~~~~~~~^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bisort/bitonic.c:214:19: note: remove extraneous parentheses around the comparison to silence this warning
+  if ((root->left == NIL))  /* <---- 8.7% load penalty */
+      ~           ^     ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bisort/bitonic.c:214:19: note: use '=' to turn this equality comparison into an assignment
+  if ((root->left == NIL))  /* <---- 8.7% load penalty */
+                  ^~
+                  =
+2 warnings generated.
+exit 0

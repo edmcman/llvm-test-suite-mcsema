@@ -1,0 +1,34 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/pass2.c:11:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/sym_tab.h:33:42: warning: '/*' within block comment [-Wcomment]
+/*   1) char MODULE[];                   /* Name of module label found it.   */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/sym_tab.h:34:42: warning: '/*' within block comment [-Wcomment]
+/*   2) char LABEL[];                    /* Label to look for.               */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/sym_tab.h:35:42: warning: '/*' within block comment [-Wcomment]
+/*   3) SYMBOL_TABLE *TABLE;             /* Table to look in.                */
+                                         ^
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/pass2.c:12:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/record.h:31:37: warning: '/*' within block comment [-Wcomment]
+/*     1) char *VAL;                /* Value to add to the record            */
+                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/record.h:32:37: warning: '/*' within block comment [-Wcomment]
+/*     2) FILE *OUTPUT;             /* If need be, where to output the record*/
+                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/record.h:44:1: warning: '/*' within block comment [-Wcomment]
+/*    1) FILE *OUTPUT;                /* Stream to output the record to      */
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/record.h:44:39: warning: '/*' within block comment [-Wcomment]
+/*    1) FILE *OUTPUT;                /* Stream to output the record to      */
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/record.h:50:35: warning: '/*' within block comment [-Wcomment]
+/*    1) char *VAL;               /* Value to add to text record             */
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/record.h:51:35: warning: '/*' within block comment [-Wcomment]
+/*    2) int PUT_AT;              /* Location in SIC the value will go into  */
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/record.h:52:35: warning: '/*' within block comment [-Wcomment]
+/*    3) FILE *OUTPUT;            /* If need to OUTPUT, put it into stream   */
+                                  ^
+10 warnings generated.
+exit 0

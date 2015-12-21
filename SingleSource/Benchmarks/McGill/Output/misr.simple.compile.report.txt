@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/misr
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 97e911e5238683f08956dababd76f8ae
+TEST-RESULT-compile-time: user       0.0549
+TEST-RESULT-compile-real-time: real       0.0712

@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/automotive-basicmath/basicmath.c:108:30: warning: format specifies type 'unsigned long' but the argument has type 'unsigned int' [-Wformat]
+         printf("sqrt(%lX) = %X\n", l, q.sqrt);
+                      ~~~           ^
+                      %X
+1 warning generated.
+exit 0

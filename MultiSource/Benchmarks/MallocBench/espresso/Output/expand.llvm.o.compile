@@ -1,0 +1,56 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:32:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/espresso.h:6:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:24:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:32:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif IGNOREFREE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:213:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+{x=p[last]&r[last];if(x=~(x|x>>1)&cube.inmask)if((dist=count_ones(x))>1)goto
+                      ~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:213:24: note: place parentheses around the assignment to silence this warning
+{x=p[last]&r[last];if(x=~(x|x>>1)&cube.inmask)if((dist=count_ones(x))>1)goto
+                       ^
+                      (                      )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:213:24: note: use '==' to turn this assignment into an equality comparison
+{x=p[last]&r[last];if(x=~(x|x>>1)&cube.inmask)if((dist=count_ones(x))>1)goto
+                       ^
+                       ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:214:45: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+exit_if;for(w=1;w<last;w++){x=p[w]&r[w];if(x=~(x|x>>1)&DISJOINT)if(dist==1||(
+                                           ~^~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:214:45: note: place parentheses around the assignment to silence this warning
+exit_if;for(w=1;w<last;w++){x=p[w]&r[w];if(x=~(x|x>>1)&DISJOINT)if(dist==1||(
+                                            ^
+                                           (                   )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:214:45: note: use '==' to turn this assignment into an equality comparison
+exit_if;for(w=1;w<last;w++){x=p[w]&r[w];if(x=~(x|x>>1)&DISJOINT)if(dist==1||(
+                                            ^
+                                            ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:521:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+{x=p[last]&r[last];if(x=~(x|x>>1)&cube.inmask)if((dist=count_ones(x))>1)goto
+                      ~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:521:24: note: place parentheses around the assignment to silence this warning
+{x=p[last]&r[last];if(x=~(x|x>>1)&cube.inmask)if((dist=count_ones(x))>1)goto
+                       ^
+                      (                      )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:521:24: note: use '==' to turn this assignment into an equality comparison
+{x=p[last]&r[last];if(x=~(x|x>>1)&cube.inmask)if((dist=count_ones(x))>1)goto
+                       ^
+                       ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:522:45: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+exit_if;for(w=1;w<last;w++){x=p[w]&r[w];if(x=~(x|x>>1)&DISJOINT)if(dist==1||(
+                                           ~^~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:522:45: note: place parentheses around the assignment to silence this warning
+exit_if;for(w=1;w<last;w++){x=p[w]&r[w];if(x=~(x|x>>1)&DISJOINT)if(dist==1||(
+                                            ^
+                                           (                   )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/expand.c:522:45: note: use '==' to turn this assignment into an equality comparison
+exit_if;for(w=1;w<last;w++){x=p[w]&r[w];if(x=~(x|x>>1)&DISJOINT)if(dist==1||(
+                                            ^
+                                            ==
+6 warnings generated.
+exit 0

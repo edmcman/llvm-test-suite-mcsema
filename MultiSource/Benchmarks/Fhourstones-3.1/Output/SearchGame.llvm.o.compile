@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Fhourstones-3.1/SearchGame.c:162:56: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+    printf("sizeof(uint64) == %d; please redefine.\n", sizeof(uint64));
+                              ~~                       ^~~~~~~~~~~~~~
+                              %lu
+1 warning generated.
+exit 0

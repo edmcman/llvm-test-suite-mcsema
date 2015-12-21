@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Ptrdist/anagram/anagram
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: e1db5a3cfef3a55c0fa71fab63cd9fb0
+TEST-RESULT-compile-time: user 0.082900
+TEST-RESULT-compile-real-time: real 0.139100

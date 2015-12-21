@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/vlalloc.c:19:13: warning: incompatible redeclaration of library function 'bzero' [-Wincompatible-library-redeclaration]
+extern void bzero(char *b,int length);
+            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/vlalloc.c:19:13: note: 'bzero' is a builtin with type 'void (void *, unsigned long)'
+1 warning generated.
+exit 0

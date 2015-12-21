@@ -1,0 +1,10 @@
+2015-12-21 15:37:00: running: "make" "tools" "TARGET_LLVMGCC=/usr/bin/clang" "TARGET_CXX=None" "LLI_OPTFLAGS=-O3" "TARGET_CC=None" "TARGET_LLVMGXX=/usr/bin/clang++" "TEST=simple" "TARGET_FLAGS=" "USE_REFERENCE_OUTPUT=1" "CC_UNDER_TEST_TARGET_IS_X86_64=1" "OPTFLAGS=-O3" "LLC_OPTFLAGS=-O3" "ENABLE_OPTIMIZED=1" "ARCH=x86_64" "ENABLE_HASHED_PROGRAM_OUTPUT=1" "DISABLE_JIT=1"
+make -C /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/tools all \
+	  ORIGINAL_CC="cc" \
+	  ORIGINAL_CXX="cc"
+make[1]: Entering directory `/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/tools'
+cc  -O3 -o timeit /home/ed/mcsema-testing/llvm-test-suite/tools/timeit.c
+cc  -O3 -o fpcmp /home/ed/mcsema-testing/llvm-test-suite/tools/fpcmp.c
+/usr/bin/clang    -E -o TargetConfig.mk -x c /home/ed/mcsema-testing/llvm-test-suite/tools/TargetConfig.mk.in
+/usr/bin/clang -o timeit-target /home/ed/mcsema-testing/llvm-test-suite/tools/timeit.c    -O3
+make[1]: Leaving directory `/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/tools'

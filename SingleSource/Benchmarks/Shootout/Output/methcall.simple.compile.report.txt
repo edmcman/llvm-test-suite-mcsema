@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout/methcall
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 1a02999fe4ae811c1d21a8069692947e
+TEST-RESULT-compile-time: user       0.0345
+TEST-RESULT-compile-real-time: real       0.0492

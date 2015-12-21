@@ -1,0 +1,28 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/toast_lin.c:9:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/toast.h:12:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/config.h:12:28: warning: '/*' within block comment [-Wcomment]
+/*efine SIGHANDLER_T    int             /* signal handlers are void     */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/config.h:13:28: warning: '/*' within block comment [-Wcomment]
+/*efine HAS_SYSV_SIGNAL 1               /* sigs not blocked/reset?      */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/config.h:16:25: warning: '/*' within block comment [-Wcomment]
+/*efine HAS_LIMITS_H    1               /* /usr/include/limits.h        */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/config.h:18:27: warning: '/*' within block comment [-Wcomment]
+/*efine HAS_ERRNO_DECL  1               /* errno.h declares errno       */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/config.h:30:26: warning: '/*' within block comment [-Wcomment]
+/*efine HAS_STRINGS_H   1               /* /usr/include/strings.h       */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/config.h:34:23: warning: '/*' within block comment [-Wcomment]
+/*efine HAS_UTIMES      1               /* use utimes() syscall instead */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/config.h:36:24: warning: '/*' within block comment [-Wcomment]
+/*efine HAS_UTIMBUF     1               /* struct utimbuf               */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/telecomm-gsm/config.h:37:28: warning: '/*' within block comment [-Wcomment]
+/*efine HAS_UTIMEUSEC   1               /* microseconds in utimbuf?     */
+                                        ^
+8 warnings generated.
+exit 0

@@ -1,0 +1,105 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:63:16: warning: incompatible pointer types assigning to 'gzFile *' (aka 'struct gzFile_s **') from 'gzFile' (aka 'struct gzFile_s *') [-Wincompatible-pointer-types]
+    if((infile = gzdopen(fdd, "rb")) == NULL) {
+               ^ ~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:76:17: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+        nread = gzread(infile, block, TAR_BLOCKSIZE);
+                       ^~~~~~
+                       *
+/usr/include/zlib.h:1313:39: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT gzread OF((gzFile file, voidp buf, unsigned len));
+                                      ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:84:14: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+            gzclose(infile);
+                    ^~~~~~
+                    *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:98:18: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                gzclose(infile);
+                        ^~~~~~
+                        *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:113:22: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                    gzclose(infile);
+                            ^~~~~~
+                            *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:118:22: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                    gzclose(infile);
+                            ^~~~~~
+                            *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:127:22: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                    gzclose(infile);
+                            ^~~~~~
+                            *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:136:18: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                gzclose(infile);
+                        ^~~~~~
+                        *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:146:18: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                gzclose(infile);
+                        ^~~~~~
+                        *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:158:18: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+                gzclose(infile);
+                        ^~~~~~
+                        *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_cvd.c:171:13: warning: incompatible pointer types passing 'gzFile *' (aka 'struct gzFile_s **') to parameter of type 'gzFile' (aka 'struct gzFile_s *'); dereference with * [-Wincompatible-pointer-types]
+    gzclose(infile);
+            ^~~~~~
+            *
+/usr/include/zlib.h:1511:43: note: passing argument to parameter 'file' here
+ZEXTERN int ZEXPORT    gzclose OF((gzFile file));
+                                          ^
+/usr/include/x86_64-linux-gnu/zconf.h:267:23: note: expanded from macro 'OF'
+#    define OF(args)  args
+                      ^
+11 warnings generated.
+exit 0

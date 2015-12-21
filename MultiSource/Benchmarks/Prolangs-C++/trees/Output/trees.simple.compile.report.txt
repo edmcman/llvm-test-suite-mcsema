@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/trees/trees
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: bced2138c4becb67588d70e08e97329f
+TEST-RESULT-compile-time: user 0.065700
+TEST-RESULT-compile-real-time: real 0.082400

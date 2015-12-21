@@ -1,0 +1,25 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/machine.c:15:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/debugger.h:7:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/sym_tab.h:33:42: warning: '/*' within block comment [-Wcomment]
+/*   1) char MODULE[];                   /* Name of module label found it.   */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/sym_tab.h:34:42: warning: '/*' within block comment [-Wcomment]
+/*   2) char LABEL[];                    /* Label to look for.               */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/sym_tab.h:35:42: warning: '/*' within block comment [-Wcomment]
+/*   3) SYMBOL_TABLE *TABLE;             /* Table to look in.                */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/machine.c:187:26: warning: format specifies type 'wchar_t *' (aka 'int *') but the argument has type 'char *' [-Wformat]
+  (void) printf("%S%S%S",STR1,REG_NAMES[REG_NUM],STR2);
+                 ~~      ^~~~
+                 %s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/machine.c:187:31: warning: format specifies type 'wchar_t *' (aka 'int *') but the argument has type 'char *' [-Wformat]
+  (void) printf("%S%S%S",STR1,REG_NAMES[REG_NUM],STR2);
+                   ~~         ^~~~~~~~~~~~~~~~~~
+                   %s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/machine.c:187:50: warning: format specifies type 'wchar_t *' (aka 'int *') but the argument has type 'char *' [-Wformat]
+  (void) printf("%S%S%S",STR1,REG_NAMES[REG_NUM],STR2);
+                     ~~                          ^~~~
+                     %s
+6 warnings generated.
+exit 0

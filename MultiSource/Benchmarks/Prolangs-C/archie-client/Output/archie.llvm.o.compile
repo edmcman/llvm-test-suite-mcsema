@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/archie.c:198:4: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+                        exit(A_EXIT);
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/archie.c:198:4: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning generated.
+exit 0

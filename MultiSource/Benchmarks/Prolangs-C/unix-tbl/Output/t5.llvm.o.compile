@@ -1,0 +1,22 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t5.c:62:10: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+                if (ch = oneh(nlin))
+                    ~~~^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t5.c:62:10: note: place parentheses around the assignment to silence this warning
+                if (ch = oneh(nlin))
+                       ^
+                    (              )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t5.c:62:10: note: use '==' to turn this assignment into an equality comparison
+                if (ch = oneh(nlin))
+                       ^
+                       ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t5.c:85:5: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+                                (char *)gettext(cstore, nlin, icol,
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t5.c:97:10: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+                                            (char *)maknew(table[nlin][icol].col);
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t5.c:180:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+4 warnings generated.
+exit 0

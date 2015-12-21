@@ -1,0 +1,44 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:276:26: warning: passing 'const unsigned char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    cli_md5_update(&ctx, buffer, len);
+                         ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/md5.h:25:52: note: passing argument to parameter 'data' here
+extern void cli_md5_update(cli_md5_ctx *ctx, void *data, unsigned long size);
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:300:102: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        cli_errmsg("cli_malloc(): Attempt to allocate %u bytes. Please report to http://bugs.clamav.net\n", size);
+                                                      ~~                                                    ^~~~
+                                                      %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:311:66: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        cli_errmsg("cli_malloc(): Can't allocate memory (%u bytes).\n", size);
+                                                         ~~             ^~~~
+                                                         %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:323:102: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        cli_errmsg("cli_calloc(): Attempt to allocate %u bytes. Please report to http://bugs.clamav.net\n", size);
+                                                      ~~                                                    ^~~~
+                                                      %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:334:66: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+        cli_errmsg("cli_calloc(): Can't allocate memory (%u bytes).\n", nmemb * size);
+                                                         ~~             ^~~~~~~~~~~~
+                                                         %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:346:103: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        cli_errmsg("cli_realloc(): Attempt to allocate %u bytes. Please report to http://bugs.clamav.net\n", size);
+                                                       ~~                                                    ^~~~
+                                                       %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:353:71: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        cli_errmsg("cli_realloc(): Can't re-allocate memory to %u bytes.\n", size);
+                                                               ~~            ^~~~
+                                                               %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:365:104: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        cli_errmsg("cli_realloc2(): Attempt to allocate %u bytes. Please report to http://bugs.clamav.net\n", size);
+                                                        ~~                                                    ^~~~
+                                                        %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:372:72: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        cli_errmsg("cli_realloc2(): Can't re-allocate memory to %u bytes.\n", size);
+                                                                ~~            ^~~~
+                                                                %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_others.c:397:73: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+        cli_errmsg("cli_strdup(): Can't allocate memory (%u bytes).\n", strlen(s));
+                                                         ~~             ^~~~~~~~~
+                                                         %lu
+10 warnings generated.
+exit 0

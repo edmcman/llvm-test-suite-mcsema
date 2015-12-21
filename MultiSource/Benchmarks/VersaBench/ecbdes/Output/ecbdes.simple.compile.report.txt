@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/VersaBench/ecbdes/ecbdes
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 974114aa59f0fc40ec6a157926bf944f
+TEST-RESULT-compile-time: user 0.203400
+TEST-RESULT-compile-real-time: real 0.270400

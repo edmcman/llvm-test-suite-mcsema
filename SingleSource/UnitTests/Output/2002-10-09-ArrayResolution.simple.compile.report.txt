@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2002-10-09-ArrayResolution
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: cf8ca91304a76da11c0bd97ee0f69529
+TEST-RESULT-compile-time: user       0.0224
+TEST-RESULT-compile-real-time: real       0.0359

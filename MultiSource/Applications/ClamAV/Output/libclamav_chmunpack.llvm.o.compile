@@ -1,0 +1,347 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:71:45: warning: 'packed' attribute ignored for field of type 'unsigned char [4]' [-Wignored-attributes]
+        unsigned char signature[4] __attribute__ ((packed));
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:77:46: warning: 'packed' attribute ignored for field of type 'unsigned char [16]' [-Wignored-attributes]
+        unsigned char dir_clsid[16] __attribute__ ((packed));
+                                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:78:49: warning: 'packed' attribute ignored for field of type 'unsigned char [16]' [-Wignored-attributes]
+        unsigned char stream_clsid[16] __attribute__ ((packed));
+                                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:89:45: warning: 'packed' attribute ignored for field of type 'unsigned char [4]' [-Wignored-attributes]
+        unsigned char signature[4] __attribute__ ((packed));
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:102:49: warning: 'packed' attribute ignored for field of type 'unsigned char [16]' [-Wignored-attributes]
+        unsigned char system_clsid[16] __attribute__ ((packed));
+                                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:103:45: warning: 'packed' attribute ignored for field of type 'unsigned char [16]' [-Wignored-attributes]
+        unsigned char unknown4[16] __attribute__ ((packed));
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:109:45: warning: 'packed' attribute ignored for field of type 'unsigned char [4]' [-Wignored-attributes]
+        unsigned char signature[4] __attribute__ ((packed));
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:130:45: warning: 'packed' attribute ignored for field of type 'unsigned char [4]' [-Wignored-attributes]
+        unsigned char signature[4] __attribute__ ((packed));
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:235:35: warning: format specifies type 'long' but the argument has type 'int32_t' (aka 'int') [-Wformat]
+        cli_dbgmsg("Header len:\t%ld\n", itsf_hdr->header_len);
+                                 ~~~     ^~~~~~~~~~~~~~~~~~~~
+                                 %d
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:237:37: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Sec0 offset:\t%llu\n", itsf_hdr->sec0_offset);
+                                  ~~~~     ^~~~~~~~~~~~~~~~~~~~~
+                                  %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:238:34: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Sec0 len:\t%llu\n", itsf_hdr->sec0_len);
+                               ~~~~     ^~~~~~~~~~~~~~~~~~
+                               %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:239:36: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Dir offset:\t%llu\n", itsf_hdr->dir_offset);
+                                 ~~~~     ^~~~~~~~~~~~~~~~~~~~
+                                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:240:33: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Dir len:\t%llu\n", itsf_hdr->dir_len);
+                              ~~~~     ^~~~~~~~~~~~~~~~~
+                              %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:242:40: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+                cli_dbgmsg("Data offset:\t%llu\n\n", itsf_hdr->data_offset);
+                                          ~~~~       ^~~~~~~~~~~~~~~~~~~~~
+                                          %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:324:34: warning: format specifies type 'long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        cli_dbgmsg("Block len:\t%ld\n", itsp_hdr->block_len);
+                                ~~~     ^~~~~~~~~~~~~~~~~~~
+                                %u
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:331:34: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        cli_dbgmsg("Lang ID:\t%lu\n\n", itsp_hdr->lang_id);
+                              ~~~       ^~~~~~~~~~~~~~~~~
+                              %u
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:469:49: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+                        cli_dbgmsg("CHM file name too long: %llu\n", name_len);
+                                                            ~~~~     ^~~~~~~~
+                                                            %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:481:12: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        strncpy(file_e->name, current, name_len);
+                                ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:760:52: note: expanded from macro 'strncpy'
+#  define strncpy(dest, src, n) __builtin_strncpy (dest, src, n)
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:481:26: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        strncpy(file_e->name, current, name_len);
+                                              ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:760:58: note: expanded from macro 'strncpy'
+#  define strncpy(dest, src, n) __builtin_strncpy (dest, src, n)
+                                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:497:6: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+                                        file_e->section, file_e->offset,
+                                        ^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:497:23: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+                                        file_e->section, file_e->offset,
+                                                         ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:498:6: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+                                        file_e->length, file_e->name);
+                                        ^~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:612:33: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        cli_dbgmsg("Length:\t\t%lu\n", lzx_control->length);
+                               ~~~     ^~~~~~~~~~~~~~~~~~~
+                               %u
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:673:22: warning: passing 'unsigned char [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp("LZXC", lzx_control->signature, 4) != 0) {
+                            ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:901:17: note: expanded from macro 'strncmp'
+                          && strlen (s2) < ((size_t) (n))))                   \
+                                     ^
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:673:22: warning: passing 'unsigned char [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp("LZXC", lzx_control->signature, 4) != 0) {
+                            ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:19: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                                ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:803:74: note: expanded from macro 'strcmp'
+      && (__s1_len = __builtin_strlen (s1), __s2_len = __builtin_strlen (s2), \
+                                                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:673:22: warning: passing 'unsigned char [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp("LZXC", lzx_control->signature, 4) != 0) {
+                            ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:19: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                                ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:806:31: note: expanded from macro 'strcmp'
+      ? __builtin_strcmp (s1, s2)                                             \
+                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:673:22: warning: passing 'unsigned char [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp("LZXC", lzx_control->signature, 4) != 0) {
+                            ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:19: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                                ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:810:30: note: expanded from macro 'strcmp'
+            ? __builtin_strcmp (s1, s2)                                       \
+                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:673:22: warning: passing 'unsigned char [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp("LZXC", lzx_control->signature, 4) != 0) {
+                            ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:19: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                                ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:813:39: note: expanded from macro 'strcmp'
+            && (__s2_len = __builtin_strlen (s2), __s2_len < 4)               \
+                                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:673:22: warning: passing 'unsigned char [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp("LZXC", lzx_control->signature, 4) != 0) {
+                            ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:19: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                                ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:815:33: note: expanded from macro 'strcmp'
+               ? __builtin_strcmp (s1, s2)                                    \
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:673:22: warning: passing 'unsigned char [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp("LZXC", lzx_control->signature, 4) != 0) {
+                            ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:19: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                                ^
+/usr/include/x86_64-linux-gnu/bits/string2.h:817:30: note: expanded from macro 'strcmp'
+            : __builtin_strcmp (s1, s2)))); })
+                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:673:22: warning: passing 'unsigned char [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp("LZXC", lzx_control->signature, 4) != 0) {
+                            ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:902:38: note: expanded from macro 'strncmp'
+                  ? strcmp (s1, s2) : strncmp (s1, s2, n)))
+                                                   ^
+/usr/include/string.h:147:51: note: passing argument to parameter '__s2' here
+extern int strncmp (const char *__s1, const char *__s2, size_t __n)
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:703:32: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Offset:\t%llu\n", lzx_content->offset);
+                             ~~~~     ^~~~~~~~~~~~~~~~~~~
+                             %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:704:34: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Length:\t%llu\n\n", lzx_content->length);
+                             ~~~~       ^~~~~~~~~~~~~~~~~~~
+                             %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:729:36: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        cli_dbgmsg("Num Entries:\t%lu\n", lzx_reset_table->num_entries);
+                                  ~~~     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                  %u
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:730:35: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        cli_dbgmsg("Entry Size:\t%lu\n", lzx_reset_table->entry_size);
+                                 ~~~     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                 %u
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:731:37: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        cli_dbgmsg("Table Offset:\t%lu\n", lzx_reset_table->table_offset);
+                                   ~~~     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                   %u
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:732:35: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Uncom Len:\t%llu\n", lzx_reset_table->uncom_len);
+                                ~~~~     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:733:33: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Com Len:\t%llu\n", lzx_reset_table->com_len);
+                              ~~~~     ^~~~~~~~~~~~~~~~~~~~~~~~
+                              %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:734:37: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Frame Len:\t%llu\n\n", lzx_reset_table->frame_len);
+                                ~~~~       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:797:54: warning: format specifies type 'unsigned int' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+                cli_dbgmsg("bad sys_reset_table frame_len: 0x%x\n",lzx_reset_table->frame_len);
+                                                             ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                             %lx
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:832:11: warning: passing 'unsigned char [1024]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        snprintf(filename, 1024, "%s/clamav-unchm.bin", dirname);
+                 ^~~~~~~~
+/usr/include/stdio.h:386:39: note: passing argument to parameter '__s' here
+extern int snprintf (char *__restrict __s, size_t __maxlen,
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:833:15: warning: passing 'unsigned char [1024]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        tmpfd = open(filename, O_WRONLY|O_CREAT|O_TRUNC|O_BINARY, S_IRWXU);
+                     ^~~~~~~~
+/usr/include/fcntl.h:146:30: note: passing argument to parameter '__file' here
+extern int open (const char *__file, int __oflag, ...) __nonnull ((1));
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:841:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(entry->name, CHM_SYS_CONTROL_NAME) == 0) {
+                           ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:803:40: note: expanded from macro 'strcmp'
+      && (__s1_len = __builtin_strlen (s1), __s2_len = __builtin_strlen (s2), \
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:841:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(entry->name, CHM_SYS_CONTROL_NAME) == 0) {
+                           ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:806:27: note: expanded from macro 'strcmp'
+      ? __builtin_strcmp (s1, s2)                                             \
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:841:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(entry->name, CHM_SYS_CONTROL_NAME) == 0) {
+                           ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:808:36: note: expanded from macro 'strcmp'
+         && (__s1_len = __builtin_strlen (s1), __s1_len < 4)                  \
+                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:841:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(entry->name, CHM_SYS_CONTROL_NAME) == 0) {
+                           ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:810:26: note: expanded from macro 'strcmp'
+            ? __builtin_strcmp (s1, s2)                                       \
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:841:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(entry->name, CHM_SYS_CONTROL_NAME) == 0) {
+                           ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:815:29: note: expanded from macro 'strcmp'
+               ? __builtin_strcmp (s1, s2)                                    \
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:841:14: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strcmp(entry->name, CHM_SYS_CONTROL_NAME) == 0) {
+                           ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:817:26: note: expanded from macro 'strcmp'
+            : __builtin_strcmp (s1, s2)))); })
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:843:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_CONTENT_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:803:40: note: expanded from macro 'strcmp'
+      && (__s1_len = __builtin_strlen (s1), __s2_len = __builtin_strlen (s2), \
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:843:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_CONTENT_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:806:27: note: expanded from macro 'strcmp'
+      ? __builtin_strcmp (s1, s2)                                             \
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:843:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_CONTENT_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:808:36: note: expanded from macro 'strcmp'
+         && (__s1_len = __builtin_strlen (s1), __s1_len < 4)                  \
+                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:843:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_CONTENT_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:810:26: note: expanded from macro 'strcmp'
+            ? __builtin_strcmp (s1, s2)                                       \
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:843:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_CONTENT_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:815:29: note: expanded from macro 'strcmp'
+               ? __builtin_strcmp (s1, s2)                                    \
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:843:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_CONTENT_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:817:26: note: expanded from macro 'strcmp'
+            : __builtin_strcmp (s1, s2)))); })
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:845:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_RESETTABLE_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:803:40: note: expanded from macro 'strcmp'
+      && (__s1_len = __builtin_strlen (s1), __s2_len = __builtin_strlen (s2), \
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:845:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_RESETTABLE_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:806:27: note: expanded from macro 'strcmp'
+      ? __builtin_strcmp (s1, s2)                                             \
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:845:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_RESETTABLE_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:808:36: note: expanded from macro 'strcmp'
+         && (__s1_len = __builtin_strlen (s1), __s1_len < 4)                  \
+                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:845:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_RESETTABLE_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:810:26: note: expanded from macro 'strcmp'
+            ? __builtin_strcmp (s1, s2)                                       \
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:845:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_RESETTABLE_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:815:29: note: expanded from macro 'strcmp'
+               ? __builtin_strcmp (s1, s2)                                    \
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:845:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                } else if (strcmp(entry->name, CHM_SYS_RESETTABLE_NAME) == 0) {
+                                  ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:817:26: note: expanded from macro 'strcmp'
+            : __builtin_strcmp (s1, s2)))); })
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:892:42: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        cli_dbgmsg("Compressed offset: %llu\n", com_offset);
+                                       ~~~~     ^~~~~~~~~~
+                                       %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:910:15: warning: passing 'unsigned char [1024]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        tmpfd = open(filename, O_RDONLY|O_BINARY);
+                     ^~~~~~~~
+/usr/include/fcntl.h:146:30: note: passing argument to parameter '__file' here
+extern int open (const char *__file, int __oflag, ...) __nonnull ((1));
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:917:9: warning: passing 'unsigned char [1024]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        unlink(filename);
+               ^~~~~~~~
+/usr/include/unistd.h:826:32: note: passing argument to parameter '__name' here
+extern int unlink (const char *__name) __THROW __nonnull ((1));
+                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:931:12: warning: passing 'unsigned char [1024]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                snprintf(filename, 1024, "%s/%d-%llu.chm", dirname, count, entry->offset);
+                         ^~~~~~~~
+/usr/include/stdio.h:386:39: note: passing argument to parameter '__s' here
+extern int snprintf (char *__restrict __s, size_t __maxlen,
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:931:62: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+                snprintf(filename, 1024, "%s/%d-%llu.chm", dirname, count, entry->offset);
+                                                ~~~~                       ^~~~~~~~~~~~~
+                                                %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_chmunpack.c:932:14: warning: passing 'unsigned char [1024]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                ofd = open(filename, O_WRONLY|O_CREAT|O_TRUNC|O_BINARY, S_IRWXU);
+                           ^~~~~~~~
+/usr/include/fcntl.h:146:30: note: passing argument to parameter '__file' here
+extern int open (const char *__file, int __oflag, ...) __nonnull ((1));
+                             ^
+66 warnings generated.
+exit 0

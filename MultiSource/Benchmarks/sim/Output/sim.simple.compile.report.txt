@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/sim/sim
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 94de7db6f0f849463c0d6e04bf7ea0e9
+TEST-RESULT-compile-time: user 0.205600
+TEST-RESULT-compile-real-time: real 0.235700

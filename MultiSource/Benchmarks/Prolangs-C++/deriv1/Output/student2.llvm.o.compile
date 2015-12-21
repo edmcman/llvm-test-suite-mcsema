@@ -1,0 +1,20 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/deriv1/student2.cpp:73:13: warning: conversion from string literal to 'strng' (aka 'char *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+ var_expr x("x");
+            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/deriv1/student2.cpp:74:56: warning: conversion from string literal to 'strng' (aka 'char *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+ prod_expr simple(new const_expr(123.45), new var_expr("y"));
+                                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/deriv1/student2.cpp:81:10: warning: conversion from string literal to 'strng' (aka 'char *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+ c.deriv("x")->print_me();
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/deriv1/student2.cpp:87:10: warning: conversion from string literal to 'strng' (aka 'char *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+ x.deriv("x")->print_me();
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/deriv1/student2.cpp:93:15: warning: conversion from string literal to 'strng' (aka 'char *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+ simple.deriv("y")->print_me();
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/deriv1/student2.cpp:95:15: warning: conversion from string literal to 'strng' (aka 'char *') is deprecated [-Wc++11-compat-deprecated-writable-strings]
+ simple.deriv("x")->print_me();
+              ^
+6 warnings generated.
+exit 0

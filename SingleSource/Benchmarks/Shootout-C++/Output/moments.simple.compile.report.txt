@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/moments
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 3026c7d4d81f8f705cd5be26f83afbba
+TEST-RESULT-compile-time: user       0.2943
+TEST-RESULT-compile-real-time: real       0.3268

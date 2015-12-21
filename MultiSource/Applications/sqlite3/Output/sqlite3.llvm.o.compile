@@ -1,0 +1,23 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sqlite3/sqlite3.c:81:9: warning: '_GNU_SOURCE' macro redefined
+#define _GNU_SOURCE
+        ^
+<command line>:13:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sqlite3/sqlite3.c:53027:41: warning: cast to 'char *' from smaller integer type 'sqlite3_intptr_t' (aka 'int') [-Wint-to-pointer-cast]
+                           0, regRowid, (char*)(sqlite3_intptr_t)regRecord, P4_INT32);
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sqlite3/sqlite3.c:56589:14: warning: cast to 'void *' from smaller integer type 'sqlite3_intptr_t' (aka 'int') [-Wint-to-void-pointer-cast]
+      pArg = (void*)(sqlite3_intptr_t)argType;
+             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sqlite3/sqlite3.c:56608:18: warning: cast to 'void *' from smaller integer type 'sqlite3_intptr_t' (aka 'int') [-Wint-to-void-pointer-cast]
+    void *pArg = (void*)(sqlite3_intptr_t)aAggs[i].argType;
+                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sqlite3/sqlite3.c:57898:34: warning: cast to 'char *' from smaller integer type 'sqlite3_intptr_t' (aka 'int') [-Wint-to-pointer-cast]
+                           regR, (char*)(sqlite3_intptr_t)aRegIdx[iCur],
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sqlite3/sqlite3.c:65235:21: warning: cast to 'char *' from smaller integer type 'sqlite3_intptr_t' (aka 'int') [-Wint-to-pointer-cast]
+  res.azResult[0] = (char*)(sqlite3_intptr_t)res.nData;
+                    ^
+6 warnings generated.
+exit 0

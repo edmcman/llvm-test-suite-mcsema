@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/CoyoteBench/fftbench
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: b84b1ce92793ab1ac921641272097833
+TEST-RESULT-compile-time: user       0.2866
+TEST-RESULT-compile-real-time: real       0.3329

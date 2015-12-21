@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/mediabench/adpcm/rawcaudio/rawcaudio.c:15:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main() {
+^~~~
+1 warning generated.
+exit 0

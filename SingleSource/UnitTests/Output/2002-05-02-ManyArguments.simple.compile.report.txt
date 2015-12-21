@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2002-05-02-ManyArguments
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a5d4e69a2fbd0f7103b4bc096dd4b084
+TEST-RESULT-compile-time: user       0.0212
+TEST-RESULT-compile-real-time: real       0.0339

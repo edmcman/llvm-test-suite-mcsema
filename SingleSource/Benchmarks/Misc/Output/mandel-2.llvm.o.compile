@@ -1,0 +1,23 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Misc/mandel-2.c:9:15: warning: plain '_Complex' requires a type specifier; assuming '_Complex double'
+double cnorm2(complex z) { return sqr(creal(z)) + sqr(cimag(z)); }
+              ^
+                      double
+/usr/include/complex.h:39:18: note: expanded from macro 'complex'
+#define complex         _Complex
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Misc/mandel-2.c:11:10: warning: plain '_Complex' requires a type specifier; assuming '_Complex double'
+int loop(complex c) {
+         ^
+                 double
+/usr/include/complex.h:39:18: note: expanded from macro 'complex'
+#define complex         _Complex
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Misc/mandel-2.c:12:5: warning: plain '_Complex' requires a type specifier; assuming '_Complex double'
+    complex z=c;
+    ^
+            double
+/usr/include/complex.h:39:18: note: expanded from macro 'complex'
+#define complex         _Complex
+                        ^
+3 warnings generated.
+exit 0

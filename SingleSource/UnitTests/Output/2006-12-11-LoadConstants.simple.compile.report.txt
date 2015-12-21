@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2006-12-11-LoadConstants
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: e2d0a341eb04334d89d2e4133d44bb38
+TEST-RESULT-compile-time: user       0.0777
+TEST-RESULT-compile-real-time: real       0.0932

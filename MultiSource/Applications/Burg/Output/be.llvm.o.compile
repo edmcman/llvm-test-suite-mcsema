@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/Burg/be.c:332:29: warning: data argument not used by format string [-Wformat-extra-args]
+        fprintf(outfile, "};\n\n", prefix);
+                         ~~~~~~~~  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/Burg/be.c:417:18: warning: incompatible pointer to integer conversion passing 'RuleAST' (aka 'struct ruleAST *') to parameter of type 'int' [-Wint-conversion]
+                makeCostVector(pVector[i], pVector[i] ? pVector[i]->rule->delta : 0);
+                               ^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/Burg/be.c:456:29: warning: data argument not used by format string [-Wformat-extra-args]
+                fprintf(outfile, " */\n", s+1);
+                                 ~~~~~~~  ^
+3 warnings generated.
+exit 0

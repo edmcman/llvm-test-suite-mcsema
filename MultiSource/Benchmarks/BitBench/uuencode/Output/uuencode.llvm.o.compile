@@ -1,0 +1,17 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uuencode/uuencode.c:70:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+encode_char(char c) {                                                           /*1*/
+^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uuencode/uuencode.c:191:25: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    outsize = do_encode(inbuf,outbuf, size, infilename);
+                        ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uuencode/uuencode.c:133:21: note: passing argument to parameter 'input' here
+int do_encode(char* input, char* output, int len, char* infilename) {           /*46*/
+                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uuencode/uuencode.c:191:31: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    outsize = do_encode(inbuf,outbuf, size, infilename);
+                              ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/BitBench/uuencode/uuencode.c:133:34: note: passing argument to parameter 'output' here
+int do_encode(char* input, char* output, int len, char* infilename) {           /*46*/
+                                 ^
+3 warnings generated.
+exit 0

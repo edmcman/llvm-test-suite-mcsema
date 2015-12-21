@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_suecrypt.c:69:46: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+    cli_dbgmsg("SUE: Can't read %d bytes\n", fsize);
+                                ~~           ^~~~~
+                                %zu
+1 warning generated.
+exit 0

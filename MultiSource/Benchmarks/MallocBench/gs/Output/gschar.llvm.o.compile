@@ -1,0 +1,12 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gschar.c:640:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if ( penum->can_cache = /* no skewing or non-rectangular rotation */
+             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gschar.c:640:24: note: place parentheses around the assignment to silence this warning
+        if ( penum->can_cache = /* no skewing or non-rectangular rotation */
+                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gschar.c:640:24: note: use '==' to turn this assignment into an equality comparison
+        if ( penum->can_cache = /* no skewing or non-rectangular rotation */
+                              ^
+                              ==
+1 warning generated.
+exit 0

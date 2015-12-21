@@ -1,0 +1,21 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/debugger.c:12:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/sym_tab.h:33:42: warning: '/*' within block comment [-Wcomment]
+/*   1) char MODULE[];                   /* Name of module label found it.   */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/sym_tab.h:34:42: warning: '/*' within block comment [-Wcomment]
+/*   2) char LABEL[];                    /* Label to look for.               */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/sym_tab.h:35:42: warning: '/*' within block comment [-Wcomment]
+/*   3) SYMBOL_TABLE *TABLE;             /* Table to look in.                */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/debugger.c:285:7: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+      else {
+      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/debugger.c:370:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else if (NUM_BREAK_POINTS == MAX_NUM_BREAK_POINTS)
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/simulator/debugger.c:409:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else if ((*COMMAND) != '\0') 
+    ^
+6 warnings generated.
+exit 0

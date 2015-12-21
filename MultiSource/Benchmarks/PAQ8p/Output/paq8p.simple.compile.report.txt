@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/PAQ8p/paq8p
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 403343eeecc5f3ab894b275e4b3c0598
+TEST-RESULT-compile-time: user 1.401200
+TEST-RESULT-compile-real-time: real 1.448200

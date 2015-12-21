@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/VersaBench/ecbdes/driver.c:203:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(int argc, char** argv)
+^~~~
+1 warning generated.
+exit 0

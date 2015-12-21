@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/archie-client/archie
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 0088de35f389b8bf31a0cafe7f1b7fd9
+TEST-RESULT-compile-time: user 0.614100
+TEST-RESULT-compile-real-time: real 0.894400

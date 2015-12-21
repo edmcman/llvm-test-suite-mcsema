@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2005-05-12-Int64ToFP
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ff7f8d6d72e645a7068d2edff405152e
+TEST-RESULT-compile-time: user       0.0217
+TEST-RESULT-compile-real-time: real       0.0353

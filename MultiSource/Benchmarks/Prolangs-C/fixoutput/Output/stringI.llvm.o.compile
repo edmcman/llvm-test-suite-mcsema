@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/fixoutput/stringI.c:68:6: warning: invalid conversion specifier 'D' [-Wformat-invalid-specifier]
+          "%D SCANNER ERROR: Tried to BACKUP past beginning of a Token\n",
+           ~^
+1 warning generated.
+exit 0

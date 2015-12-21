@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/plot2fig/plot2fig' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/plot2fig/plot2fig
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 07956c704e1a335c01d40da19ff86e1b
+TEST-RESULT-compile-time: user 0.616200
+TEST-RESULT-compile-real-time: real 0.924300
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/plot2fig/plot2fig
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0018

@@ -1,0 +1,31 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/objects.cpp:6:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/onlyobj.h:27:34: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                virtual char *Type () { return "Object"; }
+                                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/objects.cpp:9:53: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+static char *strcpy(char *str1, char *str2) {return "";}
+                                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/objects.cpp:10:61: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+static char *strncpy(char *str1, char *str2, int i) {return "";}
+                                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/objects.cpp:11:53: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+static char *strcat(char *str1, char *str2) {return "";}
+                                                    ^
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/objects.cpp:13:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/artest.h:67:26: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                char *Type () { return "Table"; }
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/artest.h:110:26: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                char *Type () { return "Array"; }
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/artest.h:145:26: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                char *Type () { return "SpArray"; }
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/objects.cpp:240:40: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                char *Type () { return "A"; }
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/objects/objects.cpp:255:40: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                char *Type () { return "B"; }
+                                       ^
+9 warnings generated.
+exit 0

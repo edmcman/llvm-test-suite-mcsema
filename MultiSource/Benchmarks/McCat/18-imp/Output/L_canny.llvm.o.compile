@@ -1,0 +1,12 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/18-imp/L_canny.c:30:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/18-imp/V.h:37:11: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+typedef (*FUNC_PTR)();
+~~~~~~~   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/18-imp/L_canny.c:38:10: warning: promoted type 'double' of K&R function parameter is not compatible with the parameter type 'float' declared in a previous prototype [-Wknr-promoted-parameter]
+float    sigma;
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/18-imp/V_commands.h:233:25: note: previous declaration is here
+extern int L_canny(float, float *, int, int, float **, char *);
+                        ^
+2 warnings generated.
+exit 0

@@ -1,0 +1,14 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/parse.cc:207:12: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                dderrmsg("expresion expected: got %s", ptok?ptok:"(*null*)" );
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/parse.cc:234:12: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                dderrmsg("NAME expected: got %s", ptok?ptok:"(*null*)" );
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/parse.cc:242:12: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                dderrmsg("PERIOD expected: got %s", ptok?ptok:"(*null*)" );
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lambda-0.1.3/parse.cc:300:13: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+                        dderrmsg(") expected: got %s", ptok?ptok:"(*null*)" );
+                                 ^
+4 warnings generated.
+exit 0

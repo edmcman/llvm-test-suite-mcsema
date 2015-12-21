@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/consumer-typeset/consumer-typeset
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 2bcba47e9867409c2ae19015a7b4885d
+TEST-RESULT-compile-time: user 8.884000
+TEST-RESULT-compile-real-time: real 10.154900

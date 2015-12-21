@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_readdb.c:1136:49: warning: incompatible pointer types passing 'int (const struct dirent *, const struct dirent *)' to parameter of type '__compar_fn_t' (aka 'int (*)(const void *, const void *)') [-Wincompatible-pointer-types]
+    qsort(dents, ndents, sizeof(struct dirent), dirent_compare);
+                                                ^~~~~~~~~~~~~~
+/usr/include/stdlib.h:766:20: note: passing argument to parameter '__compar' here
+                   __compar_fn_t __compar) __nonnull ((1, 4));
+                                 ^
+1 warning generated.
+exit 0

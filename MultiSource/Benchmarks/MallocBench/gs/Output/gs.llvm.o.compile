@@ -1,0 +1,9 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gs.c:54:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(int argc, char *argv[])
+^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gs.c:65:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+2 warnings generated.
+exit 0

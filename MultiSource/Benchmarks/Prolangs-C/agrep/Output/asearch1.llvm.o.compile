@@ -1,0 +1,20 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/asearch1.c:39:37: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  while ((num_read = fill_buf(Text, buffer + Max_record, Max_record)) > 0)
+                                    ^~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/asearch1.c:10:44: note: passing argument to parameter 'buf' here
+extern int fill_buf(int fd, unsigned char *buf, int record_size);
+                                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/asearch1.c:75:32: warning: passing 'char [98305]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        output(buffer, lasti, i-D_length-1, j); 
+                               ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/asearch1.c:11:35: note: passing argument to parameter 'buffer' here
+extern void output(register CHAR *buffer, int i1, int i2, int j);
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/asearch1.c:105:32: warning: passing 'char [98305]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        output(buffer, lasti, i-D_length-1, j); 
+                               ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/asearch1.c:11:35: note: passing argument to parameter 'buffer' here
+extern void output(register CHAR *buffer, int i1, int i2, int j);
+                                  ^
+3 warnings generated.
+exit 0

@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Stanford/FloatMM' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Stanford/FloatMM
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 400230c35cd219763438259287777280
+TEST-RESULT-compile-time: user       0.0393
+TEST-RESULT-compile-real-time: real       0.0555
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Stanford/FloatMM
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.4048
+TEST-RESULT-exec-real-time: real       0.4069

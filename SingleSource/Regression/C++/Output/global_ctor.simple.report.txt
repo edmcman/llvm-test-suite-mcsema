@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/global_ctor' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/global_ctor
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ce3acbd6c7322bb22b703701cb6ef650
+TEST-RESULT-compile-time: user       0.0266
+TEST-RESULT-compile-real-time: real       0.0412
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/global_ctor
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0019

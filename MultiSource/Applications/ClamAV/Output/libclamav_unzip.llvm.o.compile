@@ -1,0 +1,22 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_unzip.c:218:74: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                cli_dbgmsg("Unzip: __zip_parse_root_directory: Can't read %d bytes\n", sizeof(dirent));
+                                                                          ~~           ^~~~~~~~~~~~~~
+                                                                          %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_unzip.c:541:84: warning: format specifies type 'int' but the argument has type 'ssize_t' (aka 'long') [-Wformat]
+                cli_errmsg("Unzip: zip_file_open: Can't read zip header (only read %d bytes)\n", dataoff);
+                                                                                   ~~            ^~~~~~~
+                                                                                   %zd
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_unzip.c:609:61: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                cli_errmsg("Unzip: zip_file_read: Can't read %d bytes\n", l);
+                                                             ~~           ^
+                                                             %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_unzip.c:627:72: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                        cli_errmsg("Unzip: zip_file_read: Can't read %d bytes (read %d)\n", cl, i);
+                                                                     ~~                     ^~
+                                                                     %zu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_unzip.c:627:76: warning: format specifies type 'int' but the argument has type 'ssize_t' (aka 'long') [-Wformat]
+                        cli_errmsg("Unzip: zip_file_read: Can't read %d bytes (read %d)\n", cl, i);
+                                                                                    ~~          ^
+                                                                                    %zd
+5 warnings generated.
+exit 0

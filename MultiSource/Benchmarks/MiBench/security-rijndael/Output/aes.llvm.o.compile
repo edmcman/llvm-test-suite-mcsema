@@ -1,0 +1,23 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.c:503:66: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    if((n_bytes & 7) || n_bytes < 16 || n_bytes > 32 || !(f & 1) && !(f & 2)) 
+                                                     ~~ ~~~~~~~~~^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.c:503:66: note: place parentheses around the '&&' expression to silence this warning
+    if((n_bytes & 7) || n_bytes < 16 || n_bytes > 32 || !(f & 1) && !(f & 2)) 
+                                                                 ^
+                                                        (                   )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.c:508:25: warning: '&' within '|' [-Wbitwise-op-parentheses]
+    cx->mode = cx->mode & ~0x03 | (byte)f & 0x03;      
+               ~~~~~~~~~^~~~~~~ ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.c:508:25: note: place parentheses around the '&' expression to silence this warning
+    cx->mode = cx->mode & ~0x03 | (byte)f & 0x03;      
+                        ^
+               (               )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.c:508:43: warning: '&' within '|' [-Wbitwise-op-parentheses]
+    cx->mode = cx->mode & ~0x03 | (byte)f & 0x03;      
+                                ~ ~~~~~~~~^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.c:508:43: note: place parentheses around the '&' expression to silence this warning
+    cx->mode = cx->mode & ~0x03 | (byte)f & 0x03;      
+                                          ^
+                                  (             )
+3 warnings generated.
+exit 0

@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/ft/graph.c:65:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static id = 1;
+~~~~~~ ^
+1 warning generated.
+exit 0

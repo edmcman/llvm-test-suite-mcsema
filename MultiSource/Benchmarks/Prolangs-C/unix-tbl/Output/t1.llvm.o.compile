@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t1.c:38:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern init_options();
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-tbl/t1.c:41:17: warning: incompatible pointer types passing 'void (void)' to parameter of type '__sighandler_t' (aka 'void (*)(int)') [-Wincompatible-pointer-types]
+signal(SIGPIPE, badsig);
+                ^~~~~~
+/usr/include/signal.h:102:57: note: passing argument to parameter '__handler' here
+extern __sighandler_t signal (int __sig, __sighandler_t __handler)
+                                                        ^
+2 warnings generated.
+exit 0

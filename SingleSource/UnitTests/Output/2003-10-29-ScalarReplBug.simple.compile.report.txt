@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2003-10-29-ScalarReplBug
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d98d26f51c4cb7a2b359e482491ef579
+TEST-RESULT-compile-time: user       0.0216
+TEST-RESULT-compile-real-time: real       0.0358

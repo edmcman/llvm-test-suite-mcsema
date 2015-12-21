@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/exptree
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 8e2446aea7ba26c140d12ed482574e7d
+TEST-RESULT-compile-time: user       0.0662
+TEST-RESULT-compile-real-time: real       0.0828

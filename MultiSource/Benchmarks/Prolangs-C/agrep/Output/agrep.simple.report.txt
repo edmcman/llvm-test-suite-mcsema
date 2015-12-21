@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/agrep/agrep' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/agrep/agrep
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 70062954bb1727b92105e0cbfc8d1698
+TEST-RESULT-compile-time: user 1.037800
+TEST-RESULT-compile-real-time: real 1.297900
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/agrep/agrep
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0031
+TEST-RESULT-exec-real-time: real       0.0058

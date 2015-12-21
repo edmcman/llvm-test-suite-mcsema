@@ -1,0 +1,7 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/power/build.c:13:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/power/power.h:15:7: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+void *malloc(unsigned Size);
+      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/power/power.h:15:7: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+1 warning generated.
+exit 0

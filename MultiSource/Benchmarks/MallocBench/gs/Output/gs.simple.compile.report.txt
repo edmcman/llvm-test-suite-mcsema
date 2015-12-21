@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MallocBench/gs/gs
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ca3c277d53129beee3e36b20f7fe09ec
+TEST-RESULT-compile-time: user 3.529800
+TEST-RESULT-compile-real-time: real 4.514000

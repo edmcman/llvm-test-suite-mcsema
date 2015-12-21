@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Stanford/Treesort.c:155:3: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                else Insert(n,t->right);
+                ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Stanford/Treesort.c:164:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+           else result = Checktree(p->left) && result;
+           ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Stanford/Treesort.c:167:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+           else result = Checktree(p->right) && result;
+           ^
+3 warnings generated.
+exit 0

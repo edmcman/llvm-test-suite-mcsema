@@ -1,0 +1,15 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gxfill.c:273:22: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                        if ( cdir > dir && cdir || cdir < 0 )
+                                             ~~~~~~~~~~~^~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gxfill.c:273:22: note: place parentheses around the '&&' expression to silence this warning
+                                        if ( cdir > dir && cdir || cdir < 0 )
+                                                        ^
+                                             (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gxfill.c:556:50: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                  (next->x_current < x || next->x_current == x &&
+                                       ~~ ~~~~~~~~~~~~~~~~~~~~~^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gxfill.c:556:50: note: place parentheses around the '&&' expression to silence this warning
+                  (next->x_current < x || next->x_current == x &&
+                                                               ^
+2 warnings generated.
+exit 0

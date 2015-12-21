@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_mspack.c:1432:68: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+      cli_dbgmsg("lzx_decompress: %d avail bytes, new %d frame\n", lzx->o_end-lzx->o_ptr, frame_size);
+                                  ~~                               ^~~~~~~~~~~~~~~~~~~~~
+                                  %ld
+1 warning generated.
+exit 0

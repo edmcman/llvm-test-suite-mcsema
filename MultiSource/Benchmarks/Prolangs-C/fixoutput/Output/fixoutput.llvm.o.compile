@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/fixoutput/fixoutput.c:23:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static EOF_FLAG = 1, ERROR_CNT = 0;   /* End Of File Flag and ERROR CouNT */
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/fixoutput/fixoutput.c:23:22: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static EOF_FLAG = 1, ERROR_CNT = 0;   /* End Of File Flag and ERROR CouNT */
+~~~~~~               ^
+2 warnings generated.
+exit 0

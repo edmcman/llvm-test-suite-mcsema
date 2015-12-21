@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/VersaBench/ecbdes/set_key.c:140:38: warning: 'memcmp' call operates on objects of type 'des_cblock' (aka 'unsigned char [8]') while the size is based on a different type 'des_cblock (*)' (aka 'unsigned char (*)[8]') [-Wsizeof-pointer-memaccess]
+                if (memcmp(weak_keys[i],key,sizeof(key)) == 0) return(1);
+                                        ~~~        ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/VersaBench/ecbdes/set_key.c:140:38: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+                if (memcmp(weak_keys[i],key,sizeof(key)) == 0) return(1);
+                                                   ^~~
+1 warning generated.
+exit 0

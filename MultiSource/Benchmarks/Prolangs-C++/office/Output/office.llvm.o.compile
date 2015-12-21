@@ -1,0 +1,29 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:111:27: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   suppt = new supervisor("Big John", 5100, "President");
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:111:45: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   suppt = new supervisor("Big John", 5100, "President");
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:114:28: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   progpt = new programmer("Joe Hacker", 3500, "debugger", "Pascal");
+                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:114:48: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   progpt = new programmer("Joe Hacker", 3500, "debugger", "Pascal");
+                                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:114:60: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   progpt = new programmer("Joe Hacker", 3500, "debugger", "Pascal");
+                                                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:117:28: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   progpt = new programmer("OOP Wizard", 7700, "senior analyst", "C++");
+                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:117:48: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   progpt = new programmer("OOP Wizard", 7700, "senior analyst", "C++");
+                                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:117:66: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   progpt = new programmer("OOP Wizard", 7700, "senior analyst", "C++");
+                                                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C++/office/office.cpp:120:26: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+   secpt = new secretary("Tillie Typer", 2200, 1, 85);
+                         ^
+9 warnings generated.
+exit 0

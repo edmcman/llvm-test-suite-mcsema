@@ -1,0 +1,10 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z51.c:202:75: warning: for loop has empty body [-Wempty-body]
+    for( jmax = hsize-1;  jmax >= 0 && page[i*hsize+jmax] == ' ';  jmax--);
+                                                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z51.c:202:75: note: put the semicolon on a separate line to silence this warning
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z51.c:379:77: warning: for loop has empty body [-Wempty-body]
+      for( jmax = hsize-1;  jmax >= 0 && page[i*hsize+jmax] == ' ';  jmax--);
+                                                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-typeset/z51.c:379:77: note: put the semicolon on a separate line to silence this warning
+2 warnings generated.
+exit 0

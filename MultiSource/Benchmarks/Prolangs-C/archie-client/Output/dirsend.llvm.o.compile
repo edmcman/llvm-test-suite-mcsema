@@ -1,0 +1,19 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/dirsend.c:298:17: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+        srand(getpid()+time(0)); /* XXX: arg ok, but not right type. */
+                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/dirsend.c:353:18: warning: implicitly declaring library function 'strchr' with type 'char *(const char *, int)'
+        if((openparen = strchr(hostname,(int) '('))) {
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/dirsend.c:353:18: note: please include the header <string.h> or explicitly provide a declaration for 'strchr'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/dirsend.c:355:6: warning: implicitly declaring library function 'strncpy' with type 'char *(char *, const char *, unsigned long)'
+            strncpy(hostnoport,hostname,400);
+            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/dirsend.c:355:6: note: please include the header <string.h> or explicitly provide a declaration for 'strncpy'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/dirsend.c:655:89: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    if ((nr = recvfrom(lp, next->start, sizeof(next->dat), 0, (struct sockaddr *)&from, &from_sz)) < 0) {
+                                                                                        ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/socket.h:176:27: note: passing argument to parameter '__addr_len' here
+                         socklen_t *__restrict __addr_len);
+                                               ^
+4 warnings generated.
+exit 0

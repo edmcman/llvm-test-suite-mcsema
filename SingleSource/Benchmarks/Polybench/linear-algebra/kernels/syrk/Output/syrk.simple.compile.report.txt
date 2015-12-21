@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/syrk
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: c6929a2a3d3b7c7fc37d1421d6458f77
+TEST-RESULT-compile-time: user       0.0629
+TEST-RESULT-compile-real-time: real       0.0806

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/FreeBench/neural/neural
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: c274f98f7f366965ea4bd24b4ae32502
+TEST-RESULT-compile-time: user 0.118000
+TEST-RESULT-compile-real-time: real 0.136700

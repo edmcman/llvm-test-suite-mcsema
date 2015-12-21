@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2002-08-19-CodegenBug
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 7afcb9638b6f5f7b619bd66c79d63740
+TEST-RESULT-compile-time: user       0.0249
+TEST-RESULT-compile-real-time: real       0.0387

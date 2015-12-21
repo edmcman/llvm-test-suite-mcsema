@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/VersaBench/dbms/dbms
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 6c978c91cb172df3d6603d6c58b42137
+TEST-RESULT-compile-time: user 1.106000
+TEST-RESULT-compile-real-time: real 1.754000

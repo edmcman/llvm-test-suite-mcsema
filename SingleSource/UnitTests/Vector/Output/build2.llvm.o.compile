@@ -1,0 +1,20 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/Vector/build2.c:95:11: warning: incompatible pointer types passing 'v4f32 *' to parameter of type 'FV *' [-Wincompatible-pointer-types]
+  printFV(&x);
+          ^~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/Vector/helpers.h:41:25: note: passing argument to parameter 'F' here
+static void printFV(FV *F) {
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/Vector/build2.c:96:11: warning: incompatible pointer types passing 'v4f32 *' to parameter of type 'FV *' [-Wincompatible-pointer-types]
+  printFV(&y);
+          ^~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/Vector/helpers.h:41:25: note: passing argument to parameter 'F' here
+static void printFV(FV *F) {
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/Vector/build2.c:97:11: warning: incompatible pointer types passing 'v4f32 *' to parameter of type 'FV *' [-Wincompatible-pointer-types]
+  printFV(&z);
+          ^~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/Vector/helpers.h:41:25: note: passing argument to parameter 'F' here
+static void printFV(FV *F) {
+                        ^
+3 warnings generated.
+exit 0

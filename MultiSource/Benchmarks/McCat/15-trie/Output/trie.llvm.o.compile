@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/15-trie/trie.c:198:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+exit 0

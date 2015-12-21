@@ -1,0 +1,16 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/Archive/7z/7zIn.cpp:1176:26: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      if (buf[i] == 0x17 && buf[i + 1] == 0x6 || buf[i] == 0x01 && buf[i + 1] == 0x04)
+          ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/Archive/7z/7zIn.cpp:1176:26: note: place parentheses around the '&&' expression to silence this warning
+      if (buf[i] == 0x17 && buf[i + 1] == 0x6 || buf[i] == 0x01 && buf[i + 1] == 0x04)
+                         ^
+          (                                  )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/Archive/7z/7zIn.cpp:1176:65: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      if (buf[i] == 0x17 && buf[i + 1] == 0x6 || buf[i] == 0x01 && buf[i + 1] == 0x04)
+                                              ~~ ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/Archive/7z/7zIn.cpp:1176:65: note: place parentheses around the '&&' expression to silence this warning
+      if (buf[i] == 0x17 && buf[i + 1] == 0x6 || buf[i] == 0x01 && buf[i + 1] == 0x04)
+                                                                ^
+                                                 (                                   )
+2 warnings generated.
+exit 0

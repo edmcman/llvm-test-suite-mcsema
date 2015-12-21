@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/par-alloc.c:12:14: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+extern void *malloc(unsigned);
+             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/treeadd/par-alloc.c:12:14: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+1 warning generated.
+exit 0

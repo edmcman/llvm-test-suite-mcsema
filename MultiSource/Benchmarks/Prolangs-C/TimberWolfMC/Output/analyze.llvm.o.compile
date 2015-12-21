@@ -1,0 +1,86 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:199:16: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                if (comparex(j, lo) > 0)
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:20: note: passing argument to parameter 'a' here
+int comparex( int *a , int *b )
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:199:19: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                if (comparex(j, lo) > 0)
+                                ^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:29: note: passing argument to parameter 'b' here
+int comparex( int *a , int *b )
+                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:217:19: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                while (comparex(hi -= qsz, min) > 0)
+                                ^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:20: note: passing argument to parameter 'a' here
+int comparex( int *a , int *b )
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:217:30: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                while (comparex(hi -= qsz, min) > 0)
+                                           ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:29: note: passing argument to parameter 'b' here
+int comparex( int *a , int *b )
+                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:265:18: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                        j = (comparex((jj = base), i) > 0 ? jj : i);
+                                      ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:20: note: passing argument to parameter 'a' here
+int comparex( int *a , int *b )
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:265:31: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                        j = (comparex((jj = base), i) > 0 ? jj : i);
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:29: note: passing argument to parameter 'b' here
+int comparex( int *a , int *b )
+                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:266:17: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                        if (comparex(j, (tmp = max - qsz)) > 0) {
+                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:20: note: passing argument to parameter 'a' here
+int comparex( int *a , int *b )
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:266:20: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                        if (comparex(j, (tmp = max - qsz)) > 0) {
+                                        ^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:29: note: passing argument to parameter 'b' here
+int comparex( int *a , int *b )
+                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:269:18: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                                if (comparex(j, tmp) < 0)
+                                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:20: note: passing argument to parameter 'a' here
+int comparex( int *a , int *b )
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:269:21: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                                if (comparex(j, tmp) < 0)
+                                                ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:29: note: passing argument to parameter 'b' here
+int comparex( int *a , int *b )
+                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:285:31: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                        while (i < mid && comparex(i, mid) <= 0)
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:20: note: passing argument to parameter 'a' here
+int comparex( int *a , int *b )
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:285:34: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                        while (i < mid && comparex(i, mid) <= 0)
+                                                      ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:29: note: passing argument to parameter 'b' here
+int comparex( int *a , int *b )
+                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:288:18: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                                if (comparex(mid, j) <= 0) {
+                                             ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:20: note: passing argument to parameter 'a' here
+int comparex( int *a , int *b )
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:288:23: warning: incompatible pointer types passing 'char *' to parameter of type 'int *' [-Wincompatible-pointer-types]
+                                if (comparex(mid, j) <= 0) {
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/analyze.c:158:29: note: passing argument to parameter 'b' here
+int comparex( int *a , int *b )
+                            ^
+14 warnings generated.
+exit 0

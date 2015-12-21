@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Trimaran/netbench-crc/netbench-crc
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 067f6a97b53329baa41dbe824e86630d
+TEST-RESULT-compile-time: user 0.086000
+TEST-RESULT-compile-real-time: real 0.119000

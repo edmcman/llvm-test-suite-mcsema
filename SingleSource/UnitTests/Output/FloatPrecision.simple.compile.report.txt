@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/FloatPrecision
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 1fe4ed071973a9db3b8628ffd4ab6dfe
+TEST-RESULT-compile-time: user       0.0217
+TEST-RESULT-compile-real-time: real       0.0358

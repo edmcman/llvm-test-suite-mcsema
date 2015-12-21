@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/ASC_Sequoia/AMGmk/AMGmk' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/ASC_Sequoia/AMGmk/AMGmk
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: c56a025309793b18646da1541e3c3050
+TEST-RESULT-compile-time: user 0.460900
+TEST-RESULT-compile-real-time: real 0.603200
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/ASC_Sequoia/AMGmk/AMGmk
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       8.8679
+TEST-RESULT-exec-real-time: real       8.9306

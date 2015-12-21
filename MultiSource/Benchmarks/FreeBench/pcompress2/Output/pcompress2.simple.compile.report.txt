@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/FreeBench/pcompress2/pcompress2
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 798527792f9e055739c68ea55b600103
+TEST-RESULT-compile-time: user 0.227300
+TEST-RESULT-compile-real-time: real 0.306200

@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/18-imp/imp
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: fb320babc276e791dda4c914f7e995a6
+TEST-RESULT-compile-time: user 0.293100
+TEST-RESULT-compile-real-time: real 0.365600

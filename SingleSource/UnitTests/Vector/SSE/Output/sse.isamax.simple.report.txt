@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/SSE/sse.isamax' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/SSE/sse.isamax
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 9b171e627481e5ed8c3ced2cf4c70d19
+TEST-RESULT-compile-time: user       0.0747
+TEST-RESULT-compile-real-time: real       0.1197
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/SSE/sse.isamax
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0008
+TEST-RESULT-exec-real-time: real       0.0017

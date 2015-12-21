@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/CoyoteBench/lpbench
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 1d2127e9f025bba0645a7e3fe66c8cf6
+TEST-RESULT-compile-time: user       0.1047
+TEST-RESULT-compile-real-time: real       0.1234

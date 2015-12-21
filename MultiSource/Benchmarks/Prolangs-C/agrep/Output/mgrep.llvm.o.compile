@@ -1,0 +1,50 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:20:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:20:15: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:20:22: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:20:30: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:20:44: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern COUNT, FNAME, SILENT, FILENAMEONLY, num_of_matched;
+~~~~~~                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:21:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern INVERSE;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:22:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern WORDBOUND, WHOLELINE, NOUPPER;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:22:19: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern WORDBOUND, WHOLELINE, NOUPPER;
+~~~~~~            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:22:30: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern WORDBOUND, WHOLELINE, NOUPPER;
+~~~~~~                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:24:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern total_line;
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:175:13: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        p = strlen(patt[i]);
+                   ^~~~~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:305:16: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+       strncpy(text+start, text+end, residue);
+               ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:760:52: note: expanded from macro 'strncpy'
+#  define strncpy(dest, src, n) __builtin_strncpy (dest, src, n)
+                                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/mgrep.c:305:28: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+       strncpy(text+start, text+end, residue);
+                           ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string2.h:760:58: note: expanded from macro 'strncpy'
+#  define strncpy(dest, src, n) __builtin_strncpy (dest, src, n)
+                                                         ^
+13 warnings generated.
+exit 0

@@ -1,0 +1,58 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:9995:33: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      idx[i] == (blocks_m[i]-1) && incriment[i] == 1
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:9995:33: note: place parentheses around the '&&' expression to silence this warning
+      idx[i] == (blocks_m[i]-1) && incriment[i] == 1
+                                ^
+      (                                             )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:9997:19: warning: '&&' within '||' [-Wlogical-op-parentheses]
+      idx[i] == 0 && incriment[i] == -1);
+      ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:9997:19: note: place parentheses around the '&&' expression to silence this warning
+      idx[i] == 0 && incriment[i] == -1);
+                  ^
+      (                                )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:26852:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:26859:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:26917:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:26924:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:26982:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:26989:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:27047:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:27054:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:27116:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:27123:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:27185:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:27192:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+     else
+     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:46828:14: warning: returning reference to local temporary object [-Wreturn-stack-address]
+      return Type_t();
+             ^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4.cpp:56038:11: warning: enumeration value 'Last' not handled in switch [-Wswitch]
+  switch (eos) {
+          ^
+16 warnings generated.
+exit 0

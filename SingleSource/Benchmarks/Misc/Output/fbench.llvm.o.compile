@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Misc/fbench.c:651:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static trace_line(line, ray_h)
+~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Benchmarks/Misc/fbench.c:674:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+exit 0

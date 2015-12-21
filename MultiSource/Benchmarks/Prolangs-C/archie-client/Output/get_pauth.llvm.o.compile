@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_pauth.c:63:6: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)'
+            strcpy(no_auth->auth_type,"UNAUTHENTICATED");
+            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_pauth.c:63:6: note: please include the header <string.h> or explicitly provide a declaration for 'strcpy'
+1 warning generated.
+exit 0

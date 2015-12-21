@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2003-07-09-SignedArgs
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: e3c037abca8e5bba1cb9e68586d28324
+TEST-RESULT-compile-time: user       0.0315
+TEST-RESULT-compile-real-time: real       0.0575

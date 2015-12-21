@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/iinit.c:43:34: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+                dprintf("dict_put failed!\n"), exit(1);
+                                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/iinit.c:43:34: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning generated.
+exit 0

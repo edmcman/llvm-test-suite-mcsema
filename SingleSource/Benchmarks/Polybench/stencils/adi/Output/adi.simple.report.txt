@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/stencils/adi/adi' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/stencils/adi/adi
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 7ecc06f81ae7c8c2ae1436121ed53b9c
+TEST-RESULT-compile-time: user       0.0929
+TEST-RESULT-compile-real-time: real       0.1498
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/stencils/adi/adi
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.6542
+TEST-RESULT-exec-real-time: real       1.7075

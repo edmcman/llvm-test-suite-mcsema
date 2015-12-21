@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/UnitTests/C++11/frame_layout/frame_layout' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/UnitTests/C++11/frame_layout/frame_layout
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 0402ec4414630e9baecada31f5e0c7cf
+TEST-RESULT-compile-time: user 1.162300
+TEST-RESULT-compile-real-time: real 1.328300
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/UnitTests/C++11/frame_layout/frame_layout
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0013
+TEST-RESULT-exec-real-time: real       0.0027

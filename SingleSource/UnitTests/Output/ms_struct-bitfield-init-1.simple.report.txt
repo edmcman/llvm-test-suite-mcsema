@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/ms_struct-bitfield-init-1' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/ms_struct-bitfield-init-1
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a4d8c05b3ea78130970ec68541a36a11
+TEST-RESULT-compile-time: user       0.0265
+TEST-RESULT-compile-real-time: real       0.0435
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/ms_struct-bitfield-init-1
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0008
+TEST-RESULT-exec-real-time: real       0.0016

@@ -1,0 +1,35 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:11: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:19: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:27: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:36: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+                                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:43: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+                                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:51: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:60: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+                                                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:18:70: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "void", "byte", "char", "short", "int", "long", "float", "double", "object"
+                                                                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:107:32: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          mi->local_names[0] = "this";
+                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/sig.cpp:108:31: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+          mi->local_sigs[0] = "L";
+                              ^
+11 warnings generated.
+exit 0

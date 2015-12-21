@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/gnugo/fioe.c:69:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/gnugo/fioe.c:76:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+2 warnings generated.
+exit 0

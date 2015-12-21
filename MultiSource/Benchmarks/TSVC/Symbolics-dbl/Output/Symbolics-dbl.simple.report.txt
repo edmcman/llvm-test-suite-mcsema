@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/Symbolics-dbl/Symbolics-dbl' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/Symbolics-dbl/Symbolics-dbl
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 040efeb8cf68afd78ff90d904a50ae84
+TEST-RESULT-compile-time: user 0.706800
+TEST-RESULT-compile-real-time: real 0.752800
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/Symbolics-dbl/Symbolics-dbl
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       3.2080
+TEST-RESULT-exec-real-time: real       3.2167

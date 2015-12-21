@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/whetstone
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ec87dd304468e6af31fc4eed72febb79
+TEST-RESULT-compile-time: user       0.0669
+TEST-RESULT-compile-real-time: real       0.0849

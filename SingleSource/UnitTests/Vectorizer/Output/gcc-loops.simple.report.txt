@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vectorizer/gcc-loops' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vectorizer/gcc-loops
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: f4d7b5e66c550e1cf5b52e63cebe842d
+TEST-RESULT-compile-time: user       0.3498
+TEST-RESULT-compile-real-time: real       0.3939
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vectorizer/gcc-loops
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       2.6907
+TEST-RESULT-exec-real-time: real       2.6963

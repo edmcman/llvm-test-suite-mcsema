@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/security-sha/security-sha
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 5f5489c5934c602f1dd42a1587107f18
+TEST-RESULT-compile-time: user 0.085600
+TEST-RESULT-compile-real-time: real 0.130000

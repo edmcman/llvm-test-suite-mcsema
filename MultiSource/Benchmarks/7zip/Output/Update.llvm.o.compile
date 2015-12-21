@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/7zip/UI/Common/Update.cpp:211:15: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+  if (newSize < 0)
+      ~~~~~~~ ^ ~
+1 warning generated.
+exit 0

@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/shared_options.c:27:9: warning: '_GNU_SOURCE' macro redefined
+#define _GNU_SOURCE
+        ^
+<command line>:6:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+1 warning generated.
+exit 0

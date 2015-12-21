@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/Burg/nonterminal.c:32:15: warning: incompatible redeclaration of library function 'strcpy' [-Wincompatible-library-redeclaration]
+        extern char *strcpy ARGS((char *, char *));
+                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/Burg/nonterminal.c:32:15: note: 'strcpy' is a builtin with type 'char *(char *, const char *)'
+1 warning generated.
+exit 0

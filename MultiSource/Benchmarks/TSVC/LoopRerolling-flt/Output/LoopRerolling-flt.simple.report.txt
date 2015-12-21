@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/LoopRerolling-flt/LoopRerolling-flt' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/LoopRerolling-flt/LoopRerolling-flt
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: e619ab930d521f169f09c2890360e21f
+TEST-RESULT-compile-time: user 0.696300
+TEST-RESULT-compile-real-time: real 0.740200
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/LoopRerolling-flt/LoopRerolling-flt
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       2.3298
+TEST-RESULT-exec-real-time: real       2.3364

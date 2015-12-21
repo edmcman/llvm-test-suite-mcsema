@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/mst/makegraph.c:67:26: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+              HashInsert((void *) dist,(unsigned int) dest,hash);
+                         ^
+1 warning generated.
+exit 0

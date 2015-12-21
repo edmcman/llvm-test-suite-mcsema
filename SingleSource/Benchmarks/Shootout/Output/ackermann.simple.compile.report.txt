@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout/ackermann
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 16d0486e336238409205e14d566c6586
+TEST-RESULT-compile-time: user       0.0277
+TEST-RESULT-compile-real-time: real       0.0418

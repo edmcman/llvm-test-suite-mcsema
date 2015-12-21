@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-lame/rtp.c:29:11: warning: implicit truncation from 'int' to bitfield changes value from 2 to -2 [-Wbitfield-constant-conversion]
+  foo->b.v=2;
+          ^~
+1 warning generated.
+exit 0

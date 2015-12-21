@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C/PR10189.c:79:11: warning: too few arguments in call to 'func_1'
+  func_1 ();
+  ~~~~~~  ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C/PR10189.c:34:5: warning: tentative array definition assumed to have one element
+int g_20[][1][0];
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C/PR10189.c:42:11: warning: tentative array definition assumed to have one element
+struct S2 g_1639[];
+          ^
+3 warnings generated.
+exit 0

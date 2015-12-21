@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/EH/dead_try_block
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 129c982c8be1c47eec36f1ec3d95b100
+TEST-RESULT-compile-time: user       0.0221
+TEST-RESULT-compile-real-time: real       0.0372

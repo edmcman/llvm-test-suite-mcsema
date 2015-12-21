@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/7zip/CPP/Common/Wildcard.cpp:408:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+1 warning generated.
+exit 0

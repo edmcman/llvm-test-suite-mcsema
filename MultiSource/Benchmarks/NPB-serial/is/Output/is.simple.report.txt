@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/NPB-serial/is/is' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/NPB-serial/is/is
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a05682f26eea8a9c6f3203fca50f5743
+TEST-RESULT-compile-time: user 0.054100
+TEST-RESULT-compile-real-time: real 0.085800
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/NPB-serial/is/is
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       9.1127
+TEST-RESULT-exec-real-time: real       9.4197

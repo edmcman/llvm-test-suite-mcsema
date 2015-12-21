@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Stanford/IntMM
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d983c915564ce402799d6612242144dc
+TEST-RESULT-compile-time: user       0.0383
+TEST-RESULT-compile-real-time: real       0.0536

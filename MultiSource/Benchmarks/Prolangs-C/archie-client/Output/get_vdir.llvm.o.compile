@@ -1,0 +1,32 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:138:6: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)'
+            strcat(options,"+ATTRIBUTES");
+            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:138:6: note: please include the header <string.h> or explicitly provide a declaration for 'strcat'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:169:20: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)'
+        request->length = strlen(request->start);
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:169:20: note: please include the header <string.h> or explicitly provide a declaration for 'strlen'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:225:10: warning: implicitly declaring library function 'strncmp' with type 'int (const char *, const char *, unsigned long)'
+                    if(strncmp(line,"LINK-INFO",9) == 0) {
+                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:225:10: note: please include the header <string.h> or explicitly provide a declaration for 'strncmp'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:269:24: warning: format specifies type 'int *' but the argument has type 'long *' [-Wformat]
+                                 l_ntype, l_fname, &(cur_link->version),
+                                                   ^~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:270:6: warning: format specifies type 'int *' but the argument has type 'long *' [-Wformat]
+                                 &(cur_link->f_magic_no));
+                                 ^~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:378:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)'
+                        strcpy(ulcomp,acomp);
+                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:378:4: note: please include the header <string.h> or explicitly provide a declaration for 'strcpy'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:382:11: warning: implicitly declaring library function 'strrchr' with type 'char *(const char *, int)'
+                        comp = strrchr(ulcomp,(int) '/');
+                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:382:11: note: please include the header <string.h> or explicitly provide a declaration for 'strrchr'
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:453:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)'
+                if ((strcmp(l->type,"DIRECTORY") == 0) || 
+                     ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/archie-client/get_vdir.c:453:8: note: please include the header <string.h> or explicitly provide a declaration for 'strcmp'
+8 warnings generated.
+exit 0

@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/lex.c:483:9: warning: assigning to 'uint8 *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        for (c = a->term->string; *c; c++) {
+               ^ ~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/lex.c:491:9: warning: assigning to 'uint8 *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        for (c = a->term->string; *c; c++) {
+               ^ ~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/lex.c:508:11: warning: assigning to 'uint8 *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      reg = a->term->string;
+          ^ ~~~~~~~~~~~~~~~
+3 warnings generated.
+exit 0

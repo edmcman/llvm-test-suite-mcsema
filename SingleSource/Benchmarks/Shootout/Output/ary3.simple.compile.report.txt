@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout/ary3
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ebf73b56a9939531b9fcbb401fa11a60
+TEST-RESULT-compile-time: user       0.0336
+TEST-RESULT-compile-real-time: real       0.0495

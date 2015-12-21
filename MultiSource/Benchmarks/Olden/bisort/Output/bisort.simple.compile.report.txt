@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/bisort/bisort
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: ce681b63eaa0abd77ff222943bce25cd
+TEST-RESULT-compile-time: user 0.065900
+TEST-RESULT-compile-real-time: real 0.096600

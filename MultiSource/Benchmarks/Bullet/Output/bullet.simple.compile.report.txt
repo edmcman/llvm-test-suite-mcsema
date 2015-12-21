@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Bullet/bullet
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: dee158f5ffb4678b2e40d0553cc28c16
+TEST-RESULT-compile-time: user 22.233900
+TEST-RESULT-compile-real-time: real 24.730000

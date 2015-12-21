@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2003-05-12-MinIntProblem
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 09d7b8c632cbc85f9c1384e5e7d35036
+TEST-RESULT-compile-time: user       0.0213
+TEST-RESULT-compile-real-time: real       0.0345

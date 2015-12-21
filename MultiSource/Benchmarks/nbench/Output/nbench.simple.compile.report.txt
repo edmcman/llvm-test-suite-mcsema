@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/nbench/nbench
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 2bd4c187c7115b2e6d9a4a942e0974cf
+TEST-RESULT-compile-time: user 0.730500
+TEST-RESULT-compile-real-time: real 0.856600

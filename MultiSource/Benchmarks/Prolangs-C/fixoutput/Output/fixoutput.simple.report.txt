@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/fixoutput/fixoutput' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/fixoutput/fixoutput
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 42bc6227df791dfe84c472a13a266bfd
+TEST-RESULT-compile-time: user 0.073500
+TEST-RESULT-compile-real-time: real 0.105700
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/fixoutput/fixoutput
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0018

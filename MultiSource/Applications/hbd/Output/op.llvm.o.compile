@@ -1,0 +1,122 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:10:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " + ", " - ", " * ", " / ", " %% ", ".", " = ", " << ",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:10:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " + ", " - ", " * ", " / ", " %% ", ".", " = ", " << ",
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:10:17: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " + ", " - ", " * ", " / ", " %% ", ".", " = ", " << ",
+                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:10:24: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " + ", " - ", " * ", " / ", " %% ", ".", " = ", " << ",
+                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:10:31: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " + ", " - ", " * ", " / ", " %% ", ".", " = ", " << ",
+                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:10:39: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " + ", " - ", " * ", " / ", " %% ", ".", " = ", " << ",
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:10:44: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " + ", " - ", " * ", " / ", " %% ", ".", " = ", " << ",
+                                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:10:51: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " + ", " - ", " * ", " / ", " %% ", ".", " = ", " << ",
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:11:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " >> ", " >>> ", " & ", " | ", " ^ ", "~", "-", "(cast)",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:11:11: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " >> ", " >>> ", " & ", " | ", " ^ ", "~", "-", "(cast)",
+          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:11:20: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " >> ", " >>> ", " & ", " | ", " ^ ", "~", "-", "(cast)",
+                   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:11:27: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " >> ", " >>> ", " & ", " | ", " ^ ", "~", "-", "(cast)",
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:11:34: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " >> ", " >>> ", " & ", " | ", " ^ ", "~", "-", "(cast)",
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:11:41: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " >> ", " >>> ", " & ", " | ", " ^ ", "~", "-", "(cast)",
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:11:46: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " >> ", " >>> ", " & ", " | ", " ^ ", "~", "-", "(cast)",
+                                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:11:51: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " >> ", " >>> ", " & ", " | ", " ^ ", "~", "-", "(cast)",
+                                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:12:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "return ", "throw ", "new ", "goto ", " += ", " -= ", "++", "--",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:12:14: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "return ", "throw ", "new ", "goto ", " += ", " -= ", "++", "--",
+             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:12:24: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "return ", "throw ", "new ", "goto ", " += ", " -= ", "++", "--",
+                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:12:32: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "return ", "throw ", "new ", "goto ", " += ", " -= ", "++", "--",
+                               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:12:41: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "return ", "throw ", "new ", "goto ", " += ", " -= ", "++", "--",
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:12:49: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "return ", "throw ", "new ", "goto ", " += ", " -= ", "++", "--",
+                                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:12:57: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "return ", "throw ", "new ", "goto ", " += ", " -= ", "++", "--",
+                                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:12:63: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "return ", "throw ", "new ", "goto ", " += ", " -= ", "++", "--",
+                                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:13:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " ? ", " : ", " error ", " cmp ", " == ", " != ", " < ", " >= ",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:13:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " ? ", " : ", " error ", " cmp ", " == ", " != ", " < ", " >= ",
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:13:17: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " ? ", " : ", " error ", " cmp ", " == ", " != ", " < ", " >= ",
+                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:13:28: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " ? ", " : ", " error ", " cmp ", " == ", " != ", " < ", " >= ",
+                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:13:37: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " ? ", " : ", " error ", " cmp ", " == ", " != ", " < ", " >= ",
+                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:13:45: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " ? ", " : ", " error ", " cmp ", " == ", " != ", " < ", " >= ",
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:13:53: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " ? ", " : ", " error ", " cmp ", " == ", " != ", " < ", " >= ",
+                                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:13:60: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " ? ", " : ", " error ", " cmp ", " == ", " != ", " < ", " >= ",
+                                                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:14:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " > ", " <= ", "!", " && ", " || ", " instanceof ", ", ",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:14:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " > ", " <= ", "!", " && ", " || ", " instanceof ", ", ",
+         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:14:18: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " > ", " <= ", "!", " && ", " || ", " instanceof ", ", ",
+                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:14:23: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " > ", " <= ", "!", " && ", " || ", " instanceof ", ", ",
+                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:14:31: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " > ", " <= ", "!", " && ", " || ", " instanceof ", ", ",
+                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:14:39: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " > ", " <= ", "!", " && ", " || ", " instanceof ", ", ",
+                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:14:55: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  " > ", " <= ", "!", " && ", " || ", " instanceof ", ", ",
+                                                      ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/op.cpp:15:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  ""
+  ^
+40 warnings generated.
+exit 0

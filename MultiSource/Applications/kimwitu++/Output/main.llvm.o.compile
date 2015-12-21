@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/main.cc:119:15: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+char* pg_line("#line ");
+              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/main.cc:451:10: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+        pg_line="// line ";
+                ^
+2 warnings generated.
+exit 0

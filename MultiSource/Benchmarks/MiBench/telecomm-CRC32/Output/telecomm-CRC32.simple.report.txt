@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/telecomm-CRC32/telecomm-CRC32' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/telecomm-CRC32/telecomm-CRC32
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 71a3bfb9a8a528e96856d7edde39c26e
+TEST-RESULT-compile-time: user 0.038000
+TEST-RESULT-compile-real-time: real 0.062400
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/telecomm-CRC32/telecomm-CRC32
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.1850
+TEST-RESULT-exec-real-time: real       0.2781

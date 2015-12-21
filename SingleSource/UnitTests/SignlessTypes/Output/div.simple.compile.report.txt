@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/SignlessTypes/div
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a7d4d2fc71f4976b2f4ea2695f188cea
+TEST-RESULT-compile-time: user       0.0294
+TEST-RESULT-compile-real-time: real       0.0431

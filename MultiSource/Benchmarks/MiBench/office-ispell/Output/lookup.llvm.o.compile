@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/office-ispell/lookup.c:76:9: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static          inited = 0;
+~~~~~~          ^
+1 warning generated.
+exit 0

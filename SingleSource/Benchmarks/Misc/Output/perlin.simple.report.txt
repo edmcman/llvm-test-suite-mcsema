@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/perlin' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/perlin
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 0a818de6bcdde2bd440af5afa231128a
+TEST-RESULT-compile-time: user       0.0496
+TEST-RESULT-compile-real-time: real       0.0660
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/perlin
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       3.8606
+TEST-RESULT-exec-real-time: real       3.8675

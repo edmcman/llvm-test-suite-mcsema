@@ -1,0 +1,16 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/2007-01-04-KNR-Args.c:3:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+p1 (c, f1, s, d1, i, f2, l, d2)
+^~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/2007-01-04-KNR-Args.c:6:59: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+  printf("%c %f %d %f %d %f %d %f\n", c, f1, s, d1,i, f2, l, d2);
+                            ~~                            ^
+                            %ld
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/2007-01-04-KNR-Args.c:7:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/2007-01-04-KNR-Args.c:11:59: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+  printf("%c %f %d %f %d %f %d %f\n", c, f1, s, d1,i, f2, l, d2);
+                            ~~                            ^
+                            %ld
+4 warnings generated.
+exit 0

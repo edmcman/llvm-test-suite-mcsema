@@ -1,0 +1,11 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/plot2fig/fontname.c:98:18: warning: implicit declaration of function 're_comp' is invalid in C99 [-Wimplicit-function-declaration]
+  res = (char *) re_comp (s);
+                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/plot2fig/fontname.c:98:9: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+  res = (char *) re_comp (s);
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/plot2fig/fontname.c:106:7: warning: implicit declaration of function 're_exec' is invalid in C99 [-Wimplicit-function-declaration]
+  if (re_exec("typewriter")
+      ^
+3 warnings generated.
+exit 0

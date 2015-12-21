@@ -1,0 +1,21 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/cdecl/cdecl.c:169:
+cdgram.y:1035:9: warning: array index -1 is before the beginning of the array [-Warray-bounds]
+        yyps= &yys[-1];
+               ^   ~~
+cdgram.y:1024:2: note: array 'yys' declared here
+        short yys[YYMAXDEPTH];
+        ^
+cdgram.y:1036:9: warning: array index -1 is before the beginning of the array [-Warray-bounds]
+        yypv= &yyv[-1];
+               ^   ~~
+cdgram.y:1017:1: note: array 'yyv' declared here
+YYSTYPE yyv[YYMAXDEPTH]; /* where the values are stored */
+^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/cdecl/cdecl.c:840:2: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+        else if (prev == 'a')
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/cdecl/cdecl.c:872:2: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+        else if (prev == 'r')
+        ^
+4 warnings generated.
+exit 0

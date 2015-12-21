@@ -1,0 +1,45 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/str.c:5:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:23:18: warning: '/*' within block comment [-Wcomment]
+/*#define BSD                           /* if system is a Berkeley system */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:25:40: warning: '/*' within block comment [-Wcomment]
+/*#define SENDMAIL "/usr/lib/sendmail"  /* Turn off to use /bin/(l)mail only */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:34:28: warning: '/*' within block comment [-Wcomment]
+/*#define HOSTNAME      "host"          /* literal name */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:36:33: warning: '/*' within block comment [-Wcomment]
+/*#define HOSTDOMAIN    "host.dom"      /* overrides default HOSTNAME.MYDOM */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:61:20: warning: '/*' within block comment [-Wcomment]
+/*#define DOMGATE               /* Act as Domain Gateway */
+                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:83:25: warning: '/*' within block comment [-Wcomment]
+/*#define HIDDENHOSTS                   /* hide subdomains of hostdomain */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:107:23: warning: '/*' within block comment [-Wcomment]
+/*#define CASEALIAS                     /* make aliases case sensitive    */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:108:26: warning: '/*' within block comment [-Wcomment]
+/*#define LOWERLOGNAME                  /* map local logins to lower case */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:129:22: warning: '/*' within block comment [-Wcomment]
+/*#define DOT_REQD                      /* Must be George.P.Burdell@gatech.EDU
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:145:42: warning: '/*' within block comment [-Wcomment]
+/*#define LOG   "/usr/spool/uucp/mail.log"      /* log of uucp mail */
+                                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:146:35: warning: '/*' within block comment [-Wcomment]
+/*#define RECORD        "/tmp/mail.log"         /* record of uucp mail */
+                                                ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:181:66: warning: '/*' within block comment [-Wcomment]
+/*#define RMAIL(flags,from,sys) "%s %s - %s!rmail",UUX,flags,sys /* */
+                                                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:235:6: warning: '/*' within block comment [-Wcomment]
+                                        /* is DEDICATED+LOW or better */
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/defs.h:258:6: warning: '/*' within block comment [-Wcomment]
+                                        /* this is to keep other's buffers
+                                        ^
+14 warnings generated.
+exit 0

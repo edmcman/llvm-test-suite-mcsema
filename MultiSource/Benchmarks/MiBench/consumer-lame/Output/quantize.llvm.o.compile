@@ -1,0 +1,12 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-lame/quantize.c:682:30: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((cod_info->block_type==SHORT_TYPE) ) {
+         ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-lame/quantize.c:682:30: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((cod_info->block_type==SHORT_TYPE) ) {
+        ~                    ^           ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/consumer-lame/quantize.c:682:30: note: use '=' to turn this equality comparison into an assignment
+    if ((cod_info->block_type==SHORT_TYPE) ) {
+                             ^~
+                             =
+1 warning generated.
+exit 0

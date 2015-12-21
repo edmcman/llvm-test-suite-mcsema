@@ -1,0 +1,762 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:77:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:77:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:77:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:90:21: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_uniqID_1 == uniqID_1))
+         ~~~~~~~~~~~^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:90:21: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_uniqID_1 == uniqID_1))
+        ~           ^          ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:90:21: note: use '=' to turn this equality comparison into an assignment
+    if ((l_uniqID_1 == uniqID_1))
+                    ^~
+                    =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:103:22: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_integer_1 == integer_1))
+         ~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:103:22: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_integer_1 == integer_1))
+        ~            ^           ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:103:22: note: use '=' to turn this equality comparison into an assignment
+    if ((l_integer_1 == integer_1))
+                     ^~
+                     =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:116:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:116:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:116:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:129:33: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_phylumdeclarations_1 == phylumdeclarations_1))
+         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:129:33: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_phylumdeclarations_1 == phylumdeclarations_1))
+        ~                       ^                      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:129:33: note: use '=' to turn this equality comparison into an assignment
+    if ((l_phylumdeclarations_1 == phylumdeclarations_1))
+                                ^~
+                                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:197:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:197:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:197:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:210:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:210:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:210:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:247:27: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_alternatives_1 == alternatives_1))
+         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:247:27: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_alternatives_1 == alternatives_1))
+        ~                 ^                ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:247:27: note: use '=' to turn this equality comparison into an assignment
+    if ((l_alternatives_1 == alternatives_1))
+                          ^~
+                          =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:260:27: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_alternatives_1 == alternatives_1))
+         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:260:27: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_alternatives_1 == alternatives_1))
+        ~                 ^                ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:260:27: note: use '=' to turn this equality comparison into an assignment
+    if ((l_alternatives_1 == alternatives_1))
+                          ^~
+                          =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:410:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Cexpression_1 == Cexpression_1))
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:410:26: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Cexpression_1 == Cexpression_1))
+        ~                ^               ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:410:26: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Cexpression_1 == Cexpression_1))
+                         ^~
+                         =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:447:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Cexpression_1 == Cexpression_1))
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:447:26: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Cexpression_1 == Cexpression_1))
+        ~                ^               ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:447:26: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Cexpression_1 == Cexpression_1))
+                         ^~
+                         =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:460:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Cexpression_1 == Cexpression_1))
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:460:26: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Cexpression_1 == Cexpression_1))
+        ~                ^               ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:460:26: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Cexpression_1 == Cexpression_1))
+                         ^~
+                         =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:473:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:473:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:473:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:486:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:486:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:486:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:505:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_INT_1 == INT_1))
+         ~~~~~~~~^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:505:18: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_INT_1 == INT_1))
+        ~        ^       ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:505:18: note: use '=' to turn this equality comparison into an assignment
+    if ((l_INT_1 == INT_1))
+                 ^~
+                 =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:518:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:518:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:518:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:555:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:555:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:555:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:592:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:592:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:592:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:674:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:674:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:674:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:705:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:705:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:705:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:943:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:943:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:943:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:970:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_patternchains_1 == patternchains_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:970:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_patternchains_1 == patternchains_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:970:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_patternchains_1 == patternchains_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:983:29: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_outmostpattern_1 == outmostpattern_1))
+         ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:983:29: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_outmostpattern_1 == outmostpattern_1))
+        ~                   ^                  ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:983:29: note: use '=' to turn this equality comparison into an assignment
+    if ((l_outmostpattern_1 == outmostpattern_1))
+                            ^~
+                            =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:996:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Cexpression_1 == Cexpression_1))
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:996:26: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Cexpression_1 == Cexpression_1))
+        ~                ^               ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:996:26: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Cexpression_1 == Cexpression_1))
+                         ^~
+                         =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1009:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Cexpression_1 == Cexpression_1))
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1009:26: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Cexpression_1 == Cexpression_1))
+        ~                ^               ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1009:26: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Cexpression_1 == Cexpression_1))
+                         ^~
+                         =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1069:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_INT_1 == INT_1))
+         ~~~~~~~~^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1069:18: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_INT_1 == INT_1))
+        ~        ^       ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1069:18: note: use '=' to turn this equality comparison into an assignment
+    if ((l_INT_1 == INT_1))
+                 ^~
+                 =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1082:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1082:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1082:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1131:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1131:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1131:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1162:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_INT_1 == INT_1))
+         ~~~~~~~~^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1162:18: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_INT_1 == INT_1))
+        ~        ^       ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1162:18: note: use '=' to turn this equality comparison into an assignment
+    if ((l_INT_1 == INT_1))
+                 ^~
+                 =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1175:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1175:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1175:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1188:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1188:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1188:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1280:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1280:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1280:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1329:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1329:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1329:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1428:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1428:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1428:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1503:20: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Ctext_1 == Ctext_1))
+         ~~~~~~~~~~^~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1503:20: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Ctext_1 == Ctext_1))
+        ~          ^         ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1503:20: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Ctext_1 == Ctext_1))
+                   ^~
+                   =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1516:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1516:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1516:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_CexpressionSQ_1 == CexpressionSQ_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1529:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1529:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1529:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_CexpressionDQ_1 == CexpressionDQ_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1542:22: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_integer_1 == integer_1))
+         ~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1542:22: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_integer_1 == integer_1))
+        ~            ^           ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1542:22: note: use '=' to turn this equality comparison into an assignment
+    if ((l_integer_1 == integer_1))
+                     ^~
+                     =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1555:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_INT_1 == INT_1))
+         ~~~~~~~~^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1555:18: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_INT_1 == INT_1))
+        ~        ^       ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1555:18: note: use '=' to turn this equality comparison into an assignment
+    if ((l_INT_1 == INT_1))
+                 ^~
+                 =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1568:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1568:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1568:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1612:27: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_patternchain_1 == patternchain_1))
+         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1612:27: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_patternchain_1 == patternchain_1))
+        ~                 ^                ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1612:27: note: use '=' to turn this equality comparison into an assignment
+    if ((l_patternchain_1 == patternchain_1))
+                          ^~
+                          =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1643:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Cexpression_1 == Cexpression_1))
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1643:26: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Cexpression_1 == Cexpression_1))
+        ~                ^               ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1643:26: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Cexpression_1 == Cexpression_1))
+                         ^~
+                         =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1656:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1656:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1656:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1930:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_INT_1 == INT_1))
+         ~~~~~~~~^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1930:18: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_INT_1 == INT_1))
+        ~        ^       ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1930:18: note: use '=' to turn this equality comparison into an assignment
+    if ((l_INT_1 == INT_1))
+                 ^~
+                 =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1943:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1943:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1943:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1974:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1974:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1974:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1993:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_languagenames_1 == languagenames_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1993:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_languagenames_1 == languagenames_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:1993:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_languagenames_1 == languagenames_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2085:22: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_integer_1 == integer_1))
+         ~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2085:22: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_integer_1 == integer_1))
+        ~            ^           ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2085:22: note: use '=' to turn this equality comparison into an assignment
+    if ((l_integer_1 == integer_1))
+                     ^~
+                     =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2113:22: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_fnclass_1 == fnclass_1))
+         ~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2113:22: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_fnclass_1 == fnclass_1))
+        ~            ^           ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2113:22: note: use '=' to turn this equality comparison into an assignment
+    if ((l_fnclass_1 == fnclass_1))
+                     ^~
+                     =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2198:32: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_phylumdeclaration_1 == phylumdeclaration_1))
+         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2198:32: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_phylumdeclaration_1 == phylumdeclaration_1))
+        ~                      ^                     ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2198:32: note: use '=' to turn this equality comparison into an assignment
+    if ((l_phylumdeclaration_1 == phylumdeclaration_1))
+                               ^~
+                               =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2211:32: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_phylumdeclaration_1 == phylumdeclaration_1))
+         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2211:32: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_phylumdeclaration_1 == phylumdeclaration_1))
+        ~                      ^                     ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2211:32: note: use '=' to turn this equality comparison into an assignment
+    if ((l_phylumdeclaration_1 == phylumdeclaration_1))
+                               ^~
+                               =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2408:19: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_path_1 == path_1))
+         ~~~~~~~~~^~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2408:19: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_path_1 == path_1))
+        ~         ^        ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2408:19: note: use '=' to turn this equality comparison into an assignment
+    if ((l_path_1 == path_1))
+                  ^~
+                  =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2438:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Cexpression_1 == Cexpression_1))
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2438:26: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Cexpression_1 == Cexpression_1))
+        ~                ^               ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2438:26: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Cexpression_1 == Cexpression_1))
+                         ^~
+                         =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2774:32: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_type_qualifier_1 == ac_type_qualifier_1))
+         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2774:32: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_type_qualifier_1 == ac_type_qualifier_1))
+        ~                      ^                     ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2774:32: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_type_qualifier_1 == ac_type_qualifier_1))
+                               ^~
+                               =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2787:32: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_type_specifier_1 == ac_type_specifier_1))
+         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2787:32: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_type_specifier_1 == ac_type_specifier_1))
+        ~                      ^                     ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2787:32: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_type_specifier_1 == ac_type_specifier_1))
+                               ^~
+                               =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2800:41: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_storage_class_specifier_1 == ac_storage_class_specifier_1))
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2800:41: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_storage_class_specifier_1 == ac_storage_class_specifier_1))
+        ~                               ^                              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2800:41: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_storage_class_specifier_1 == ac_storage_class_specifier_1))
+                                        ^~
+                                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2849:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2849:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2849:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2904:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_declarator_1 == ac_declarator_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2904:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_declarator_1 == ac_declarator_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2904:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_declarator_1 == ac_declarator_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2934:31: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_operator_name_1 == ac_operator_name_1))
+         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2934:31: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_operator_name_1 == ac_operator_name_1))
+        ~                     ^                    ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:2934:31: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_operator_name_1 == ac_operator_name_1))
+                              ^~
+                              =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3028:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_declarator_1 == ac_declarator_1))
+         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3028:28: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_declarator_1 == ac_declarator_1))
+        ~                  ^                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3028:28: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_declarator_1 == ac_declarator_1))
+                           ^~
+                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3041:17: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ID_1 == ID_1))
+         ~~~~~~~^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3041:17: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ID_1 == ID_1))
+        ~       ^      ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3041:17: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ID_1 == ID_1))
+                ^~
+                =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3054:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_pointer_1 == ac_pointer_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3054:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_pointer_1 == ac_pointer_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3054:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_pointer_1 == ac_pointer_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3088:37: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_type_qualifier_list_1 == ac_type_qualifier_list_1))
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3088:37: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_type_qualifier_list_1 == ac_type_qualifier_list_1))
+        ~                           ^                          ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3088:37: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_type_qualifier_list_1 == ac_type_qualifier_list_1))
+                                    ^~
+                                    =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3113:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3113:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3113:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3180:32: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_parameter_list_1 == ac_parameter_list_1))
+         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3180:32: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_parameter_list_1 == ac_parameter_list_1))
+        ~                      ^                     ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3180:32: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_parameter_list_1 == ac_parameter_list_1))
+                               ^~
+                               =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3193:32: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_parameter_list_1 == ac_parameter_list_1))
+         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3193:32: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_parameter_list_1 == ac_parameter_list_1))
+        ~                      ^                     ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3193:32: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_parameter_list_1 == ac_parameter_list_1))
+                               ^~
+                               =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3291:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_pointer_1 == ac_pointer_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3291:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_pointer_1 == ac_pointer_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3291:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_pointer_1 == ac_pointer_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3304:44: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_direct_abstract_declarator_1 == ac_direct_abstract_declarator_1))
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3304:44: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_direct_abstract_declarator_1 == ac_direct_abstract_declarator_1))
+        ~                                  ^                                 ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3304:44: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_direct_abstract_declarator_1 == ac_direct_abstract_declarator_1))
+                                           ^~
+                                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3353:37: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_abstract_declarator_1 == ac_abstract_declarator_1))
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3353:37: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_abstract_declarator_1 == ac_abstract_declarator_1))
+        ~                           ^                          ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3353:37: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_abstract_declarator_1 == ac_abstract_declarator_1))
+                                    ^~
+                                    =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3372:37: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_constant_expression_1 == ac_constant_expression_1))
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3372:37: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_constant_expression_1 == ac_constant_expression_1))
+        ~                           ^                          ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3372:37: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_constant_expression_1 == ac_constant_expression_1))
+                                    ^~
+                                    =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3385:26: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_Cexpression_1 == Cexpression_1))
+         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3385:26: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_Cexpression_1 == Cexpression_1))
+        ~                ^               ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3385:26: note: use '=' to turn this equality comparison into an assignment
+    if ((l_Cexpression_1 == Cexpression_1))
+                         ^~
+                         =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3416:32: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_ac_base_init_list_1 == ac_base_init_list_1))
+         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3416:32: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_ac_base_init_list_1 == ac_base_init_list_1))
+        ~                      ^                     ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3416:32: note: use '=' to turn this equality comparison into an assignment
+    if ((l_ac_base_init_list_1 == ac_base_init_list_1))
+                               ^~
+                               =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3879:25: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_casestring_1 == casestring_1))
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3879:25: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_casestring_1 == casestring_1))
+        ~               ^              ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3879:25: note: use '=' to turn this equality comparison into an assignment
+    if ((l_casestring_1 == casestring_1))
+                        ^~
+                        =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3910:21: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_uniqID_1 == uniqID_1))
+         ~~~~~~~~~~~^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3910:21: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_uniqID_1 == uniqID_1))
+        ~           ^          ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3910:21: note: use '=' to turn this equality comparison into an assignment
+    if ((l_uniqID_1 == uniqID_1))
+                    ^~
+                    =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3941:21: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_uniqID_1 == uniqID_1))
+         ~~~~~~~~~~~^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3941:21: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_uniqID_1 == uniqID_1))
+        ~           ^          ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3941:21: note: use '=' to turn this equality comparison into an assignment
+    if ((l_uniqID_1 == uniqID_1))
+                    ^~
+                    =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3990:21: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((l_uniqID_1 == uniqID_1))
+         ~~~~~~~~~~~^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3990:21: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((l_uniqID_1 == uniqID_1))
+        ~           ^          ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/rk.cc:3990:21: note: use '=' to turn this equality comparison into an assignment
+    if ((l_uniqID_1 == uniqID_1))
+                    ^~
+                    =
+76 warnings generated.
+exit 0

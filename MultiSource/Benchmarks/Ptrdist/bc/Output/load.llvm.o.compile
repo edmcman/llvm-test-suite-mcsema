@@ -1,0 +1,16 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/load.c:273:28: warning: '&' within '|' [-Wbitwise-op-parentheses]
+                    addbyte ((func >> 8) & 0xff | 0x80);
+                             ~~~~~~~~~~~~^~~~~~ ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/load.c:273:28: note: place parentheses around the '&' expression to silence this warning
+                    addbyte ((func >> 8) & 0xff | 0x80);
+                                         ^
+                             (                 )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/load.c:306:32: warning: '&' within '|' [-Wbitwise-op-parentheses]
+                    addbyte ((vaf_name >> 8) & 0xff | 0x80);
+                             ~~~~~~~~~~~~~~~~^~~~~~ ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/load.c:306:32: note: place parentheses around the '&' expression to silence this warning
+                    addbyte ((vaf_name >> 8) & 0xff | 0x80);
+                                             ^
+                             (                     )
+2 warnings generated.
+exit 0

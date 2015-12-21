@@ -1,0 +1,9 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gxdraw.c:102:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        if ( w0 == 0 && w1 == 0 || h <= 0 ) return 0;
+             ~~~~~~~~^~~~~~~~~~ ~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gxdraw.c:102:15: note: place parentheses around the '&&' expression to silence this warning
+        if ( w0 == 0 && w1 == 0 || h <= 0 ) return 0;
+                     ^
+             (                 )
+1 warning generated.
+exit 0

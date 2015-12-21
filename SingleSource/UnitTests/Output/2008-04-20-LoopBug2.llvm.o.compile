@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/UnitTests/2008-04-20-LoopBug2.c:11:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main() {
+^~~~
+1 warning generated.
+exit 0

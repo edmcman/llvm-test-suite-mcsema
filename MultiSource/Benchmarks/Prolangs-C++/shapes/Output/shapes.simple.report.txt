@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/shapes/shapes' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/shapes/shapes
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 557524becdf29fd774f6e1979bf0c97e
+TEST-RESULT-compile-time: user 0.219000
+TEST-RESULT-compile-real-time: real 0.248100
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/shapes/shapes
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0010
+TEST-RESULT-exec-real-time: real       0.0021

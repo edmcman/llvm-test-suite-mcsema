@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/05-eks/eks
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 2507c957ee0c67076a6712034e36c83f
+TEST-RESULT-compile-time: user 0.460000
+TEST-RESULT-compile-real-time: real 0.622600

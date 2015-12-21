@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/security-blowfish/security-blowfish' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/security-blowfish/security-blowfish
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 3a1458d6189e4d66e91610eee6f6bb43
+TEST-RESULT-compile-time: user 0.253800
+TEST-RESULT-compile-real-time: real 0.391200
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/security-blowfish/security-blowfish
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0010
+TEST-RESULT-exec-real-time: real       0.0018

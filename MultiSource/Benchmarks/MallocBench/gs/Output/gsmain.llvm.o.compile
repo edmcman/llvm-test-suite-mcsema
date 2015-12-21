@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/gsmain.c:140:16: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+                           {    extern main();
+                                ~~~~~~ ^
+1 warning generated.
+exit 0

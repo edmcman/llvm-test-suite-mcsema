@@ -1,0 +1,35 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:14:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "public ", "private ", "protected ", "static ",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:14:14: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "public ", "private ", "protected ", "static ",
+             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:14:26: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "public ", "private ", "protected ", "static ",
+                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:14:40: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "public ", "private ", "protected ", "static ",
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:15:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "final ", "synchronized ", "threadsafe ", "transient ",
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:15:13: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "final ", "synchronized ", "threadsafe ", "transient ",
+            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:15:30: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "final ", "synchronized ", "threadsafe ", "transient ",
+                             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:15:45: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "final ", "synchronized ", "threadsafe ", "transient ",
+                                            ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:16:3: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "native ", "interface ", "abstract "
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:16:14: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "native ", "interface ", "abstract "
+             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/access.cpp:16:28: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  "native ", "interface ", "abstract "
+                           ^
+11 warnings generated.
+exit 0

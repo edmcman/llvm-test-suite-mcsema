@@ -1,0 +1,62 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:122:17: warning: passing 'char [16]' to parameter of type 'const byte *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        encrypt(inbuf, outbuf, ctx);    /* and do the encryption        */
+                ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:310:35: note: passing argument to parameter 'in_blk' here
+cf_dec c_name(encrypt)(const byte in_blk[], byte out_blk[], const c_name(aes) *cx);
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:122:24: warning: passing 'char [16]' to parameter of type 'byte *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        encrypt(inbuf, outbuf, ctx);    /* and do the encryption        */
+                       ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:310:50: note: passing argument to parameter 'out_blk' here
+cf_dec c_name(encrypt)(const byte in_blk[], byte out_blk[], const c_name(aes) *cx);
+                                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:150:17: warning: passing 'char [16]' to parameter of type 'const byte *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        encrypt(inbuf, outbuf, ctx);    /* encrypt and output it        */
+                ^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:310:35: note: passing argument to parameter 'in_blk' here
+cf_dec c_name(encrypt)(const byte in_blk[], byte out_blk[], const c_name(aes) *cx);
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:150:24: warning: passing 'char [16]' to parameter of type 'byte *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        encrypt(inbuf, outbuf, ctx);    /* encrypt and output it        */
+                       ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:310:50: note: passing argument to parameter 'out_blk' here
+cf_dec c_name(encrypt)(const byte in_blk[], byte out_blk[], const c_name(aes) *cx);
+                                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:180:13: warning: passing 'char [16]' to parameter of type 'const byte *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    decrypt(inbuf2, outbuf, ctx);   /* decrypt it                       */
+            ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:311:35: note: passing argument to parameter 'in_blk' here
+cf_dec c_name(decrypt)(const byte in_blk[], byte out_blk[], const c_name(aes) *cx);
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:180:21: warning: passing 'char [16]' to parameter of type 'byte *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    decrypt(inbuf2, outbuf, ctx);   /* decrypt it                       */
+                    ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:311:50: note: passing argument to parameter 'out_blk' here
+cf_dec c_name(decrypt)(const byte in_blk[], byte out_blk[], const c_name(aes) *cx);
+                                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:206:17: warning: passing 'char *' to parameter of type 'const byte *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        decrypt(bp1, outbuf, ctx);  /* decrypt the new input block and  */
+                ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:311:35: note: passing argument to parameter 'in_blk' here
+cf_dec c_name(decrypt)(const byte in_blk[], byte out_blk[], const c_name(aes) *cx);
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:206:22: warning: passing 'char [16]' to parameter of type 'byte *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        decrypt(bp1, outbuf, ctx);  /* decrypt the new input block and  */
+                     ^~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:311:50: note: passing argument to parameter 'out_blk' here
+cf_dec c_name(decrypt)(const byte in_blk[], byte out_blk[], const c_name(aes) *cx);
+                                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:294:17: warning: passing 'char [32]' to parameter of type 'const byte *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        set_key(key, key_len, enc, ctx);
+                ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:309:35: note: passing argument to parameter 'key' here
+cf_dec c_name(set_key)(const byte key[], const word n_bytes, const enum aes_key f, c_name(aes) *cx);
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aesxam.c:300:17: warning: passing 'char [32]' to parameter of type 'const byte *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        set_key(key, key_len, dec, ctx);
+                ^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/security-rijndael/aes.h:309:35: note: passing argument to parameter 'key' here
+cf_dec c_name(set_key)(const byte key[], const word n_bytes, const enum aes_key f, c_name(aes) *cx);
+                                  ^
+10 warnings generated.
+exit 0

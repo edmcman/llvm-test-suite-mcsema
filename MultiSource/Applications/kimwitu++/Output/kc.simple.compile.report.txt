@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/kimwitu++/kc
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 92d63720da4b7a7d25818daa5d89ea67
+TEST-RESULT-compile-time: user 11.425000
+TEST-RESULT-compile-real-time: real 12.069900

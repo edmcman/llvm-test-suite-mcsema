@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Fhourstones/trans.c:26:7: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+      TRANSIZE * (sizeof(unsigned int) + sizeof(byte)));
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<command line>:2:18: note: expanded from here
+#define TRANSIZE 1050011
+                 ^
+1 warning generated.
+exit 0

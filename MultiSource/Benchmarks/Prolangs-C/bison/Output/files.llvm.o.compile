@@ -1,0 +1,13 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/files.c:87:16: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  while (*cp++ = *cp1++) ;
+         ~~~~~~^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/files.c:87:16: note: place parentheses around the assignment to silence this warning
+  while (*cp++ = *cp1++) ;
+               ^
+         (             )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/files.c:87:16: note: use '==' to turn this assignment into an equality comparison
+  while (*cp++ = *cp1++) ;
+               ^
+               ==
+1 warning generated.
+exit 0

@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/office-ispell/term.c:519:9: warning: implicit declaration of function 'wait' is invalid in C99 [-Wimplicit-function-declaration]
+        while (wait (&termstat) != i)
+               ^
+1 warning generated.
+exit 0

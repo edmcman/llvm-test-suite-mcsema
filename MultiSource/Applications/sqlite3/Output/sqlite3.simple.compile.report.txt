@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/sqlite3/sqlite3
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 6ab91d9f7a72ed5bb9ef0cde87491fb2
+TEST-RESULT-compile-time: user 13.885500
+TEST-RESULT-compile-real-time: real 14.067300

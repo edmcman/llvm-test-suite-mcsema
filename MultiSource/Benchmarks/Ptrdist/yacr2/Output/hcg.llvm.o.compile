@@ -1,0 +1,10 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/hcg.c:125:19: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("[%d]\n", net);
+                 ~~      ^~~
+                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/hcg.c:127:20: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+            printf("%d ", HCG[net].netsHook[which]);
+                    ~~    ^~~~~~~~~~~~~~~~~~~~~~~~
+                    %lu
+2 warnings generated.
+exit 0

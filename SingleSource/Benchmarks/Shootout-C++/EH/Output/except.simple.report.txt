@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/EH/except' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/EH/except
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: d65d5248bd1899cd72a7f0baa5f06fe0
+TEST-RESULT-compile-time: user       0.1761
+TEST-RESULT-compile-real-time: real       0.2026
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/EH/except
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.1729
+TEST-RESULT-exec-real-time: real       0.1743

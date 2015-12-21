@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/iname.c:135:44: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+                dprintf1("name_enter failed - %s", str), exit(1);
+                                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/iname.c:135:44: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning generated.
+exit 0

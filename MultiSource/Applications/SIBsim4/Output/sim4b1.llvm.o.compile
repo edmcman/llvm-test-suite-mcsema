@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/SIBsim4/sim4b1.c:108:64: warning: variable 'best' is uninitialized when used within its own initialization [-Wuninitialized]
+  struct {int score; unsigned int cnt; unsigned int d;} best = best;
+                                                        ~~~~   ^~~~
+1 warning generated.
+exit 0

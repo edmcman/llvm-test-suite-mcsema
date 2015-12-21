@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/09-vor/vor
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 36f1e5a39bf0351a5f458699c230d456
+TEST-RESULT-compile-time: user 0.294500
+TEST-RESULT-compile-real-time: real 0.407200

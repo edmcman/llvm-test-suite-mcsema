@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/lemon/lemon.c:3075:12: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  filename = mybasename(filename);
+           ^ ~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+exit 0

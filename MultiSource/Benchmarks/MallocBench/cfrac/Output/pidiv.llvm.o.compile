@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/cfrac/pidiv.c:25:10: warning: comparison of constant 65536 with expression of type 'digit' (aka 'unsigned short') is always false [-Wtautological-constant-out-of-range-compare]
+   if (d >= BASE) {
+       ~ ^  ~~~~
+1 warning generated.
+exit 0

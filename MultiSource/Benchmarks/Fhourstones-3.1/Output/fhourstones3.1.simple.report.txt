@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Fhourstones-3.1/fhourstones3.1' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Fhourstones-3.1/fhourstones3.1
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a2629f29b7f54580b2cce594716e2ba8
+TEST-RESULT-compile-time: user 0.097200
+TEST-RESULT-compile-real-time: real 0.114000
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Fhourstones-3.1/fhourstones3.1
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       1.1064
+TEST-RESULT-exec-real-time: real       1.1252

@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Bullet/btSoftBodyHelpers.cpp:359:11: warning: enumeration value 'Contact' not handled in switch [-Wswitch]
+                        switch(pj->Type())
+                               ^
+1 warning generated.
+exit 0

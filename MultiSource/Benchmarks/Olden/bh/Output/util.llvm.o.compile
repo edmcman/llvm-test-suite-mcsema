@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bh/util.c:49:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+error(char *msg)
+^~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Olden/bh/util.c:51:21: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+    fprintf(stderr, msg);
+                    ^~~
+2 warnings generated.
+exit 0

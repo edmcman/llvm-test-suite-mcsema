@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/05-eks/main.c:62:22: warning: format string contains '\0' within the string body [-Wformat]
+      sprintf(num,"%i\0",l);
+                  ~~~^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/McCat/05-eks/main.c:106:23: warning: format string contains '\0' within the string body [-Wformat]
+              sprintf(num,"%i\0",i);
+                          ~~~^~~
+2 warnings generated.
+exit 0

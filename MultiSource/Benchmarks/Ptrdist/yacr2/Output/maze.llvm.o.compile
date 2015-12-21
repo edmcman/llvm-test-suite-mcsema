@@ -1,0 +1,30 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/maze.c:201:18: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf( " %d ", TOP[x]/100);
+                  ~~    ^~~~~~~~~~
+                  %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/maze.c:207:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", (TOP[x] - (TOP[x]/100)*100)/10);
+                 ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/maze.c:213:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", TOP[x] % 10);
+                 ~~    ^~~~~~~~~~~
+                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/maze.c:232:24: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Track %3d: ", y);
+                      ~~~     ^
+                      %3lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/maze.c:284:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", BOT[x]/100);
+                 ~~    ^~~~~~~~~~
+                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/maze.c:290:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", (BOT[x] - (BOT[x]/100)*100)/10);
+                 ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/maze.c:296:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", BOT[x] % 10);
+                 ~~    ^~~~~~~~~~~
+                 %lu
+7 warnings generated.
+exit 0

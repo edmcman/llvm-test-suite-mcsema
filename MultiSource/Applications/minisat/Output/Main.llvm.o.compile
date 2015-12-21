@@ -1,0 +1,43 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Main.cpp:198:47: warning: format specifies type 'long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+    reportf("restarts              : %lld\n", solver.starts);
+                                     ~~~~     ^~~~~~~~~~~~~
+                                     %lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Solver.h:258:79: note: expanded from macro 'reportf'
+#define reportf(format, args...) ( fflush(stdout), fprintf(stderr, format, ## args), fflush(stderr) )
+                                                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Main.cpp:199:50: warning: format specifies type 'long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+    reportf("conflicts             : %-12lld\n", solver.conflicts);
+                                     ~~~~~~~     ^~~~~~~~~~~~~~~~
+                                     %-12lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Solver.h:258:79: note: expanded from macro 'reportf'
+#define reportf(format, args...) ( fflush(stdout), fprintf(stderr, format, ## args), fflush(stderr) )
+                                                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Main.cpp:200:70: warning: format specifies type 'long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+    reportf("decisions             : %-12lld   (%4.2f %% random)\n", solver.decisions, (float)solver.rnd_decisions*100 / (float)solver.decisions);
+                                     ~~~~~~~                         ^~~~~~~~~~~~~~~~
+                                     %-12lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Solver.h:258:79: note: expanded from macro 'reportf'
+#define reportf(format, args...) ( fflush(stdout), fprintf(stderr, format, ## args), fflush(stderr) )
+                                                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Main.cpp:201:50: warning: format specifies type 'long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+    reportf("propagations          : %-12lld\n", solver.propagations);
+                                     ~~~~~~~     ^~~~~~~~~~~~~~~~~~~
+                                     %-12lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Solver.h:258:79: note: expanded from macro 'reportf'
+#define reportf(format, args...) ( fflush(stdout), fprintf(stderr, format, ## args), fflush(stderr) )
+                                                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Main.cpp:202:71: warning: format specifies type 'long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+    reportf("conflict literals     : %-12lld   (%4.2f %% deleted)\n", solver.tot_literals, (solver.max_literals - solver.tot_literals)*100 / (double)solver.max_literals);
+                                     ~~~~~~~                          ^~~~~~~~~~~~~~~~~~~
+                                     %-12lu
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Solver.h:258:79: note: expanded from macro 'reportf'
+#define reportf(format, args...) ( fflush(stdout), fprintf(stderr, format, ## args), fflush(stderr) )
+                                                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Main.cpp:164:27: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+            if (match(in, "p cnf")){
+                          ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/minisat/Main.cpp:186:5: note: in instantiation of function template specialization 'parse_DIMACS_main<StreamBuffer>' requested here
+    parse_DIMACS_main(*in, S);
+    ^
+6 warnings generated.
+exit 0

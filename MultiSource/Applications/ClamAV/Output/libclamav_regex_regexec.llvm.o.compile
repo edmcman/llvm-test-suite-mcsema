@@ -1,0 +1,10 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_regex_regexec.c:82:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/engine.c:665:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_regex_regexec.c:131:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/engine.c:665:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+exit 0

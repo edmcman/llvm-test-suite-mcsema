@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/em3d/em3d' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/em3d/em3d
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: dd25ab1a8a6d1d487dbc8a289eb8fb33
+TEST-RESULT-compile-time: user 0.182700
+TEST-RESULT-compile-real-time: real 0.266100
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/em3d/em3d
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       2.3230
+TEST-RESULT-exec-real-time: real       2.3556

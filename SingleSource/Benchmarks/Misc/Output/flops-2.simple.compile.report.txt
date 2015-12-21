@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/flops-2
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 4d4384bfd8088bd4daf072c68c26d4d2
+TEST-RESULT-compile-time: user       0.0330
+TEST-RESULT-compile-real-time: real       0.0483

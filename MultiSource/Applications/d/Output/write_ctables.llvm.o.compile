@@ -1,0 +1,12 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/write_ctables.c:192:31: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+  scanner_block_fns.data[0] = (void*)g->scanner_block_size;
+                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/write_ctables.c:194:37: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+  trans_scanner_block_fns.data[0] = (void*)g->scanner_block_size;
+                                    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/write_ctables.c:481:25: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+      fprintf(fp, "%d", vgoto.v[j]);
+                   ~~   ^~~~~~~~~~
+                   %ld
+3 warnings generated.
+exit 0

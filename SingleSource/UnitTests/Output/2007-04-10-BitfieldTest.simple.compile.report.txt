@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2007-04-10-BitfieldTest
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 3d5f6f3733766b211af13ddb6fb5fcff
+TEST-RESULT-compile-time: user       0.0257
+TEST-RESULT-compile-real-time: real       0.0403

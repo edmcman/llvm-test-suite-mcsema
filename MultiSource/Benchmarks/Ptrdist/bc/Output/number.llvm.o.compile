@@ -1,0 +1,16 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/number.c:281:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    else
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/number.c:1005:21: warning: & has lower precedence than !=; != will be evaluated first [-Wparentheses]
+       if (exponent & 1 != 0) 
+                    ^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/number.c:1005:21: note: place parentheses around the '!=' expression to silence this warning
+       if (exponent & 1 != 0) 
+                    ^
+                      (     )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Ptrdist/bc/number.c:1005:21: note: place parentheses around the & expression to evaluate it first
+       if (exponent & 1 != 0) 
+                    ^
+           (           )
+2 warnings generated.
+exit 0

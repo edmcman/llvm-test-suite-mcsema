@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/primes/primes
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 3c42cc60331d659c7b29fbe94996332c
+TEST-RESULT-compile-time: user 0.027600
+TEST-RESULT-compile-real-time: real 0.041700

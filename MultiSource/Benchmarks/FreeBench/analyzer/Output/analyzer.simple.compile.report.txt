@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/FreeBench/analyzer/analyzer
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 8e3348fa8532b7d34acee92ddad30906
+TEST-RESULT-compile-time: user 0.222600
+TEST-RESULT-compile-real-time: real 0.298900

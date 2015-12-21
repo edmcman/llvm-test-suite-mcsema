@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/wc
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 0093cad231df09f01326b60d9988b7a9
+TEST-RESULT-compile-time: user       0.1878
+TEST-RESULT-compile-real-time: real       0.2144

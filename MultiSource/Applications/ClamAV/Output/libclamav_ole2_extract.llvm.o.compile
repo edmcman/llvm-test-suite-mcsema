@@ -1,0 +1,6 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_ole2_extract.c:873:40: warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+        cli_dbgmsg("Max block number: %lu\n", hdr.max_block_no);
+                                      ~~~     ^~~~~~~~~~~~~~~~
+                                      %u
+1 warning generated.
+exit 0

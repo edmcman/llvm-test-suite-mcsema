@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/gs/iutil.c:203:1: warning: '/*' within block comment [-Wcomment]
+/* to within a reasonable rounding error. */
+^
+1 warning generated.
+exit 0

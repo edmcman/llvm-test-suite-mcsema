@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/ackermann
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: c948bb2b12189e76a2090df0f6757d65
+TEST-RESULT-compile-time: user       0.1658
+TEST-RESULT-compile-real-time: real       0.1917

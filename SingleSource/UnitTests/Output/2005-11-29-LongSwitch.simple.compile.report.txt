@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/2005-11-29-LongSwitch
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 1dc3f58192e9dd62538f2963a344cd24
+TEST-RESULT-compile-time: user       0.0214
+TEST-RESULT-compile-real-time: real       0.0348

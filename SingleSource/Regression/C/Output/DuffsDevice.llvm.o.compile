@@ -1,0 +1,14 @@
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C/DuffsDevice.c:11:11: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+        register count;
+        ~~~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C/DuffsDevice.c:9:2: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+        sum(to, from, count)
+        ^~~
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C/DuffsDevice.c:13:12: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+                register n=(count+7)/8;
+                ~~~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/SingleSource/Regression/C/DuffsDevice.c:25:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+4 warnings generated.
+exit 0

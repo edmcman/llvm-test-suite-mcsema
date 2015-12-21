@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sgefa/blas.c:131:12: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+  register i;
+  ~~~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/sgefa/blas.c:215:12: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+  register i;
+  ~~~~~~~~ ^
+2 warnings generated.
+exit 0

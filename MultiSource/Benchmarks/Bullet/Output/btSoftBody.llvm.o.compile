@@ -1,0 +1,14 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Bullet/btSoftBody.cpp:2620:14: warning: 4 enumeration values not handled in switch: 'V_OneSided', 'F_TwoSided', 'F_OneSided'... [-Wswitch]
+                                                switch(m_cfg.aeromodel)
+                                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Bullet/btSoftBody.cpp:2668:12: warning: 5 enumeration values not handled in switch: 'V_Point', 'V_TwoSided', 'V_OneSided'... [-Wswitch]
+                                switch(m_cfg.aeromodel)
+                                       ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Bullet/btSoftBody.cpp:2806:9: warning: enumeration value 'END' not handled in switch [-Wswitch]
+        switch(solver)
+               ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Bullet/btSoftBody.cpp:2823:9: warning: enumeration value 'END' not handled in switch [-Wswitch]
+        switch(solver)
+               ^
+4 warnings generated.
+exit 0

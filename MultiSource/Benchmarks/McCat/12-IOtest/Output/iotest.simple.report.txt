@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/12-IOtest/iotest' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/12-IOtest/iotest
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 7ffd233d73482306b890e291be969071
+TEST-RESULT-compile-time: user 0.104400
+TEST-RESULT-compile-real-time: real 0.182600
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/12-IOtest/iotest
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.2852
+TEST-RESULT-exec-real-time: real       0.2880

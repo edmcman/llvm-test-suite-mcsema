@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/power/power
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 8d45dbb3d6d6064e13a1d893fbafb381
+TEST-RESULT-compile-time: user 0.123800
+TEST-RESULT-compile-real-time: real 0.175500

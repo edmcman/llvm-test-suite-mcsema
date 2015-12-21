@@ -1,0 +1,47 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1104:23: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "% *.*g" : EQ(sym_e,b) ? "% *.*e" : "% *.*f",
+                          ~~~^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1104:48: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "% *.*g" : EQ(sym_e,b) ? "% *.*e" : "% *.*f",
+                                                   ~~~^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1104:59: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "% *.*g" : EQ(sym_e,b) ? "% *.*e" : "% *.*f",
+                                                              ~~~^~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1110:23: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "% *g" : EQ(sym_e,b) ? "% *e" : "% *f",
+                          ~~~^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1110:46: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "% *g" : EQ(sym_e,b) ? "% *e" : "% *f",
+                                                 ~~~^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1110:55: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "% *g" : EQ(sym_e,b) ? "% *e" : "% *f",
+                                                          ~~~^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1115:22: warning: field precision should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "%.*g" : EQ(sym_e,b) ? "%.*e" : "%.*f",
+                          ~~^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1115:45: warning: field precision should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "%.*g" : EQ(sym_e,b) ? "%.*e" : "%.*f",
+                                                 ~~^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1115:54: warning: field precision should have type 'int', but argument has type 'long' [-Wformat]
+              NULLP(b) ? "%.*g" : EQ(sym_e,b) ? "%.*e" : "%.*f",
+                                                          ~~^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1125:27: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              (base == 10) ? "%0*ld" : (base == 8) ? "%0*lo" : "%0*lX",
+                              ~~~^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1125:51: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              (base == 10) ? "%0*ld" : (base == 8) ? "%0*lo" : "%0*lX",
+                                                      ~~~^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1125:61: warning: field width should have type 'int', but argument has type 'long' [-Wformat]
+              (base == 10) ? "%0*ld" : (base == 8) ? "%0*lo" : "%0*lX",
+                                                                ~~~^~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1447:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+   else
+   ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1669:3: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+         sizeof(long),sizeof(double));
+         ^~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/sliba.c:1669:16: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+         sizeof(long),sizeof(double));
+                      ^~~~~~~~~~~~~~
+15 warnings generated.
+exit 0

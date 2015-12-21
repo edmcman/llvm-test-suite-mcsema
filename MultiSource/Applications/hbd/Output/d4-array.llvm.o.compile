@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/d4-array.cpp:43:28: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+  Exp *e2 = new Exp(pcval, "length", VOID, NO);
+                           ^
+1 warning generated.
+exit 0

@@ -1,0 +1,42 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1854:44: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+        if ((dpb.fs_ltref[i]->is_long_term == 3))
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1854:44: note: remove extraneous parentheses around the comparison to silence this warning
+        if ((dpb.fs_ltref[i]->is_long_term == 3))
+            ~                              ^   ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1854:44: note: use '=' to turn this equality comparison into an assignment
+        if ((dpb.fs_ltref[i]->is_long_term == 3))
+                                           ^~
+                                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1860:46: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+          if ((dpb.fs_ltref[i]->is_long_term == 1))
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1860:46: note: remove extraneous parentheses around the comparison to silence this warning
+          if ((dpb.fs_ltref[i]->is_long_term == 1))
+              ~                              ^   ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1860:46: note: use '=' to turn this equality comparison into an assignment
+          if ((dpb.fs_ltref[i]->is_long_term == 1))
+                                             ^~
+                                             =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1890:44: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+        if ((dpb.fs_ltref[i]->is_long_term == 3))
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1890:44: note: remove extraneous parentheses around the comparison to silence this warning
+        if ((dpb.fs_ltref[i]->is_long_term == 3))
+            ~                              ^   ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1890:44: note: use '=' to turn this equality comparison into an assignment
+        if ((dpb.fs_ltref[i]->is_long_term == 3))
+                                           ^~
+                                           =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1896:46: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+          if ((dpb.fs_ltref[i]->is_long_term == 2))
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1896:46: note: remove extraneous parentheses around the comparison to silence this warning
+          if ((dpb.fs_ltref[i]->is_long_term == 2))
+              ~                              ^   ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/JM/lencod/mbuffer.c:1896:46: note: use '=' to turn this equality comparison into an assignment
+          if ((dpb.fs_ltref[i]->is_long_term == 2))
+                                             ^~
+                                             =
+4 warnings generated.
+exit 0

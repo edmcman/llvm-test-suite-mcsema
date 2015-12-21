@@ -1,0 +1,133 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:41:
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/espresso.h:6:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:24:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif BWGC
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/utility.h:32:8: warning: extra tokens at end of #endif directive [-Wextra-tokens]
+#endif IGNOREFREE
+       ^
+       //
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:108:8: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (x = ~ (x | x >> 1) & cube.inmask)
+            ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:108:8: note: place parentheses around the assignment to silence this warning
+        if (x = ~ (x | x >> 1) & cube.inmask)
+              ^
+            (                               )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:108:8: note: use '==' to turn this assignment into an equality comparison
+        if (x = ~ (x | x >> 1) & cube.inmask)
+              ^
+              ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:115:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+            if (x = ~ (x | x >> 1) & DISJOINT)
+                ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:115:12: note: place parentheses around the assignment to silence this warning
+            if (x = ~ (x | x >> 1) & DISJOINT)
+                  ^
+                (                            )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:115:12: note: use '==' to turn this assignment into an equality comparison
+            if (x = ~ (x | x >> 1) & DISJOINT)
+                  ^
+                  ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:153:8: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (x = ~ (x | x >> 1) & cube.inmask)
+            ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:153:8: note: place parentheses around the assignment to silence this warning
+        if (x = ~ (x | x >> 1) & cube.inmask)
+              ^
+            (                               )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:153:8: note: use '==' to turn this assignment into an equality comparison
+        if (x = ~ (x | x >> 1) & cube.inmask)
+              ^
+              ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:159:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+            if (x = ~ (x | x >> 1) & DISJOINT)
+                ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:159:12: note: place parentheses around the assignment to silence this warning
+            if (x = ~ (x | x >> 1) & DISJOINT)
+                  ^
+                (                            )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:159:12: note: use '==' to turn this assignment into an equality comparison
+            if (x = ~ (x | x >> 1) & DISJOINT)
+                  ^
+                  ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:194:8: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (x = ~(x | x >> 1) & cube.inmask)
+            ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:194:8: note: place parentheses around the assignment to silence this warning
+        if (x = ~(x | x >> 1) & cube.inmask)
+              ^
+            (                              )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:194:8: note: use '==' to turn this assignment into an equality comparison
+        if (x = ~(x | x >> 1) & cube.inmask)
+              ^
+              ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:200:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+            if (x = ~(x | x >> 1) & DISJOINT)
+                ~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:200:12: note: place parentheses around the assignment to silence this warning
+            if (x = ~(x | x >> 1) & DISJOINT)
+                  ^
+                (                           )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:200:12: note: use '==' to turn this assignment into an equality comparison
+            if (x = ~(x | x >> 1) & DISJOINT)
+                  ^
+                  ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:246:8: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (x = ~(x | x >> 1) & cube.inmask)
+            ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:246:8: note: place parentheses around the assignment to silence this warning
+        if (x = ~(x | x >> 1) & cube.inmask)
+              ^
+            (                              )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:246:8: note: use '==' to turn this assignment into an equality comparison
+        if (x = ~(x | x >> 1) & cube.inmask)
+              ^
+              ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:252:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+            if (x = ~(x | x >> 1) & DISJOINT)
+                ~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:252:12: note: place parentheses around the assignment to silence this warning
+            if (x = ~(x | x >> 1) & DISJOINT)
+                  ^
+                (                           )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:252:12: note: use '==' to turn this assignment into an equality comparison
+            if (x = ~(x | x >> 1) & DISJOINT)
+                  ^
+                  ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:267:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+            if (x = a[w] & b[w] & mask[w])
+                ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:267:12: note: place parentheses around the assignment to silence this warning
+            if (x = a[w] & b[w] & mask[w])
+                  ^
+                (                        )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:267:12: note: use '==' to turn this assignment into an equality comparison
+            if (x = a[w] & b[w] & mask[w])
+                  ^
+                  ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:293:8: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (x = ~ (x & x >> 1) & cube.inmask) {
+            ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:293:8: note: place parentheses around the assignment to silence this warning
+        if (x = ~ (x & x >> 1) & cube.inmask) {
+              ^
+            (                               )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:293:8: note: use '==' to turn this assignment into an equality comparison
+        if (x = ~ (x & x >> 1) & cube.inmask) {
+              ^
+              ==
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:302:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+            if (x = ~ (x & x >> 1) & DISJOINT) {
+                ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:302:12: note: place parentheses around the assignment to silence this warning
+            if (x = ~ (x & x >> 1) & DISJOINT) {
+                  ^
+                (                            )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MallocBench/espresso/setc.c:302:12: note: use '==' to turn this assignment into an equality comparison
+            if (x = ~ (x & x >> 1) & DISJOINT) {
+                  ^
+                  ==
+13 warnings generated.
+exit 0

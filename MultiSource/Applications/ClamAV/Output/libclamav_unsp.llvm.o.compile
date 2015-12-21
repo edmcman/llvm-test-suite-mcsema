@@ -1,0 +1,10 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_unsp.c:356:30: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+        cli_dbgmsg("%x %x %x %x\n", dst, dsize, &dst[unpacked_so_far], backsize);
+                    ~~              ^~~
+                    %s
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/ClamAV/libclamav_unsp.c:356:42: warning: format specifies type 'unsigned int' but the argument has type 'char *' [-Wformat]
+        cli_dbgmsg("%x %x %x %x\n", dst, dsize, &dst[unpacked_so_far], backsize);
+                          ~~                    ^~~~~~~~~~~~~~~~~~~~~
+                          %s
+2 warnings generated.
+exit 0

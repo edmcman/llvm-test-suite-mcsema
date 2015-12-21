@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hbd/d8-ret.cpp:19:32: warning: conversion from string literal to 'char *' is deprecated [-Wc++11-compat-deprecated-writable-strings]
+      Exp *e1 = new Exp(pcval, "/* void */", VOID, IM);
+                               ^
+1 warning generated.
+exit 0

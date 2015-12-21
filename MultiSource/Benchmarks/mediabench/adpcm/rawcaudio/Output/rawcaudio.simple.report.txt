@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/mediabench/adpcm/rawcaudio/rawcaudio' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/mediabench/adpcm/rawcaudio/rawcaudio
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 5255acd24c012311ac0b4be3b9bc7f5c
+TEST-RESULT-compile-time: user 0.061800
+TEST-RESULT-compile-real-time: real 0.095700
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/mediabench/adpcm/rawcaudio/rawcaudio
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0033
+TEST-RESULT-exec-real-time: real       0.0129

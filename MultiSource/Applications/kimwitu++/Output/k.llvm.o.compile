@@ -1,0 +1,7 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/kimwitu++/k.cc:38:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/ext/hash_set:60:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../../include/c++/4.8/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header which   may be removed without further notice at a future date. Please use a   non-deprecated interface with equivalent functionality instead. For a   listing of replacement headers and interfaces, consult the file   backward_warning.h. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning \
+ ^
+1 warning generated.
+exit 0

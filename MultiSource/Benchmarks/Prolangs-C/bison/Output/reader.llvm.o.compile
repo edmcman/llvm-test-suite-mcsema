@@ -1,0 +1,68 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:428:36: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+            fatals("symbol %s redefined", symval->tag,0,0,0,0,0,0,0);
+                                          ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:438:39: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+                fatals("type redeclaration for %s", symval->tag,0,0,0,0,0,0,0);
+                                                    ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:507:42: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+            fatals("type redeclaration for %s", symval->tag,0,0,0,0,0,0,0);
+                                                ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:563:36: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+            fatals("symbol %s redefined", symval->tag,0,0,0,0,0,0,0);
+                                          ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:570:39: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+                fatals("type redeclaration for %s", symval->tag,0,0,0,0,0,0,0);
+                                                    ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:1293:52: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+            fatals("rule given for %s, which is a token", lhs->tag,0,0,0,0,
+                                                          ^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:1523:42: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+            fatals("type redeclaration for %s", symval->tag,0,0,0,0,0,0,0);
+                                                ^~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:1596:10: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+                              tags[token_translations[bp->user_token_number]],
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:1597:10: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+                              bp->tag,
+                              ^~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:41: note: passing argument to parameter 'x2' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:1609:48: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+    fatals("the start symbol %s is undefined", startval->tag,0,0,0,0,0,0,0);
+                                               ^~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:1611:46: warning: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Wint-conversion]
+    fatals("the start symbol %s is a token", startval->tag,0,0,0,0,0,0,0);
+                                             ^~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/bison/reader.c:95:34: note: passing argument to parameter 'x1' here
+extern void fatals(char *fmt,int x1,int x2,int x3,int x4,int x5,int x6,
+                                 ^
+11 warnings generated.
+exit 0

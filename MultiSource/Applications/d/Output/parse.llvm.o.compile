@@ -1,0 +1,36 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/parse.c:740:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    stack_push(psx, x->priority);
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/util.h:101:47: note: expanded from macro 'stack_push'
+  stack_push_internal((AbstractStack*)((_s)), (void*)_x) : \
+                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/parse.c:740:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/util.h:102:3: note: expanded from macro 'stack_push'
+  (void*)(*((_s)->cur)++ = (_x)))
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/parse.c:752:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    stack_push(isx, x->priority);
+    ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/util.h:101:47: note: expanded from macro 'stack_push'
+  stack_push_internal((AbstractStack*)((_s)), (void*)_x) : \
+                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/parse.c:752:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/util.h:102:3: note: expanded from macro 'stack_push'
+  (void*)(*((_s)->cur)++ = (_x)))
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/parse.c:763:3: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+  stack_push(isx, x->priority);
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/util.h:101:47: note: expanded from macro 'stack_push'
+  stack_push_internal((AbstractStack*)((_s)), (void*)_x) : \
+                                              ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/parse.c:763:3: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/util.h:102:3: note: expanded from macro 'stack_push'
+  (void*)(*((_s)->cur)++ = (_x)))
+  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/d/parse.c:1376:16: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+  printf("%d", s->state - p->t->state);
+          ~~   ^~~~~~~~~~~~~~~~~~~~~~
+          %ld
+7 warnings generated.
+exit 0

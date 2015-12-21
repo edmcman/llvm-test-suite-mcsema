@@ -1,0 +1,18 @@
+In file included from /home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/pass1.c:11:
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/sym_tab.h:33:42: warning: '/*' within block comment [-Wcomment]
+/*   1) char MODULE[];                   /* Name of module label found it.   */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/sym_tab.h:34:42: warning: '/*' within block comment [-Wcomment]
+/*   2) char LABEL[];                    /* Label to look for.               */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/sym_tab.h:35:42: warning: '/*' within block comment [-Wcomment]
+/*   3) SYMBOL_TABLE *TABLE;             /* Table to look in.                */
+                                         ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/pass1.c:54:9: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+      } else (*LOCATION) += INCREMENT;
+        ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Prolangs-C/assembler/pass1.c:112:7: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+      else (void) fprintf(TEMP_OUTPUT_STREAM,
+      ^
+5 warnings generated.
+exit 0

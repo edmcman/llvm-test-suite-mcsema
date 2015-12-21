@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/VersaBench/bmm/bmm
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 781ee25d750f1009cfb18096f0ed5adc
+TEST-RESULT-compile-time: user 0.055500
+TEST-RESULT-compile-real-time: real 0.071400

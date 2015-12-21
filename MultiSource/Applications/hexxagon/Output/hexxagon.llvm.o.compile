@@ -1,0 +1,5 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/hexxagon/hexxagon.cpp:60:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("The pieces was drawn by Stefan P<E5>hlson.\n\n");
+                                                ^~~~
+1 warning generated.
+exit 0

@@ -1,0 +1,23 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/enc-pc1/pc1cod.c:36:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+assemble() 
+^~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/enc-pc1/pc1cod.c:158:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+code() 
+^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/enc-pc1/pc1cod.c:245:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(int argc, const char **argv) 
+^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/enc-pc1/pc1cod.c:275:14: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  if (strlen(buff) > 32)
+             ^~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/Trimaran/enc-pc1/pc1cod.c:283:20: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    count = strlen(buff);
+                   ^~~~
+/usr/include/string.h:399:35: note: passing argument to parameter '__s' here
+extern size_t strlen (const char *__s)
+                                  ^
+5 warnings generated.
+exit 0

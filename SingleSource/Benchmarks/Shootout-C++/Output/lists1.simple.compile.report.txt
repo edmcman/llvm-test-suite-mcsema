@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/lists1
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: e4b1076b0823de04ad821acf86096b2a
+TEST-RESULT-compile-time: user       0.2454
+TEST-RESULT-compile-real-time: real       0.2989

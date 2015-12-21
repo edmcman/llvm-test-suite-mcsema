@@ -1,0 +1,8 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/negamax.c:339:14: warning: implicit declaration of function 'does_next_player_win' is invalid in C99 [-Wimplicit-function-declaration]
+    if( (a = does_next_player_win(whos_turn, 0)) > 0 ) {
+             ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/obsequi/negamax.c:344:14: warning: implicit declaration of function 'does_who_just_moved_win' is invalid in C99 [-Wimplicit-function-declaration]
+    if( (b = does_who_just_moved_win(opponent, 0)) >= 0 ) {
+             ^
+2 warnings generated.
+exit 0

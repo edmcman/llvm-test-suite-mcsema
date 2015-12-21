@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/uint64_to_float
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a64e6786384f2b78de60f6df8e5c534c
+TEST-RESULT-compile-time: user       0.0364
+TEST-RESULT-compile-real-time: real       0.1536

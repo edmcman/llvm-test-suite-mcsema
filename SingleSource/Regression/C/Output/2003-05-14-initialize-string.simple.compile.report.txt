@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/2003-05-14-initialize-string
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: bcd062767b285f5458c137e9da5555e3
+TEST-RESULT-compile-time: user       0.0163
+TEST-RESULT-compile-real-time: real       0.0287

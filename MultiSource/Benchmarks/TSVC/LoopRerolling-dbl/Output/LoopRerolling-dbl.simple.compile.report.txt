@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/LoopRerolling-dbl/LoopRerolling-dbl
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 419ed144b121afe833e38800e5a8b49c
+TEST-RESULT-compile-time: user 0.684900
+TEST-RESULT-compile-real-time: real 0.729500

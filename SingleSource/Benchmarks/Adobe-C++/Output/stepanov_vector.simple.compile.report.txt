@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/stepanov_vector
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 85aad945f77b7a0241d2df275bef9768
+TEST-RESULT-compile-time: user       0.4930
+TEST-RESULT-compile-real-time: real       0.5216

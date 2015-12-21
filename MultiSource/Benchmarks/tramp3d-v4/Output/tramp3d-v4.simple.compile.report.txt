@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 99b80b17428155b694356d1a2363601d
+TEST-RESULT-compile-time: user 16.404800
+TEST-RESULT-compile-real-time: real 16.852500

@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/sumarraymalloc' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/sumarraymalloc
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: a8340a9795da165b001a2c1b63df8667
+TEST-RESULT-compile-time: user       0.0325
+TEST-RESULT-compile-real-time: real       0.0472
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C/sumarraymalloc
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0009
+TEST-RESULT-exec-real-time: real       0.0017

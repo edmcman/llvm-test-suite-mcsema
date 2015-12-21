@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/SPASS/SPASS' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/SPASS/SPASS
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 37a11e6c8499452811ce0e085ea4ca05
+TEST-RESULT-compile-time: user 10.337800
+TEST-RESULT-compile-real-time: real 11.405300
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/SPASS/SPASS
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       13.6290
+TEST-RESULT-exec-real-time: real       13.7050

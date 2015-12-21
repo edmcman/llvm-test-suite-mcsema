@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Ptrdist/bc/bc
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 15421b7d5e6a76fed3bb05bd7070d480
+TEST-RESULT-compile-time: user 0.903900
+TEST-RESULT-compile-real-time: real 1.123500

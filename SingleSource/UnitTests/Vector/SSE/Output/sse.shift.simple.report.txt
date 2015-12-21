@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/SSE/sse.shift' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/SSE/sse.shift
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 7dd0b5be86086c5bddb58c1ea2c5b5b0
+TEST-RESULT-compile-time: user       0.0444
+TEST-RESULT-compile-real-time: real       0.0597
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/SSE/sse.shift
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       0.0008
+TEST-RESULT-exec-real-time: real       0.0018

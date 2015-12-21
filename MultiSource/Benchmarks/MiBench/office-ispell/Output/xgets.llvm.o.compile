@@ -1,0 +1,13 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/office-ispell/xgets.c:143:9: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+                if (f = fopen (file_name, "r"))
+                    ~~^~~~~~~~~~~~~~~~~~~~~~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/office-ispell/xgets.c:143:9: note: place parentheses around the assignment to silence this warning
+                if (f = fopen (file_name, "r"))
+                      ^
+                    (                         )
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Benchmarks/MiBench/office-ispell/xgets.c:143:9: note: use '==' to turn this assignment into an equality comparison
+                if (f = fopen (file_name, "r"))
+                      ^
+                      ==
+1 warning generated.
+exit 0

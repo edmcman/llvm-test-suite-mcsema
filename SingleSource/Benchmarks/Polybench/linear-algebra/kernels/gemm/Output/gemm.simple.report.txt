@@ -1,0 +1,14 @@
+---------------------------------------------------------------
+>>> ========= '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/gemm' Program
+---------------------------------------------------------------
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/gemm
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 05fd7d9d5994d90650b1f88dd314a7d9
+TEST-RESULT-compile-time: user       0.0636
+TEST-RESULT-compile-real-time: real       0.0820
+
+TEST-PASS: exec /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/gemm
+TEST-RESULT-exec-success: pass
+TEST-RESULT-exec-time: user       10.7325
+TEST-RESULT-exec-real-time: real       10.7793

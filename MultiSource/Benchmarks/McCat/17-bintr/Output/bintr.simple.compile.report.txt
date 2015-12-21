@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/17-bintr/bintr
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: 49081281af868a693f91b1d492f89587
+TEST-RESULT-compile-time: user 0.074400
+TEST-RESULT-compile-real-time: real 0.113100

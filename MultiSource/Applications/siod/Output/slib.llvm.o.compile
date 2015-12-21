@@ -1,0 +1,24 @@
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/slib.c:172:9: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+ static siod_lib_set = 0;
+ ~~~~~~ ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/slib.c:1384:22: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+        if (((*ptr).gc_mark == 0))
+             ~~~~~~~~~~~~~~~^~~~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/slib.c:1384:22: note: remove extraneous parentheses around the comparison to silence this warning
+        if (((*ptr).gc_mark == 0))
+            ~               ^   ~
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/slib.c:1384:22: note: use '=' to turn this equality comparison into an assignment
+        if (((*ptr).gc_mark == 0))
+                            ^~
+                            =
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/slib.c:1427:44: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+   if NULLP(car(args)) gc_status_flag = 0; else gc_status_flag = 1;
+                                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/slib.c:1449:44: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+   if NULLP(car(args)) gc_status_flag = 0; else gc_status_flag = 1;
+                                           ^
+/home/ed/mcsema-testing/llvm-test-suite/MultiSource/Applications/siod/slib.c:2060:48: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+    if (c == EOF) if (eoferr) err(eoferr,NIL); else return(c);
+                                               ^
+5 warnings generated.
+exit 0

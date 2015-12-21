@@ -1,0 +1,6 @@
+
+TEST-PASS: compile /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/durbin
+TEST-RESULT-compile-success: pass
+TEST-RESULT-compile-hash: cf0d79bf1045023ebe0c3c219775a707
+TEST-RESULT-compile-time: user       0.0655
+TEST-RESULT-compile-real-time: real       0.0839
