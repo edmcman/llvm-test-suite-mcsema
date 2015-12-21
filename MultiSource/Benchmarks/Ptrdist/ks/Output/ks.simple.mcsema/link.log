@@ -1,0 +1,14 @@
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crti.o(.debug_info): relocation 0 has invalid symbol index 7
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crti.o(.debug_info): relocation 1 has invalid symbol index 8
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crti.o(.debug_info): relocation 2 has invalid symbol index 9
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crti.o(.debug_ranges): relocation 0 has invalid symbol index 4
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crti.o(.debug_ranges): relocation 1 has invalid symbol index 4
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crti.o(.debug_ranges): relocation 2 has invalid symbol index 5
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crti.o(.debug_ranges): relocation 3 has invalid symbol index 5
+/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o: In function `_init':
+(.init+0x7): undefined reference to `__gmon_start__'
+/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o: In function `_init':
+(.init+0x11): undefined reference to `__gmon_start__'
+/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple.o: In function `sub_401980':
+/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple.opt.bc:(.text+0xc5b5): undefined reference to `__gmon_start__'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,352 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400ff0
+Inserted function: sub_404750
+Inserted function: sub_4009b0
+Inserted function: sub_404f90
+Inserted function: sub_400960
+Inserted function: sub_4009c0
+Inserted function: sub_400a50
+Inserted function: sub_400990
+Inserted function: sub_403ee0
+Inserted function: sub_404150
+Inserted function: sub_400a40
+Inserted function: sub_400aa0
+Inserted function: sub_404cd0
+Inserted function: sub_4044f0
+Inserted function: sub_404d90
+Inserted function: sub_4009d0
+Inserted function: sub_404990
+Inserted function: sub_404b50
+Inserted function: sub_400a10
+Inserted function: sub_400a20
+Inserted function: sub_404e50
+Inserted function: sub_400a70
+Inserted function: sub_404c10
+Inserted function: sub_400ad0
+Inserted function: sub_404ef0
+Inserted function: sub_404330
+inserting global data section named data_0x4053e0
+inserting global data section named data_0x405584
+inserting global data section named data_0x405648
+inserting global data section named data_0x4059dc
+inserting global data section named data_0x605de0
+inserting global data section named data_0x605de8
+inserting global data section named data_0x605df0
+inserting global data section named data_0x605ff8
+inserting global data section named data_0x606000
+inserting global data section named data_0x6060c0
+inserting global data section named data_0x606160
+dataSectionToTypesContents : 4053e0 1a4
+420
+dataSectionToTypesContents : 405584 c4
+196
+dataSectionToTypesContents : 405648 394
+916
+dataSectionToTypesContents : 4059dc 2c
+44
+dataSectionToTypesContents : 605de0 8
+8
+dataSectionToTypesContents : 605de8 8
+8
+dataSectionToTypesContents : 605df0 8
+8
+dataSectionToTypesContents : 605ff8 8
+8
+dataSectionToTypesContents : 606000 c0
+192
+dataSectionToTypesContents : 6060c0 a0
+160
+dataSectionToTypesContents : 606160 7d30
+32048
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4026ba 	xorq	$-8, %rdx
+5753
+Unsupported!
+40286a 	xorq	$-8, %rdx
+5753
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402a12 	xorq	$-8, %rcx
+5753
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+40192c 	xorq	$-8, %rcx
+5753
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+40351a 	xorq	$-8, %rdx
+5753
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4036ca 	xorq	$-8, %rdx
+5753
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+401b1b 	xorq	$-8, %rdx
+5753
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+403877 	xorq	$-8, %rdx
+5753
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+401d07 	xorq	$-8, %rcx
+5753
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400a40
+doCallPCtarget address : 400a10
+doCallPCtarget address : 404f90
+doCallPCtarget address : 400ad0
+doCallPCtarget address : 404f90
+doCallPCtarget address : 403ee0
+doCallPCtarget address : 400a70
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404ef0
+doCallPCtarget address : 404e50
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404d90
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404cd0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404cd0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404c10
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404b50
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404b50
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404750
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4044f0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4044f0
+doCallPCtarget address : 404330
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 404150
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 404150
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 404990
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.bc

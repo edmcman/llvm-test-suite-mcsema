@@ -1,0 +1,130 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4008e0
+Inserted function: sub_400510
+Inserted function: sub_400530
+inserting global data section named data_0x400c70
+inserting global data section named data_0x400c74
+inserting global data section named data_0x400ca8
+inserting global data section named data_0x600db8
+inserting global data section named data_0x600de8
+inserting global data section named data_0x600df0
+inserting global data section named data_0x600ff8
+inserting global data section named data_0x601000
+inserting global data section named data_0x601038
+inserting global data section named data_0x601050
+dataSectionToTypesContents : 400c70 4
+4
+dataSectionToTypesContents : 400c74 34
+52
+dataSectionToTypesContents : 400ca8 ec
+236
+dataSectionToTypesContents : 600db8 30
+48
+dataSectionToTypesContents : 600de8 8
+8
+dataSectionToTypesContents : 600df0 8
+8
+dataSectionToTypesContents : 600ff8 8
+8
+dataSectionToTypesContents : 601000 38
+56
+dataSectionToTypesContents : 601038 10
+16
+dataSectionToTypesContents : 601050 150
+336
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4008f4 	shlq	%cl, %rax
+2537
+Unsupported!
+400917 	shlq	%cl, %rdx
+2537
+Unsupported!
+40093a 	shlq	%cl, %rax
+2537
+Unsupported!
+40095d 	shlq	%cl, %rdx
+2537
+Unsupported!
+400980 	shlq	%cl, %rax
+2537
+Unsupported!
+4009a3 	shlq	%cl, %rdx
+2537
+doCallPCtarget address : 400510
+doCallPC: Adding Unreachable Instruction to local noreturn
+Unsupported!
+4009d0 	shlq	%cl, %rax
+2537
+Unsupported!
+400a03 	shlq	%cl, %rax
+2537
+Unsupported!
+400a37 	shlq	%cl, %rax
+2537
+Unsupported!
+400a42 	orq	$255, %rax
+1808
+Unsupported!
+400a7e 	shlq	%cl, %rax
+2537
+Unsupported!
+400aa1 	shlq	%cl, %rdx
+2537
+Unsupported!
+400ac4 	shlq	%cl, %rax
+2537
+Unsupported!
+400ae7 	shlq	%cl, %rdx
+2537
+Unsupported!
+400b17 	shlq	%cl, %rax
+2537
+Unsupported!
+400b29 	orq	$16383, %rax
+1808
+Unsupported!
+400b61 	shlq	%cl, %rax
+2537
+Unsupported!
+400b80 	shlq	%cl, %rdx
+2537
+Unsupported!
+400b9f 	shlq	%cl, %rax
+2537
+Unsupported!
+400bbe 	shlq	%cl, %rdx
+2537
+doCallPCtarget address : 400530
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Output/initp1.simple.mcsema/initp1.simple.bc

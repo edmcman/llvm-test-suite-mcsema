@@ -1,0 +1,196 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_402f90
+Inserted function: sub_4008e0
+Inserted function: sub_4008d0
+Inserted function: sub_4034a0
+Inserted function: sub_402820
+Inserted function: sub_403800
+Inserted function: sub_403780
+Inserted function: sub_402760
+Inserted function: sub_4009c0
+Inserted function: sub_4025f0
+Inserted function: sub_403830
+Inserted function: sub_403ae0
+Inserted function: sub_4008a0
+Inserted function: sub_403100
+Inserted function: sub_401a40
+Inserted function: sub_400b10
+Inserted function: sub_402830
+Inserted function: sub_400ac0
+Inserted function: sub_4008b0
+Inserted function: sub_4008f0
+Inserted function: sub_400960
+Inserted function: sub_400950
+Inserted function: sub_403e50
+Inserted function: sub_4032e0
+Inserted function: sub_403620
+inserting global data section named data_0x403ff0
+inserting global data section named data_0x404234
+inserting global data section named data_0x4043c0
+inserting global data section named data_0x604de0
+inserting global data section named data_0x604de8
+inserting global data section named data_0x604df0
+inserting global data section named data_0x604ff8
+inserting global data section named data_0x605000
+inserting global data section named data_0x6050b0
+inserting global data section named data_0x6050c0
+dataSectionToTypesContents : 403ff0 242
+578
+dataSectionToTypesContents : 404234 18c
+396
+dataSectionToTypesContents : 4043c0 714
+1812
+dataSectionToTypesContents : 604de0 8
+8
+dataSectionToTypesContents : 604de8 8
+8
+dataSectionToTypesContents : 604df0 8
+8
+dataSectionToTypesContents : 604ff8 8
+8
+dataSectionToTypesContents : 605000 b0
+176
+dataSectionToTypesContents : 6050b0 10
+16
+dataSectionToTypesContents : 6050c0 20
+32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 400950
+doCallPCtarget address : 403100
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4032e0
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4034a0
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 400950
+doCallPCExtern paramCount  : 2 : gettimeofday
+2 : 25e9b30
+doCallPCExtern paramCount  : 1 : puts
+1 : 25e9b30
+Unsupported!
+4035aa 	cvtsi2sdq	%rax, %xmm0
+622
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 403780
+doCallPCtarget address : 403780
+doCallPCtarget address : 403830
+doCallPCtarget address : 403830
+doCallPCtarget address : 403ae0
+doCallPCtarget address : 403ae0
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 400950
+doCallPCtarget address : 403e50
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 400950
+doCallPCtarget address : 4008a0
+doCallPCtarget address : 402820
+doCallPCtarget address : 402820
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple.bc

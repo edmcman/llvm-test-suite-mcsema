@@ -1,0 +1,196 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400890
+Inserted function: sub_4006e0
+Inserted function: sub_400750
+Inserted function: sub_400780
+Inserted function: sub_400760
+Inserted function: sub_400790
+Inserted function: sub_400710
+Inserted function: sub_400d70
+Inserted function: sub_400740
+Inserted function: sub_4006f0
+Inserted function: sub_400770
+Inserted function: sub_400720
+inserting global data section named data_0x4011a0
+inserting global data section named data_0x401710
+inserting global data section named data_0x401750
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602078
+inserting global data section named data_0x602090
+dataSectionToTypesContents : 4011a0 570
+1392
+dataSectionToTypesContents : 401710 3c
+60
+dataSectionToTypesContents : 401750 134
+308
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 78
+120
+dataSectionToTypesContents : 602078 14
+20
+dataSectionToTypesContents : 602090 4d8
+1240
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400710
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 400710
+doCallPCtarget address : 400710
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400780
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 400750
+doCallPCtarget address : 400d70
+doCallPCtarget address : 400720
+doCallPCtarget address : 400d70
+doCallPCtarget address : 400d70
+doCallPCtarget address : 400790
+doCallPCtarget address : 400790
+doCallPCtarget address : 400710
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 400720
+doCallPCExtern paramCount  : 12 : printf
+12 : 262b780
+doCallPCExtern paramCount  : 1 : strlen
+1 : 262b780
+doCallPCExtern paramCount  : 2 : strcmp
+2 : 262b780
+doCallPCExtern paramCount  : 12 : sprintf
+12 : 262b780
+doCallPCExtern paramCount  : 1 : sin
+1 : 262b780
+doCallPCExtern paramCount  : 1 : puts
+1 : 262b780
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+doCallPCtarget address : 400790
+doCallPCtarget address : 400790
+doCallPCtarget address : 400770
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400770
+doCallPCtarget address : 400770
+doCallPCtarget address : 400790
+doCallPCtarget address : 400790
+doCallPCtarget address : 4006f0
+doCallPCExtern paramCount  : 1 : cos
+1 : 262b780
+doCallPCExtern paramCount  : 1 : tan
+1 : 262b780
+doCallPCExtern paramCount  : 1 : asin
+1 : 262b780
+doCallPCExtern paramCount  : 1 : putchar
+1 : 262b780
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/fbench.simple.mcsema/fbench.simple.bc

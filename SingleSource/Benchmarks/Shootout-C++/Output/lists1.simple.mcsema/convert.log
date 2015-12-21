@@ -1,0 +1,161 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400eb0
+Inserted function: sub_400ce0
+Inserted function: sub_400c90
+Inserted function: sub_400b90
+Inserted function: sub_400bb0
+Inserted function: sub_400be0
+Inserted function: sub_400c30
+Inserted function: sub_400c40
+Inserted function: sub_400c70
+Inserted function: sub_400c80
+Inserted function: sub_400ca0
+Inserted function: sub_400cc0
+Inserted function: sub_400bd0
+Inserted function: sub_400c60
+Inserted function: sub_400ba0
+Inserted function: sub_400e00
+Inserted function: sub_400c50
+inserting global data section named data_0x4015d0
+inserting global data section named data_0x4015e4
+inserting global data section named data_0x401628
+inserting global data section named data_0x40179c
+inserting global data section named data_0x601dd8
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x6020c8
+inserting global data section named data_0x6020e0
+dataSectionToTypesContents : 4015d0 11
+17
+dataSectionToTypesContents : 4015e4 44
+68
+dataSectionToTypesContents : 401628 174
+372
+dataSectionToTypesContents : 40179c 98
+152
+dataSectionToTypesContents : 601dd8 10
+16
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 c8
+200
+dataSectionToTypesContents : 6020c8 10
+16
+dataSectionToTypesContents : 6020e0 118
+280
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400c50
+doCallPCtarget address : 400e00
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400c60
+doCallPCtarget address : 400c80
+doCallPCtarget address : 400bd0
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400c60
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c70
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400ce0
+doCallPCtarget address : 400c90
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c70
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400c60
+doCallPCtarget address : 400ba0
+doCallPCtarget address : 400bd0
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400ce0
+doCallPCtarget address : 400c90
+doCallPCtarget address : 400e00
+doCallPCtarget address : 400bd0
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400c60
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400c60
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400ce0
+doCallPCtarget address : 400c90
+doCallPCtarget address : 400c30
+doCallPCtarget address : 400ca0
+doCallPCtarget address : 400c70
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400ce0
+doCallPCtarget address : 400c90
+doCallPCtarget address : 400bd0
+doCallPCtarget address : 400bd0
+error: 
+Line: 536
+File: /home/ed/mcsema/mc-sema/cfgToLLVM/x86Instrs_Branches.cpp
+Could not find external function: _ZNSo3putEc
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.bc

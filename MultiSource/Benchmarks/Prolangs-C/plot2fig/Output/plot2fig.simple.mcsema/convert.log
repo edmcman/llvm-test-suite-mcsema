@@ -1,0 +1,250 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_402200
+Inserted function: sub_400920
+Inserted function: sub_4009b0
+Inserted function: sub_400940
+Inserted function: sub_401400
+Inserted function: sub_4009d0
+Inserted function: sub_4008f0
+Inserted function: sub_401100
+Inserted function: sub_400960
+Inserted function: sub_400910
+Inserted function: sub_400930
+Inserted function: sub_4009f0
+Inserted function: sub_400a10
+Inserted function: sub_4009a0
+Inserted function: sub_4015c0
+Inserted function: sub_400c80
+Inserted function: sub_401540
+Inserted function: sub_401040
+Inserted function: sub_4013d0
+Inserted function: sub_4009c0
+Inserted function: sub_400a00
+Inserted function: sub_401220
+Inserted function: sub_400eb0
+Inserted function: sub_400e20
+Inserted function: sub_401230
+Inserted function: sub_401270
+Inserted function: sub_401010
+Inserted function: sub_401050
+Inserted function: sub_4026b0
+Inserted function: sub_400970
+Inserted function: sub_400e00
+Inserted function: sub_400e30
+Inserted function: sub_401250
+Inserted function: sub_402660
+Inserted function: sub_402680
+Inserted function: sub_400b10
+Inserted function: sub_4009e0
+Inserted function: sub_400990
+inserting global data section named data_0x4027c0
+inserting global data section named data_0x402d40
+inserting global data section named data_0x402e48
+inserting global data section named data_0x603de0
+inserting global data section named data_0x603de8
+inserting global data section named data_0x603df0
+inserting global data section named data_0x603ff8
+inserting global data section named data_0x604000
+inserting global data section named data_0x6040b0
+inserting global data section named data_0x604198
+dataSectionToTypesContents : 4027c0 580
+1408
+dataSectionToTypesContents : 402d40 104
+260
+dataSectionToTypesContents : 402e48 414
+1044
+dataSectionToTypesContents : 603de0 8
+8
+dataSectionToTypesContents : 603de8 8
+8
+dataSectionToTypesContents : 603df0 8
+8
+dataSectionToTypesContents : 603ff8 8
+8
+dataSectionToTypesContents : 604000 b0
+176
+dataSectionToTypesContents : 6040b0 e8
+232
+dataSectionToTypesContents : 604198 60
+96
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400930
+doCallPCtarget address : 4009f0
+doCallPCtarget address : 400920
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 401400
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4015c0
+doCallPCtarget address : 4009a0
+doCallPCtarget address : 401220
+doCallPCtarget address : 400a00
+doCallPCtarget address : 400a00
+doCallPCtarget address : 400e20
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 401100
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4009b0
+doCallPCtarget address : 4015c0
+doCallPCtarget address : 400940
+doCallPCtarget address : 400a00
+doCallPCtarget address : 4015c0
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 401400
+doCallPCExtern paramCount  : 1 : exit
+1 : 43d5220
+doCallPCExtern paramCount  : 2 : strcmp
+2 : 43d5220
+doCallPCExtern paramCount  : 2 : fopen
+2 : 43d5220
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400910
+doCallPCtarget address : 4008f0
+doCallPCExtern paramCount  : 1 : fclose
+1 : 43d5220
+doCallPCExtern paramCount  : 12 : printf
+12 : 43d5220
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400a10
+doCallPCtarget address : 400a00
+doCallPCtarget address : 400960
+doCallPCtarget address : 400a00
+doCallPCtarget address : 400960
+doCallPCtarget address : 400960
+doCallPCtarget address : 400960
+doCallPCtarget address : 400960
+doCallPCtarget address : 400960
+doCallPCtarget address : 400960
+doCallPCtarget address : 400960
+error: 
+Line: 536
+File: /home/ed/mcsema/mc-sema/cfgToLLVM/x86Instrs_Branches.cpp
+Could not find external function: re_exec
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple.bc

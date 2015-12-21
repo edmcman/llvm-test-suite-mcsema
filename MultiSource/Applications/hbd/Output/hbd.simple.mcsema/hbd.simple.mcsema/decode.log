@@ -1,0 +1,50 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   262144    32 8192 allocating memory for b-tree...
+   253952    31 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+   778240            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (0000000000400CA8-0000000000400CC2) ... ... OK
+  1. Creating a new segment  (0000000000400CD0-0000000000400EF0) ... ... OK
+  2. Creating a new segment  (0000000000400EF0-00000000004098A2) ... ... OK
+  3. Creating a new segment  (00000000004098A4-00000000004098AD) ... ... OK
+  4. Creating a new segment  (00000000004098B0-000000000040AA97) ... ... OK
+  5. Creating a new segment  (000000000040AA98-000000000040AC24) ... ... OK
+  6. Creating a new segment  (000000000040AC28-000000000040B514) ... ... OK
+  7. Creating a new segment  (000000000040B514-000000000040BDAC) ... ... OK
+  8. Creating a new segment  (000000000060BDD8-000000000060BDE8) ... ... OK
+  9. Creating a new segment  (000000000060BDE8-000000000060BDF0) ... ... OK
+ 10. Creating a new segment  (000000000060BDF0-000000000060BDF8) ... ... OK
+ 11. Creating a new segment  (000000000060BFF8-000000000060C000) ... ... OK
+ 12. Creating a new segment  (000000000060C000-000000000060C120) ... ... OK
+ 13. Creating a new segment  (000000000060C120-000000000060C948) ... ... OK
+ 14. Creating a new segment  (000000000060C950-000000000060D400) ... ... OK
+ 15. Creating a new segment  (000000000060D400-000000000060D854) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

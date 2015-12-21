@@ -1,0 +1,164 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400840
+Inserted function: sub_4006a0
+Inserted function: sub_400710
+Inserted function: sub_4006d0
+Inserted function: sub_400730
+Inserted function: sub_4006b0
+Inserted function: sub_4006e0
+Inserted function: sub_400b00
+Inserted function: sub_400740
+Inserted function: sub_400720
+inserting global data section named data_0x4010c0
+inserting global data section named data_0x4011b0
+inserting global data section named data_0x401208
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602070
+inserting global data section named data_0x602080
+dataSectionToTypesContents : 4010c0 f0
+240
+dataSectionToTypesContents : 4011b0 54
+84
+dataSectionToTypesContents : 401208 18c
+396
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 70
+112
+dataSectionToTypesContents : 602070 10
+16
+dataSectionToTypesContents : 602080 8
+8
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400730
+doCallPCtarget address : 400720
+doCallPCtarget address : 400720
+doCallPCtarget address : 400720
+doCallPCtarget address : 400710
+doCallPCtarget address : 4006a0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 400b00
+doCallPCtarget address : 4006a0
+doCallPCtarget address : 4006a0
+doCallPCExtern paramCount  : 12 : printf
+12 : 32a8780
+doCallPCExtern paramCount  : 1 : strlen
+1 : 32a8780
+doCallPCExtern paramCount  : 1 : puts
+1 : 32a8780
+doCallPCExtern paramCount  : 2 : strcpy
+2 : 32a8780
+doCallPCExtern paramCount  : 1 : seed48
+1 : 32a8780
+doCallPCExtern paramCount  : 1 : malloc
+1 : 32a8780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400f13 	movq	(%r15), %xmm0
+1665
+Unsupported!
+400ea4 	cvtsi2sdq	%rcx, %xmm0
+622
+Unsupported!
+400e56 	movq	(%r12), %xmm0
+1665
+Unsupported!
+400c2d 	cvtsi2sdq	%rcx, %xmm0
+622
+Unsupported!
+400bd8 	movq	(%r14), %xmm0
+1665
+Unsupported!
+400f8e 	cvtsi2sdq	%rcx, %xmm0
+622
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400d56 	movq	(%r15), %xmm0
+1665
+Unsupported!
+400db9 	cvtsi2sdq	%rcx, %xmm0
+622
+Unsupported!
+400cfa 	cvtsi2sdq	%rcx, %xmm0
+622
+Unsupported!
+400ca5 	movq	(%r15), %xmm0
+1665
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/Output/misr.simple.mcsema/misr.simple.bc

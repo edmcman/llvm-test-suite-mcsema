@@ -1,0 +1,49 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   262144    32 8192 allocating memory for b-tree...
+   196608    24 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+   720896            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (0000000000400DD8-0000000000400DF2) ... ... OK
+  1. Creating a new segment  (0000000000400E00-00000000004010C0) ... ... OK
+  2. Creating a new segment  (00000000004010C0-00000000004058C2) ... ... OK
+  3. Creating a new segment  (00000000004058C4-00000000004058CD) ... ... OK
+  4. Creating a new segment  (00000000004058D0-0000000000406991) ... ... OK
+  5. Creating a new segment  (0000000000406994-0000000000406AF0) ... ... OK
+  6. Creating a new segment  (0000000000406AF0-00000000004070AC) ... ... OK
+  7. Creating a new segment  (0000000000607DE0-0000000000607DE8) ... ... OK
+  8. Creating a new segment  (0000000000607DE8-0000000000607DF0) ... ... OK
+  9. Creating a new segment  (0000000000607DF0-0000000000607DF8) ... ... OK
+ 10. Creating a new segment  (0000000000607FF8-0000000000608000) ... ... OK
+ 11. Creating a new segment  (0000000000608000-0000000000608170) ... ... OK
+ 12. Creating a new segment  (0000000000608170-0000000000609994) ... ... OK
+ 13. Creating a new segment  (00000000006099A0-000000000060A2C8) ... ... OK
+ 14. Creating a new segment  (000000000060A2C8-000000000060A72C) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

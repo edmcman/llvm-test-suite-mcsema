@@ -1,0 +1,133 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400fd0
+Inserted function: sub_400a00
+Inserted function: sub_4009d0
+Inserted function: sub_4009c0
+Inserted function: sub_4009e0
+Inserted function: sub_400c50
+inserting global data section named data_0x4012b0
+inserting global data section named data_0x401610
+inserting global data section named data_0x4016b8
+inserting global data section named data_0x401994
+inserting global data section named data_0x601dd8
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602080
+inserting global data section named data_0x6020a0
+dataSectionToTypesContents : 4012b0 360
+864
+dataSectionToTypesContents : 401610 a4
+164
+dataSectionToTypesContents : 4016b8 2dc
+732
+dataSectionToTypesContents : 401994 128
+296
+dataSectionToTypesContents : 601dd8 10
+16
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 80
+128
+dataSectionToTypesContents : 602080 10
+16
+dataSectionToTypesContents : 6020a0 1e0
+480
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400a00
+doCallPCtarget address : 400a00
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009e0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009e0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 4009e0
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 400c50
+doCallPCtarget address : 4009c0
+doCallPCtarget address : 400c50
+error: 
+Line: 536
+File: /home/ed/mcsema/mc-sema/cfgToLLVM/x86Instrs_Branches.cpp
+Could not find external function: _Znwm
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple.bc

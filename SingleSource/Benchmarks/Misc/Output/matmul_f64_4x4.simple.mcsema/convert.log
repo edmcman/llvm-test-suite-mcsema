@@ -1,0 +1,114 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4008a0
+Inserted function: sub_400510
+Inserted function: sub_400530
+Inserted function: sub_400640
+inserting global data section named data_0x400ab0
+inserting global data section named data_0x400bc8
+inserting global data section named data_0x400c08
+inserting global data section named data_0x600de0
+inserting global data section named data_0x600de8
+inserting global data section named data_0x600df0
+inserting global data section named data_0x600ff8
+inserting global data section named data_0x601000
+inserting global data section named data_0x601038
+inserting global data section named data_0x601048
+dataSectionToTypesContents : 400ab0 116
+278
+dataSectionToTypesContents : 400bc8 3c
+60
+dataSectionToTypesContents : 400c08 10c
+268
+dataSectionToTypesContents : 600de0 8
+8
+dataSectionToTypesContents : 600de8 8
+8
+dataSectionToTypesContents : 600df0 8
+8
+dataSectionToTypesContents : 600ff8 8
+8
+dataSectionToTypesContents : 601000 38
+56
+dataSectionToTypesContents : 601038 10
+16
+dataSectionToTypesContents : 601048 8
+8
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400640
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400530
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400530
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400530
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400530
+doCallPCExtern paramCount  : 12 : printf
+12 : 370faa0
+doCallPCExtern paramCount  : 1 : putchar
+1 : 370faa0
+Unsupported!
+400640 	movupd	(%rdx), %xmm15
+1699
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.bc

@@ -1,0 +1,133 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400e00
+Inserted function: sub_400a60
+Inserted function: sub_4009a0
+Inserted function: sub_4007b0
+inserting global data section named data_0x401560
+inserting global data section named data_0x4016b8
+inserting global data section named data_0x4017a8
+inserting global data section named data_0x401bbc
+inserting global data section named data_0x602de0
+inserting global data section named data_0x602de8
+inserting global data section named data_0x602df0
+inserting global data section named data_0x602ff8
+inserting global data section named data_0x603000
+inserting global data section named data_0x603058
+inserting global data section named data_0x603080
+dataSectionToTypesContents : 401560 158
+344
+dataSectionToTypesContents : 4016b8 ec
+236
+dataSectionToTypesContents : 4017a8 414
+1044
+dataSectionToTypesContents : 401bbc 2cc
+716
+dataSectionToTypesContents : 602de0 8
+8
+dataSectionToTypesContents : 602de8 8
+8
+dataSectionToTypesContents : 602df0 8
+8
+dataSectionToTypesContents : 602ff8 8
+8
+dataSectionToTypesContents : 603000 58
+88
+dataSectionToTypesContents : 603058 10
+16
+dataSectionToTypesContents : 603080 c8
+200
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400ed9 	decl	8(%rbp)
+660
+Unsupported!
+400eeb 	decl	8(%r12)
+660
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400f1c 	decl	8(%r15)
+660
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400f9e 	decl	8(%r15)
+660
+Unsupported!
+400fb0 	decl	8(%r12)
+660
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+40101e 	decl	8(%rbx)
+660
+Unsupported!
+401034 	decl	8(%r12)
+660
+Unsupported!
+401058 	decl	8(%r14)
+660
+Unsupported!
+40106f 	decl	8(%rbp)
+660
+Unsupported!
+401086 	decl	8(%rbx)
+660
+Unsupported!
+4010a1 	decl	8(%r13)
+660
+Unsupported!
+4010b9 	decl	8(%r15)
+660
+Unsupported!
+4010cb 	decl	8(%rbp)
+660
+Unsupported!
+4010dd 	decl	8(%r12)
+660
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 400a60
+doCallPCtarget address : 4009a0
+doCallPCtarget address : 400a60
+doCallPCtarget address : 400a60
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple.bc

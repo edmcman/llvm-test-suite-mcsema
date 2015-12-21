@@ -1,0 +1,178 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400b80
+Inserted function: sub_401400
+Inserted function: sub_400830
+Inserted function: sub_400680
+Inserted function: sub_400610
+Inserted function: sub_401510
+Inserted function: sub_400670
+Inserted function: sub_400620
+Inserted function: sub_400640
+Inserted function: sub_401620
+Inserted function: sub_400a90
+Inserted function: sub_4012f0
+Inserted function: sub_400660
+inserting global data section named data_0x4017b0
+inserting global data section named data_0x401900
+inserting global data section named data_0x401968
+inserting global data section named data_0x601dd8
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602058
+inserting global data section named data_0x602090
+dataSectionToTypesContents : 4017b0 150
+336
+dataSectionToTypesContents : 401900 64
+100
+dataSectionToTypesContents : 401968 1dc
+476
+dataSectionToTypesContents : 601dd8 10
+16
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 58
+88
+dataSectionToTypesContents : 602058 38
+56
+dataSectionToTypesContents : 602090 7e80
+32384
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400d6e 	cvtsi2sdq	%rax, %xmm0
+622
+Unsupported!
+400e2e 	cvtsi2sdq	%rax, %xmm0
+622
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400eee 	cvtsi2sdq	%rax, %xmm0
+622
+Unsupported!
+400fae 	cvtsi2sdq	%rax, %xmm0
+622
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+40106d 	cvtsi2sdq	%rax, %xmm0
+622
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+40112d 	cvtsi2sdq	%rax, %xmm0
+622
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4011ed 	cvtsi2sdq	%rax, %xmm0
+622
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4012ad 	cvtsi2sdq	%rax, %xmm0
+622
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400660
+doCallPCtarget address : 400a90
+doCallPCtarget address : 4012f0
+doCallPCtarget address : 401400
+doCallPCtarget address : 401510
+doCallPCtarget address : 401620
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400620
+doCallPCtarget address : 400670
+doCallPCtarget address : 400620
+doCallPCtarget address : 400670
+doCallPCtarget address : 400620
+doCallPCtarget address : 400670
+doCallPCtarget address : 400620
+doCallPCtarget address : 400670
+doCallPCtarget address : 400620
+doCallPCtarget address : 400620
+doCallPCtarget address : 400620
+doCallPCtarget address : 400620
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.bc

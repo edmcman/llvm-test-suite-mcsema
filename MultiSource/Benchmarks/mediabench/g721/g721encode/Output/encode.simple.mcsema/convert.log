@@ -1,0 +1,199 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400830
+Inserted function: sub_400680
+Inserted function: sub_4006a0
+Inserted function: sub_401070
+Inserted function: sub_4017c0
+Inserted function: sub_401a50
+Inserted function: sub_401a00
+Inserted function: sub_400ca0
+Inserted function: sub_401930
+Inserted function: sub_4006d0
+Inserted function: sub_401970
+Inserted function: sub_401590
+Inserted function: sub_400d50
+Inserted function: sub_400df0
+Inserted function: sub_401610
+Inserted function: sub_4006b0
+Inserted function: sub_4006c0
+Inserted function: sub_401300
+inserting global data section named data_0x4022d0
+inserting global data section named data_0x402580
+inserting global data section named data_0x402668
+inserting global data section named data_0x602de0
+inserting global data section named data_0x602de8
+inserting global data section named data_0x602df0
+inserting global data section named data_0x602ff8
+inserting global data section named data_0x603000
+inserting global data section named data_0x603050
+inserting global data section named data_0x6031d0
+dataSectionToTypesContents : 4022d0 2b0
+688
+dataSectionToTypesContents : 402580 e4
+228
+dataSectionToTypesContents : 402668 434
+1076
+dataSectionToTypesContents : 602de0 8
+8
+dataSectionToTypesContents : 602de8 8
+8
+dataSectionToTypesContents : 602df0 8
+8
+dataSectionToTypesContents : 602ff8 8
+8
+dataSectionToTypesContents : 603000 50
+80
+dataSectionToTypesContents : 603050 17e
+382
+dataSectionToTypesContents : 6031d0 28
+40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 401590
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006a0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006a0
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+doCallPCtarget address : 4006c0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006a0
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 400680
+doCallPC: Adding Unreachable Instruction to local noreturn
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+doCallPCExtern paramCount  : 1 : exit
+1 : 2c2d2e0
+doCallPCExtern paramCount  : 2 : fputc
+2 : 2c2d2e0
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400d50
+doCallPCtarget address : 401610
+doCallPCtarget address : 4017c0
+doCallPCtarget address : 401930
+doCallPCtarget address : 401970
+doCallPCtarget address : 401a00
+doCallPCtarget address : 400ca0
+doCallPCtarget address : 401a50
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 2c2d2e0
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400d50
+doCallPCtarget address : 401610
+doCallPCtarget address : 4017c0
+doCallPCtarget address : 401930
+doCallPCtarget address : 401970
+doCallPCtarget address : 401a00
+doCallPCtarget address : 400ca0
+doCallPCtarget address : 401a50
+doCallPCExtern paramCount  : 4 : fread
+4 : 2c2d2e0
+doCallPCExtern paramCount  : 1 : fclose
+1 : 2c2d2e0
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400d50
+doCallPCtarget address : 401610
+doCallPCtarget address : 4017c0
+doCallPCtarget address : 401930
+doCallPCtarget address : 401970
+doCallPCtarget address : 401a00
+doCallPCtarget address : 400ca0
+doCallPCtarget address : 401a50
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple.bc

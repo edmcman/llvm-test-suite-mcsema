@@ -1,0 +1,50 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  5029888   614 8192 allocating memory for b-tree...
+  5029888   614 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 10321920            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (0000000000401F70-0000000000401F8A) ... ... OK
+  1. Creating a new segment  (0000000000401F90-0000000000402550) ... ... OK
+  2. Creating a new segment  (0000000000402550-000000000046DA12) ... ... OK
+  3. Creating a new segment  (000000000046DA14-000000000046DA1D) ... ... OK
+  4. Creating a new segment  (000000000046DA20-00000000004A8252) ... ... OK
+  5. Creating a new segment  (00000000004A8254-00000000004AE4C8) ... ... OK
+  6. Creating a new segment  (00000000004AE4C8-00000000004C4CE4) ... ... OK
+  7. Creating a new segment  (00000000004C4CE4-00000000004C6580) ... ... OK
+  8. Creating a new segment  (00000000006C6DB0-00000000006C6DE8) ... ... OK
+  9. Creating a new segment  (00000000006C6DE8-00000000006C6DF0) ... ... OK
+ 10. Creating a new segment  (00000000006C6DF0-00000000006C6DF8) ... ... OK
+ 11. Creating a new segment  (00000000006C6FF8-00000000006C7000) ... ... OK
+ 12. Creating a new segment  (00000000006C7000-00000000006C72F0) ... ... OK
+ 13. Creating a new segment  (00000000006C72F0-00000000006CE6C0) ... ... OK
+ 14. Creating a new segment  (00000000006CE6C0-00000000006D17D0) ... ... OK
+ 15. Creating a new segment  (00000000006D17D0-00000000006D6CFC) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

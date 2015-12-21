@@ -1,0 +1,590 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4062c0
+Inserted function: sub_4006a0
+Inserted function: sub_400670
+Inserted function: sub_405c90
+Inserted function: sub_400cc0
+Inserted function: sub_400640
+Inserted function: sub_4007b0
+Inserted function: sub_406050
+Inserted function: sub_400680
+Inserted function: sub_405dd0
+Inserted function: sub_400630
+Inserted function: sub_400650
+Inserted function: sub_4006b0
+Inserted function: sub_405f10
+inserting global data section named data_0x406400
+inserting global data section named data_0x406a10
+inserting global data section named data_0x406aa8
+inserting global data section named data_0x606de0
+inserting global data section named data_0x606de8
+inserting global data section named data_0x606df0
+inserting global data section named data_0x606ff8
+inserting global data section named data_0x607000
+inserting global data section named data_0x607060
+inserting global data section named data_0x607080
+dataSectionToTypesContents : 406400 610
+1552
+dataSectionToTypesContents : 406a10 94
+148
+dataSectionToTypesContents : 406aa8 23c
+572
+dataSectionToTypesContents : 606de0 8
+8
+dataSectionToTypesContents : 606de8 8
+8
+dataSectionToTypesContents : 606df0 8
+8
+dataSectionToTypesContents : 606ff8 8
+8
+dataSectionToTypesContents : 607000 60
+96
+dataSectionToTypesContents : 607060 18
+24
+dataSectionToTypesContents : 607080 54ee68
+5566056
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400650
+doCallPCtarget address : 400630
+doCallPCtarget address : 4006a0
+doCallPCtarget address : 400630
+doCallPCtarget address : 406050
+doCallPCtarget address : 400670
+doCallPCtarget address : 405c90
+doCallPCtarget address : 405dd0
+doCallPCtarget address : 405f10
+doCallPCtarget address : 4006a0
+doCallPCExtern paramCount  : 3 : strtol
+3 : 285e780
+doCallPCExtern paramCount  : 1 : puts
+1 : 285e780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4019f2 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+401a44 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+401ca4 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+40206e 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+40231f 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402b89 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402af5 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402bd2 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402ca2 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402c13 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402ce4 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402deb 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4034a6 	shufpd	$0, %xmm0, %xmm0
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+403fa4 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+403fe6 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+404297 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+404625 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400630
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 400630
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4049ae 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4049f0 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+404d9f 	movupd	%xmm0, 9703400(,%rax,8)
+1698
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4054bc 	shufpd	$0, %xmm1, %xmm1
+2602
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+40581b 	shufpd	$0, %xmm1, %xmm1
+2602
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple.bc

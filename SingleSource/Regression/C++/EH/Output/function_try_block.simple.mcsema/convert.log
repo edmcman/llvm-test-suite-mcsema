@@ -1,0 +1,143 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400b20
+Inserted function: sub_4009f0
+Inserted function: sub_400980
+Inserted function: sub_400880
+Inserted function: sub_4007f0
+Inserted function: sub_4007d0
+Inserted function: sub_400830
+Inserted function: sub_400840
+Inserted function: sub_400850
+Inserted function: sub_400c20
+Inserted function: sub_400860
+Inserted function: sub_400820
+inserting global data section named data_0x400cb0
+inserting global data section named data_0x400d90
+inserting global data section named data_0x400dd8
+inserting global data section named data_0x400f2c
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602078
+inserting global data section named data_0x6020a0
+dataSectionToTypesContents : 400cb0 e0
+224
+dataSectionToTypesContents : 400d90 44
+68
+dataSectionToTypesContents : 400dd8 154
+340
+dataSectionToTypesContents : 400f2c d4
+212
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 78
+120
+dataSectionToTypesContents : 602078 10
+16
+dataSectionToTypesContents : 6020a0 20
+32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4009f0
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4009f0
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 400980
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCExtern paramCount  : 1 : puts
+1 : 2775780
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400830
+doCallPCtarget address : 400840
+doCallPCtarget address : 400850
+doCallPCtarget address : 400880
+doCallPCtarget address : 400c20
+doCallPC: Adding Unreachable Instruction to local noreturn
+error: 
+Line: 536
+File: /home/ed/mcsema/mc-sema/cfgToLLVM/x86Instrs_Branches.cpp
+Could not find external function: _Unwind_Resume
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.bc

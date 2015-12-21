@@ -1,0 +1,344 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 6032d3, dta_0x604f00L, 1
+cur_pos: 603090
+dse_base: 6032d3
+new_cur_pos: 6032d4
+Deserializing symbol at: 6033a3, dta_0x604500L, 1
+cur_pos: 6032d4
+dse_base: 6033a3
+new_cur_pos: 6033a4
+Deserializing symbol at: 604487, dta_0x60b000L, 1
+cur_pos: 6033a4
+dse_base: 604487
+new_cur_pos: 604488
+Deserializing symbol at: 6047ff, dta_0x604500L, 1
+cur_pos: 604488
+dse_base: 6047ff
+new_cur_pos: 604800
+Deserializing symbol at: 605afb, dta_0x605700L, 1
+cur_pos: 604800
+dse_base: 605afb
+new_cur_pos: 605afc
+Deserializing symbol at: 6093fb, dta_0x605000L, 1
+cur_pos: 605afc
+dse_base: 6093fb
+new_cur_pos: 6093fc
+Deserializing symbol at: 60ceaf, dta_0x401962L, 1
+cur_pos: 6093fc
+dse_base: 60ceaf
+new_cur_pos: 60ceb0
+Deserializing symbol at: 60cf67, dta_0x401b50L, 1
+cur_pos: 60ceb0
+dse_base: 60cf67
+new_cur_pos: 60cf68
+Deserializing symbol at: 60cfa5, sub_0x400bbcL, 2
+cur_pos: 60cf68
+dse_base: 60cfa5
+new_cur_pos: 60cfa7
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4015e0
+Inserted function: sub_400a40
+Inserted function: sub_400890
+Inserted function: sub_400ba0
+Inserted function: sub_400860
+Inserted function: sub_4013c0
+Inserted function: sub_400840
+Inserted function: sub_4012b0
+Inserted function: sub_400f50
+Inserted function: sub_400870
+Inserted function: sub_4007e0
+Inserted function: sub_400810
+Inserted function: sub_400830
+Inserted function: sub_400850
+Inserted function: sub_401060
+Inserted function: sub_400880
+Inserted function: sub_401730
+Inserted function: sub_400820
+Inserted function: sub_400788
+Inserted function: sub_4007c0
+Inserted function: sub_4007d0
+Inserted function: sub_400990
+Inserted function: sub_400e30
+Inserted function: sub_4007f0
+Inserted function: sub_400bbc
+inserting global data section named data_0x401850
+inserting global data section named data_0x401adc
+inserting global data section named data_0x401b70
+inserting global data section named data_0x602de0
+inserting global data section named data_0x602de8
+inserting global data section named data_0x602df0
+inserting global data section named data_0x602ff8
+inserting global data section named data_0x603000
+inserting global data section named data_0x603090
+inserting global data section named data_0x60daf0
+dataSectionToTypesContents : 401850 289
+649
+dataSectionToTypesContents : 401adc 94
+148
+dataSectionToTypesContents : 401b70 304
+772
+dataSectionToTypesContents : 602de0 8
+8
+dataSectionToTypesContents : 602de8 8
+8
+dataSectionToTypesContents : 602df0 8
+8
+dataSectionToTypesContents : 602ff8 8
+8
+dataSectionToTypesContents : 603000 88
+136
+dataSectionToTypesContents : 603090 243
+579
+dataSectionToTypesContents : 6032d3 1
+ Symbol name : 0x604f00L : 604f00 : 603090
+dataSectionToTypesContents : 6032d4 cf
+207
+dataSectionToTypesContents : 6033a3 1
+ Symbol name : 0x604500L : 604500 : 603090
+dataSectionToTypesContents : 6033a4 10e3
+4323
+dataSectionToTypesContents : 604487 1
+ Symbol name : 0x60b000L : 60b000 : 603090
+dataSectionToTypesContents : 604488 377
+887
+dataSectionToTypesContents : 6047ff 1
+ Symbol name : 0x604500L : 604500 : 603090
+dataSectionToTypesContents : 604800 12fb
+4859
+dataSectionToTypesContents : 605afb 1
+ Symbol name : 0x605700L : 605700 : 603090
+dataSectionToTypesContents : 605afc 38ff
+14591
+dataSectionToTypesContents : 6093fb 1
+ Symbol name : 0x605000L : 605000 : 603090
+dataSectionToTypesContents : 6093fc 3ab3
+15027
+dataSectionToTypesContents : 60ceaf 1
+ Symbol name : 0x401962L : 401962 : 401850
+dataSectionToTypesContents : 60ceb0 b7
+183
+dataSectionToTypesContents : 60cf67 1
+ Symbol name : 0x401b50L : 401b50 : 401adc
+dataSectionToTypesContents : 60cf68 3d
+61
+dataSectionToTypesContents : 60cfa5 2
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 60cfa7 b49
+2889
+dataSectionToTypesContents : 60daf0 28
+40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 401730
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400850
+doCallPCtarget address : 4013c0
+doCallPCtarget address : 400880
+doCallPCtarget address : 400890
+doCallPCtarget address : 400990
+doCallPCtarget address : 400a40
+doCallPCtarget address : 400ba0
+doCallPCtarget address : 400830
+doCallPCExtern paramCount  : 12 : fprintf
+12 : 2e06780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400860
+doCallPCtarget address : 400860
+doCallPCtarget address : 400860
+doCallPCtarget address : 400890
+doCallPCExtern paramCount  : 3 : memcmp
+3 : 2e06780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 401730
+doCallPCtarget address : 400810
+doCallPCtarget address : 401730
+doCallPCtarget address : 401730
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 4012b0
+doCallPCtarget address : 400810
+doCallPCtarget address : 400840
+doCallPCExtern paramCount  : 12 : sscanf
+12 : 2e06780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400f50
+doCallPCtarget address : 400e30
+doCallPCtarget address : 401060
+doCallPCtarget address : 400870
+doCallPCtarget address : 400e30
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 401730
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 400870
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 401730
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCExtern paramCount  : 3 : strncpy
+3 : 2e06780
+doCallPCExtern paramCount  : 1 : malloc
+1 : 2e06780
+doCallPCExtern paramCount  : 3 : fgets
+3 : 2e06780
+doCallPCExtern paramCount  : 1 : free
+1 : 2e06780
+doCallPCExtern paramCount  : 3 : strtol
+3 : 2e06780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 401730
+doCallPC: Adding Unreachable Instruction to local noreturn
+doCallPCtarget address : 400830
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 2e06780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400890
+doCallPCtarget address : 400890
+doCallPCtarget address : 400820
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 400788
+doCallPCExtern paramCount  : 2 : fputc
+2 : 2e06780
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007c0
+doCallPCExtern paramCount  : 0 : __gmon_start__
+0 : 2e49360
+doCallPCExtern paramCount  : 1 : exit
+1 : 2e06780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400880
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 400880
+doCallPCtarget address : 4007d0
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 401730
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 400870
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 401730
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCExtern paramCount  : 2 : fopen
+2 : 2e06780
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400860
+doCallPCtarget address : 400860
+doCallPCtarget address : 400860
+doCallPCtarget address : 400890
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple.bc

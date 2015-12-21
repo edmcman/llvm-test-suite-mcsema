@@ -1,0 +1,56 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  6144000   750 8192 allocating memory for b-tree...
+  6144000   750 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 12550144            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (0000000000402278-0000000000402292) ... ... OK
+  1. Creating a new segment  (00000000004022A0-00000000004029E0) ... ... OK
+  2. Creating a new segment  (00000000004029E0-00000000004D3A92) ... ... OK
+  3. Creating a new segment  (00000000004D3A94-00000000004D3A9D) ... ... OK
+  4. Creating a new segment  (00000000004D3AA0-00000000004E40B0) ... ... OK
+  5. Creating a new segment  (00000000004E40B0-00000000004EA484) ... ... OK
+  6. Creating a new segment  (00000000004EA488-000000000050500C) ... ... OK
+  7. Creating a new segment  (000000000050500C-00000000005220D8) ... ... OK
+  8. Creating a new segment  (0000000000722CA8-0000000000722DD8) ... ... OK
+  9. Creating a new segment  (0000000000722DD8-0000000000722DE0) ... ... OK
+ 10. Creating a new segment  (0000000000722DE0-0000000000722DE8) ... ... OK
+ 11. Creating a new segment  (0000000000722FF8-0000000000723000) ... ... OK
+ 12. Creating a new segment  (0000000000723000-00000000007233B0) ... ... OK
+ 13. Creating a new segment  (00000000007233B0-0000000000723FA8) ... ... OK
+ 14. Creating a new segment  (0000000000723FC0-000000000072B3E0) ... ... OK
+ 15. Creating a new segment  (000000000072B3E0-0000000000731170) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+4B62D0: propagate_stkargs: function is already typed
+438600: propagate_stkargs: function is already typed
+48AC10: propagate_stkargs: function is already typed
+4D19F0: propagate_stkargs: function is already typed
+42EE70: propagate_stkargs: function is already typed
+4302A0: propagate_stkargs: function is already typed
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

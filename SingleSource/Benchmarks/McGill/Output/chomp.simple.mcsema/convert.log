@@ -1,0 +1,159 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_401ae0
+Inserted function: sub_400960
+Inserted function: sub_400690
+Inserted function: sub_400930
+Inserted function: sub_400630
+Inserted function: sub_401230
+Inserted function: sub_400de0
+Inserted function: sub_400640
+Inserted function: sub_400660
+Inserted function: sub_400670
+inserting global data section named data_0x401e80
+inserting global data section named data_0x401fb0
+inserting global data section named data_0x402090
+inserting global data section named data_0x602de0
+inserting global data section named data_0x602de8
+inserting global data section named data_0x602df0
+inserting global data section named data_0x602ff8
+inserting global data section named data_0x603000
+inserting global data section named data_0x603058
+inserting global data section named data_0x603070
+dataSectionToTypesContents : 401e80 130
+304
+dataSectionToTypesContents : 401fb0 dc
+220
+dataSectionToTypesContents : 402090 3ac
+940
+dataSectionToTypesContents : 602de0 8
+8
+dataSectionToTypesContents : 602de8 8
+8
+dataSectionToTypesContents : 602df0 8
+8
+dataSectionToTypesContents : 602ff8 8
+8
+dataSectionToTypesContents : 603000 58
+88
+dataSectionToTypesContents : 603058 10
+16
+dataSectionToTypesContents : 603070 28
+40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400630
+doCallPCtarget address : 400630
+doCallPCtarget address : 400630
+doCallPCtarget address : 401230
+doCallPCtarget address : 400670
+doCallPCtarget address : 400960
+doCallPCtarget address : 400630
+doCallPCtarget address : 400670
+doCallPCtarget address : 400630
+doCallPCtarget address : 400690
+doCallPCtarget address : 400960
+doCallPCtarget address : 400930
+doCallPCtarget address : 400690
+doCallPCExtern paramCount  : 1 : free
+1 : 3323d10
+doCallPCExtern paramCount  : 1 : free
+1 : 3323d10
+doCallPCtarget address : 400930
+doCallPCtarget address : 400690
+doCallPCExtern paramCount  : 1 : free
+1 : 3323d10
+doCallPCExtern paramCount  : 12 : printf
+12 : 3323d10
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400640
+doCallPCtarget address : 400690
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400de0
+doCallPCtarget address : 400690
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400690
+doCallPCtarget address : 400690
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400670
+doCallPCtarget address : 400690
+doCallPCExtern paramCount  : 3 : memset
+3 : 3323d10
+doCallPCExtern paramCount  : 1 : puts
+1 : 3323d10
+doCallPCExtern paramCount  : 1 : malloc
+1 : 3323d10
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/McGill/Output/chomp.simple.mcsema/chomp.simple.bc

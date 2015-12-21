@@ -1,0 +1,442 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400c20
+Inserted function: sub_4024e0
+Inserted function: sub_402400
+Inserted function: sub_4008e0
+Inserted function: sub_400890
+Inserted function: sub_402390
+Inserted function: sub_400940
+Inserted function: sub_4022b0
+Inserted function: sub_4008f0
+Inserted function: sub_4017e0
+Inserted function: sub_400840
+Inserted function: sub_400870
+Inserted function: sub_400880
+Inserted function: sub_4008b0
+Inserted function: sub_4010d0
+Inserted function: sub_4018e0
+Inserted function: sub_400900
+Inserted function: sub_402640
+Inserted function: sub_4025a0
+Inserted function: sub_4008c0
+Inserted function: sub_401530
+Inserted function: sub_400910
+Inserted function: sub_401d70
+Inserted function: sub_401240
+Inserted function: sub_401410
+Inserted function: sub_400a50
+Inserted function: sub_402650
+Inserted function: sub_4026b0
+Inserted function: sub_400b00
+Inserted function: sub_400920
+Inserted function: sub_400930
+Inserted function: sub_4008d0
+Inserted function: sub_400bb0
+Inserted function: sub_400950
+Inserted function: sub_401230
+Inserted function: sub_400a90
+Inserted function: sub_400850
+inserting global data section named data_0x4027f0
+inserting global data section named data_0x402d88
+inserting global data section named data_0x402ea0
+inserting global data section named data_0x603de0
+inserting global data section named data_0x603de8
+inserting global data section named data_0x603df0
+inserting global data section named data_0x603ff8
+inserting global data section named data_0x604000
+inserting global data section named data_0x6040a8
+inserting global data section named data_0x6040d0
+dataSectionToTypesContents : 4027f0 595
+1429
+dataSectionToTypesContents : 402d88 114
+276
+dataSectionToTypesContents : 402ea0 50c
+1292
+dataSectionToTypesContents : 603de0 8
+8
+dataSectionToTypesContents : 603de8 8
+8
+dataSectionToTypesContents : 603df0 8
+8
+dataSectionToTypesContents : 603ff8 8
+8
+dataSectionToTypesContents : 604000 a8
+168
+dataSectionToTypesContents : 6040a8 1c
+28
+dataSectionToTypesContents : 6040d0 d0
+208
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400870
+doCallPCtarget address : 400870
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 400880
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 400880
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 400880
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 402640
+doCallPCtarget address : 4010d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 400890
+doCallPCtarget address : 400890
+doCallPCtarget address : 402390
+doCallPCtarget address : 400920
+doCallPCtarget address : 400870
+doCallPCtarget address : 4018e0
+doCallPCtarget address : 400920
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 400890
+doCallPCtarget address : 400890
+doCallPCtarget address : 401530
+doCallPCtarget address : 4024e0
+doCallPCtarget address : 400920
+doCallPCtarget address : 400920
+doCallPCtarget address : 400840
+doCallPCtarget address : 400b00
+doCallPCtarget address : 400840
+doCallPCtarget address : 400890
+doCallPCtarget address : 401d70
+doCallPCtarget address : 400920
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCtarget address : 402400
+doCallPCtarget address : 4017e0
+doCallPCtarget address : 402400
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 400950
+doCallPCtarget address : 400950
+doCallPCtarget address : 400a90
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 4008b0
+doCallPCtarget address : 400a90
+doCallPCtarget address : 4008e0
+doCallPCExtern paramCount  : 2 : fputs
+2 : 42fed40
+doCallPCExtern paramCount  : 2 : fopen
+2 : 42fed40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400940
+doCallPCtarget address : 400940
+doCallPCtarget address : 400940
+doCallPCtarget address : 4022b0
+doCallPCtarget address : 400950
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCtarget address : 400940
+doCallPCtarget address : 4008b0
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 42fed40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4022b0
+doCallPCtarget address : 400950
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCtarget address : 400940
+doCallPCtarget address : 4008b0
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCExtern paramCount  : 2 : strcmp
+2 : 42fed40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCtarget address : 4008b0
+doCallPCtarget address : 400a90
+doCallPCtarget address : 4008e0
+doCallPCExtern paramCount  : 12 : printf
+12 : 42fed40
+doCallPCExtern paramCount  : 1 : puts
+1 : 42fed40
+doCallPCExtern paramCount  : 1 : malloc
+1 : 42fed40
+doCallPCExtern paramCount  : 2 : fputc
+2 : 42fed40
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400880
+doCallPCExtern paramCount  : 1 : puts
+1 : 42fed40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400910
+doCallPCtarget address : 4025a0
+doCallPCtarget address : 400840
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 400910
+doCallPCtarget address : 400930
+doCallPCtarget address : 4026b0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 402650
+doCallPCtarget address : 400930
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 4026b0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400900
+doCallPCtarget address : 400840
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 400840
+doCallPCExtern paramCount  : 2 : strcpy
+2 : 42fed40
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+doCallPCtarget address : 4008c0
+doCallPCtarget address : 400910
+doCallPCExtern paramCount  : 1 : _IO_getc
+1 : 42fed40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400940
+doCallPCtarget address : 400940
+doCallPCtarget address : 400940
+doCallPCtarget address : 400940
+doCallPCtarget address : 401410
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCtarget address : 400940
+doCallPCtarget address : 400940
+doCallPCtarget address : 4008b0
+doCallPCtarget address : 400a90
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 401410
+doCallPCExtern paramCount  : 1 : feof
+1 : 42fed40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400910
+doCallPCtarget address : 4025a0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 400910
+doCallPCtarget address : 400930
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 400870
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 401240
+doCallPCtarget address : 402650
+doCallPCtarget address : 400840
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 401240
+doCallPCtarget address : 401230
+doCallPCtarget address : 400930
+doCallPCtarget address : 402650
+doCallPCtarget address : 4008d0
+doCallPCtarget address : 4026b0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400a50
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCtarget address : 400940
+doCallPCtarget address : 400940
+doCallPCtarget address : 400940
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400950
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 400880
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 4008f0
+doCallPCtarget address : 400850
+doCallPCExtern paramCount  : 1 : fclose
+1 : 42fed40
+doCallPCExtern paramCount  : 3 : strncpy
+3 : 42fed40
+doCallPCExtern paramCount  : 1 : strlen
+1 : 42fed40
+doCallPCExtern paramCount  : 12 : fprintf
+12 : 42fed40
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400840
+doCallPCtarget address : 400880
+doCallPCtarget address : 400a50
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400840
+doCallPCExtern paramCount  : 1 : puts
+1 : 42fed40
+doCallPCExtern paramCount  : 2 : ldexp
+2 : 42fed40
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple.bc

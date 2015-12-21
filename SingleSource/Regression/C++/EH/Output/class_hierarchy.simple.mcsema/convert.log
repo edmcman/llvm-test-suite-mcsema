@@ -1,0 +1,132 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400d90
+Inserted function: sub_400c10
+Inserted function: sub_400ac0
+Inserted function: sub_400a90
+Inserted function: sub_400ab0
+Inserted function: sub_400b10
+Inserted function: sub_400a40
+Inserted function: sub_400a80
+Inserted function: sub_400aa0
+Inserted function: sub_400b00
+inserting global data section named data_0x400f30
+inserting global data section named data_0x4010f0
+inserting global data section named data_0x401150
+inserting global data section named data_0x4012f4
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x6020a0
+inserting global data section named data_0x6020c0
+dataSectionToTypesContents : 400f30 1c0
+448
+dataSectionToTypesContents : 4010f0 5c
+92
+dataSectionToTypesContents : 401150 1a4
+420
+dataSectionToTypesContents : 4012f4 a4
+164
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 a0
+160
+dataSectionToTypesContents : 6020a0 10
+16
+dataSectionToTypesContents : 6020c0 e0
+224
+doCallPCtarget address : 400c10
+doCallPC: Adding Unreachable Instruction to local noreturn
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400a40
+doCallPCtarget address : 400a80
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400a40
+doCallPCtarget address : 400a80
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+doCallPCtarget address : 400ac0
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400a40
+doCallPCtarget address : 400a80
+doCallPCtarget address : 400aa0
+doCallPCtarget address : 400ab0
+doCallPCtarget address : 400b00
+doCallPCtarget address : 400a90
+doCallPCtarget address : 400a90
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+doCallPCtarget address : 400ac0
+doCallPCtarget address : 400ac0
+doCallPC: Adding Unreachable Instruction to local noreturn
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+doCallPCtarget address : 400ac0
+error: 
+Line: 536
+File: /home/ed/mcsema/mc-sema/cfgToLLVM/x86Instrs_Branches.cpp
+Could not find external function: __cxa_throw
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Regression/C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.bc

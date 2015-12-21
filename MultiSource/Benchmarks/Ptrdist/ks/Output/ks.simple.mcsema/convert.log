@@ -1,0 +1,340 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_401980
+Inserted function: sub_4007a0
+Inserted function: sub_400750
+Inserted function: sub_400f40
+Inserted function: sub_400bf0
+Inserted function: sub_400780
+Inserted function: sub_400790
+Inserted function: sub_4007b0
+Inserted function: sub_4007f0
+Inserted function: sub_400840
+Inserted function: sub_400d00
+Inserted function: sub_401120
+Inserted function: sub_400830
+Inserted function: sub_400d70
+Inserted function: sub_400940
+Inserted function: sub_400820
+Inserted function: sub_4007e0
+Inserted function: sub_4007c0
+Inserted function: sub_400800
+Inserted function: sub_400810
+Inserted function: sub_4015c0
+inserting global data section named data_0x401d10
+inserting global data section named data_0x401f98
+inserting global data section named data_0x402030
+inserting global data section named data_0x602de0
+inserting global data section named data_0x602de8
+inserting global data section named data_0x602df0
+inserting global data section named data_0x602ff8
+inserting global data section named data_0x603000
+inserting global data section named data_0x603080
+inserting global data section named data_0x603090
+dataSectionToTypesContents : 401d10 285
+645
+dataSectionToTypesContents : 401f98 94
+148
+dataSectionToTypesContents : 402030 294
+660
+dataSectionToTypesContents : 602de0 8
+8
+dataSectionToTypesContents : 602de8 8
+8
+dataSectionToTypesContents : 602df0 8
+8
+dataSectionToTypesContents : 602ff8 8
+8
+dataSectionToTypesContents : 603000 80
+128
+dataSectionToTypesContents : 603080 10
+16
+dataSectionToTypesContents : 603090 9880
+39040
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+doCallPCtarget address : 400830
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 400750
+doCallPCtarget address : 400940
+doCallPCtarget address : 400bf0
+doCallPCtarget address : 400d00
+doCallPCtarget address : 400d70
+doCallPCtarget address : 400f40
+doCallPCtarget address : 400f40
+doCallPCtarget address : 401120
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 4015c0
+doCallPCtarget address : 4015c0
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 4015c0
+doCallPCExtern paramCount  : 1 : exit
+1 : 314d780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400790
+doCallPCtarget address : 400780
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 4007a0
+doCallPC: Adding Unreachable Instruction to local noreturn
+doCallPCExtern paramCount  : 3 : memset
+3 : 314d780
+doCallPCExtern paramCount  : 0 : __gmon_start__
+0 : 318ea20
+doCallPCExtern paramCount  : 1 : malloc
+1 : 314d780
+doCallPCExtern paramCount  : 2 : fputc
+2 : 314d780
+doCallPCExtern paramCount  : 12 : fprintf
+12 : 314d780
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 314d780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 4007a0
+doCallPC: Adding Unreachable Instruction to local noreturn
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 4007c0
+doCallPCtarget address : 400840
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 400800
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 4007a0
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 400820
+doCallPCtarget address : 400810
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 400820
+doCallPCtarget address : 400810
+doCallPCtarget address : 400820
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 400810
+doCallPCtarget address : 400820
+doCallPCExtern paramCount  : 2 : strtok
+2 : 314d780
+doCallPCExtern paramCount  : 3 : fgets
+3 : 314d780
+doCallPCExtern paramCount  : 2 : fopen
+2 : 314d780
+doCallPCExtern paramCount  : 12 : sscanf
+12 : 314d780
+doCallPCExtern paramCount  : 3 : strtol
+3 : 314d780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400830
+doCallPCtarget address : 400830
+doCallPCtarget address : 400840
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 400830
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+doCallPCtarget address : 400840
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple.bc

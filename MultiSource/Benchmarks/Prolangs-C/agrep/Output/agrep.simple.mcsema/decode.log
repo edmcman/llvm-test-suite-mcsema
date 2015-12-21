@@ -1,0 +1,40 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   262144    32 8192 allocating memory for b-tree...
+   253952    31 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+   778240            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (0000000000400AB0-0000000000400ACA) ... ... OK
+  1. Creating a new segment  (0000000000400AD0-0000000000400C90) ... ... OK
+  2. Creating a new segment  (0000000000400C90-000000000040AD12) ... ... OK
+  3. Creating a new segment  (000000000040AD14-000000000040AD1D) ... ... OK
+  4. Creating a new segment  (000000000040AD20-000000000040BA14) ... ... OK
+  5. Creating a new segment  (000000000040BA14-000000000040BC48) ... ... OK
+  6. Creating a new segment  (000000000040BC48-000000000040C7A4) ... ... OK
+  7. Creating a new segment  (000000000060CDE0-000000000060CDE8) ... ... OK
+  8. Creating a new segment  (000000000060CDE8-000000000060CDF0) ... ... OK
+  9. Creating a new segment  (000000000060CDF0-000000000060CDF8) ... ... OK
+ 10. Creating a new segment  (000000000060CFF8-000000000060D000) ... ... OK
+ 11. Creating a new segment  (000000000060D000-000000000060D0F0) ... ... OK
+ 12. Creating a new segment  (000000000060D0F0-000000000060D120) ... ... OK
+ 13. Creating a new segment  (000000000060D120-0000000000791D10) ... ... OK
+ 14. Creating a new segment  (0000000000791D10-0000000000792188) ... ... OK
+MACRO_COUNT: failed to add constant COUNT=0 (0x0)
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...

@@ -1,0 +1,98 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_401060
+Inserted function: sub_4008e0
+Inserted function: sub_400900
+Inserted function: sub_4013c0
+Inserted function: sub_401710
+inserting global data section named data_0x401860
+inserting global data section named data_0x401a28
+inserting global data section named data_0x401b68
+inserting global data section named data_0x402054
+inserting global data section named data_0x602dd8
+inserting global data section named data_0x602de8
+inserting global data section named data_0x602df0
+inserting global data section named data_0x602ff8
+inserting global data section named data_0x603000
+inserting global data section named data_0x603068
+inserting global data section named data_0x603080
+dataSectionToTypesContents : 401860 1c8
+456
+dataSectionToTypesContents : 401a28 13c
+316
+dataSectionToTypesContents : 401b68 4ec
+1260
+dataSectionToTypesContents : 402054 f8
+248
+dataSectionToTypesContents : 602dd8 10
+16
+dataSectionToTypesContents : 602de8 8
+8
+dataSectionToTypesContents : 602df0 8
+8
+dataSectionToTypesContents : 602ff8 8
+8
+dataSectionToTypesContents : 603000 68
+104
+dataSectionToTypesContents : 603068 10
+16
+dataSectionToTypesContents : 603080 5b0
+1456
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 4013c0
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 4008e0
+doCallPCtarget address : 4008e0
+error: 
+Line: 536
+File: /home/ed/mcsema/mc-sema/cfgToLLVM/x86Instrs_Branches.cpp
+Could not find external function: _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple.bc

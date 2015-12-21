@@ -1,0 +1,141 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400a80
+Inserted function: sub_400580
+Inserted function: sub_400710
+Inserted function: sub_4007a0
+Inserted function: sub_400900
+Inserted function: sub_4009d0
+Inserted function: sub_4006d0
+Inserted function: sub_4005a0
+Inserted function: sub_400b10
+Inserted function: sub_4005b0
+Inserted function: sub_4005d0
+inserting global data section named data_0x400e50
+inserting global data section named data_0x400f58
+inserting global data section named data_0x400fc0
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602048
+inserting global data section named data_0x602058
+dataSectionToTypesContents : 400e50 108
+264
+dataSectionToTypesContents : 400f58 64
+100
+dataSectionToTypesContents : 400fc0 1f4
+500
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 48
+72
+dataSectionToTypesContents : 602048 10
+16
+dataSectionToTypesContents : 602058 8
+8
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 400580
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400710
+doCallPCtarget address : 400580
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 400580
+doCallPCtarget address : 4005a0
+doCallPC: Adding Unreachable Instruction to local noreturn
+doCallPCExtern paramCount  : 12 : printf
+12 : 2526780
+doJumpTableViaSwitch: Doing jumpt table via switch
+shouldSubtractImageBase: Not on Win32
+doJumpTableViaSwitch: Doing jumpt table via switch
+doJumpTableViaSwitch: Doing jumpt table via switch
+doJumpTableViaSwitch: Doing jumpt table via switch
+doJumpTableViaSwitch: Doing jumpt table via switch
+translate_MOV32mi: Other reloc
+doCallPCtarget address : 400710
+doCallPCtarget address : 400710
+doCallPCtarget address : 400710
+doCallPCtarget address : 400900
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 400900
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 400900
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 4005d0
+doCallPCExtern paramCount  : 1 : atoi
+1 : 2526780
+doCallPCExtern paramCount  : 1 : exit
+1 : 2526780
+doCallPCtarget address : 4005b0
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400b10
+doCallPCExtern paramCount  : 1 : malloc
+1 : 2526780
+doCallPCExtern paramCount  : 1 : atoi
+1 : 2526780
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple.bc

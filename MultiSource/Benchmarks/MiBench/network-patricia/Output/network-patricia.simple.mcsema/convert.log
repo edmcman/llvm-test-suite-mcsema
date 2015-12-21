@@ -1,0 +1,170 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400c40
+Inserted function: sub_400740
+Inserted function: sub_400900
+Inserted function: sub_4007c0
+Inserted function: sub_400b40
+Inserted function: sub_400780
+Inserted function: sub_4007b0
+Inserted function: sub_400bd0
+Inserted function: sub_4007f0
+Inserted function: sub_400800
+Inserted function: sub_400760
+Inserted function: sub_400790
+Inserted function: sub_400770
+Inserted function: sub_4007d0
+Inserted function: sub_4007e0
+inserting global data section named data_0x400f10
+inserting global data section named data_0x400fd0
+inserting global data section named data_0x401028
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602080
+inserting global data section named data_0x602090
+dataSectionToTypesContents : 400f10 c0
+192
+dataSectionToTypesContents : 400fd0 54
+84
+dataSectionToTypesContents : 401028 18c
+396
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 80
+128
+dataSectionToTypesContents : 602080 10
+16
+dataSectionToTypesContents : 602090 10
+16
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400740
+doCallPCtarget address : 400770
+doCallPCtarget address : 400790
+doCallPCtarget address : 400740
+doCallPCtarget address : 400770
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400780
+doCallPCtarget address : 400780
+doCallPCtarget address : 400800
+doCallPCtarget address : 400770
+doCallPCtarget address : 400780
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 400770
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 400780
+doCallPCtarget address : 400780
+doCallPCtarget address : 400780
+doCallPCtarget address : 400bd0
+doCallPCtarget address : 400900
+doCallPCtarget address : 400740
+doCallPCtarget address : 400760
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 400770
+doCallPCExtern paramCount  : 12 : printf
+12 : 37b9780
+doCallPCtarget address : 400780
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 400b40
+doCallPCtarget address : 400b40
+doCallPCtarget address : 4007c0
+doCallPCtarget address : 4007c0
+doCallPCtarget address : 4007c0
+doCallPCtarget address : 4007c0
+doCallPCtarget address : 4007c0
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007d0
+doCallPCExtern paramCount  : 1 : free
+1 : 37b9780
+doCallPCtarget address : 400b40
+doCallPCtarget address : 400b40
+doCallPCExtern paramCount  : 1 : malloc
+1 : 37b9780
+doCallPCExtern paramCount  : 3 : fgets
+3 : 37b9780
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 37b9780
+doCallPCExtern paramCount  : 1 : perror
+1 : 37b9780
+doCallPCExtern paramCount  : 1 : puts
+1 : 37b9780
+doCallPCExtern paramCount  : 2 : fopen
+2 : 37b9780
+doCallPCExtern paramCount  : 1 : exit
+1 : 37b9780
+doCallPCExtern paramCount  : 3 : bcopy
+3 : 37b9780
+doCallPCExtern paramCount  : 12 : sscanf
+12 : 37b9780
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple.bc

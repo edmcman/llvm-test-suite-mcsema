@@ -1,0 +1,166 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400cd0
+Inserted function: sub_4007f0
+Inserted function: sub_400780
+Inserted function: sub_4007b0
+Inserted function: sub_4007e0
+Inserted function: sub_400a20
+Inserted function: sub_400750
+Inserted function: sub_400900
+Inserted function: sub_400790
+Inserted function: sub_4007a0
+Inserted function: sub_4007d0
+Inserted function: sub_400770
+inserting global data section named data_0x400e60
+inserting global data section named data_0x400f30
+inserting global data section named data_0x400f90
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602078
+inserting global data section named data_0x602090
+dataSectionToTypesContents : 400e60 d0
+208
+dataSectionToTypesContents : 400f30 5c
+92
+dataSectionToTypesContents : 400f90 1ac
+428
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 78
+120
+dataSectionToTypesContents : 602078 10
+16
+dataSectionToTypesContents : 602090 9fc0
+40896
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 4007b0
+doCallPCtarget address : 4007e0
+doCallPCtarget address : 400a20
+doCallPCtarget address : 400780
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 3896780
+doCallPCExtern paramCount  : 1 : exit
+1 : 3896780
+doCallPCExtern paramCount  : 2 : fopen
+2 : 3896780
+doCallPCExtern paramCount  : 12 : fscanf
+12 : 3896780
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 400770
+doCallPCtarget address : 4007f0
+doCallPCtarget address : 400780
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400750
+doCallPCtarget address : 400750
+doCallPCtarget address : 400900
+doCallPCtarget address : 400790
+doCallPCtarget address : 4007d0
+doCallPCtarget address : 4007a0
+doCallPCExtern paramCount  : 12 : printf
+12 : 3896780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400750
+doCallPCtarget address : 400900
+doCallPCExtern paramCount  : 1 : fflush
+1 : 3896780
+doCallPCExtern paramCount  : 1 : putchar
+1 : 3896780
+doCallPCExtern paramCount  : 1 : malloc
+1 : 3896780
+doCallPCExtern paramCount  : 1 : free
+1 : 3896780
+doCallPCExtern paramCount  : 1 : puts
+1 : 3896780
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple.bc

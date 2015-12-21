@@ -1,0 +1,136 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_401a50
+Inserted function: sub_4005a0
+Inserted function: sub_4005e0
+Inserted function: sub_401770
+Inserted function: sub_4005c0
+Inserted function: sub_4005f0
+Inserted function: sub_400720
+inserting global data section named data_0x401e20
+inserting global data section named data_0x401e48
+inserting global data section named data_0x401ea8
+inserting global data section named data_0x602de0
+inserting global data section named data_0x602de8
+inserting global data section named data_0x602df0
+inserting global data section named data_0x602ff8
+inserting global data section named data_0x603000
+inserting global data section named data_0x603050
+inserting global data section named data_0x6030a0
+dataSectionToTypesContents : 401e20 25
+37
+dataSectionToTypesContents : 401e48 5c
+92
+dataSectionToTypesContents : 401ea8 1e4
+484
+dataSectionToTypesContents : 602de0 8
+8
+dataSectionToTypesContents : 602de8 8
+8
+dataSectionToTypesContents : 602df0 8
+8
+dataSectionToTypesContents : 602ff8 8
+8
+dataSectionToTypesContents : 603000 48
+72
+dataSectionToTypesContents : 603050 50
+80
+dataSectionToTypesContents : 6030a0 8
+8
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4005e0
+doCallPCtarget address : 401770
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005a0
+doCallPCtarget address : 4005c0
+doCallPCtarget address : 4005f0
+doCallPCtarget address : 400720
+doCallPCtarget address : 4005f0
+doCallPCtarget address : 400720
+doCallPCExtern paramCount  : 12 : printf
+12 : 3768780
+doCallPCExtern paramCount  : 3 : strtol
+3 : 3768780
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4005f0
+doCallPCtarget address : 4005f0
+doCallPCtarget address : 400720
+doCallPCtarget address : 4005f0
+doCallPCtarget address : 400720
+doCallPCtarget address : 400720
+doCallPCtarget address : 4005f0
+doCallPCtarget address : 400720
+doCallPCExtern paramCount  : 1 : putchar
+1 : 3768780
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 3768780
+Unsupported!
+401652 	movd	%rdx, %xmm0
+1594
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple.bc

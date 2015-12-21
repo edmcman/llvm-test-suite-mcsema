@@ -1,0 +1,49 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   286720    35 8192 allocating memory for b-tree...
+   286720    35 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+   835584            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (0000000000400DD8-0000000000400DF2) ... ... OK
+  1. Creating a new segment  (0000000000400E00-00000000004010B0) ... ... OK
+  2. Creating a new segment  (00000000004010B0-000000000040B672) ... ... OK
+  3. Creating a new segment  (000000000040B674-000000000040B67D) ... ... OK
+  4. Creating a new segment  (000000000040B680-000000000040CDF0) ... ... OK
+  5. Creating a new segment  (000000000040CDF0-000000000040D124) ... ... OK
+  6. Creating a new segment  (000000000040D128-000000000040E014) ... ... OK
+  7. Creating a new segment  (000000000060EDE0-000000000060EDE8) ... ... OK
+  8. Creating a new segment  (000000000060EDE8-000000000060EDF0) ... ... OK
+  9. Creating a new segment  (000000000060EDF0-000000000060EDF8) ... ... OK
+ 10. Creating a new segment  (000000000060EFF8-000000000060F000) ... ... OK
+ 11. Creating a new segment  (000000000060F000-000000000060F168) ... ... OK
+ 12. Creating a new segment  (000000000060F170-000000000060F2CC) ... ... OK
+ 13. Creating a new segment  (000000000060F2D0-000000000060F3A8) ... ... OK
+ 14. Creating a new segment  (000000000060F3A8-000000000060F808) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

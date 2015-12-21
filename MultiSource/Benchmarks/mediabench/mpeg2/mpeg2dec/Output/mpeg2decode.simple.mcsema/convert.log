@@ -1,0 +1,535 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4057c0
+Inserted function: sub_400b80
+Inserted function: sub_400ac0
+Inserted function: sub_404290
+Inserted function: sub_401df0
+Inserted function: sub_404eb0
+Inserted function: sub_402320
+Inserted function: sub_400bf0
+Inserted function: sub_400c60
+Inserted function: sub_400bb0
+Inserted function: sub_400d60
+Inserted function: sub_4011f0
+Inserted function: sub_401230
+Inserted function: sub_409e60
+Inserted function: sub_40b380
+Inserted function: sub_400bc0
+Inserted function: sub_401210
+Inserted function: sub_400db0
+Inserted function: sub_40ab20
+Inserted function: sub_400b20
+Inserted function: sub_400ba0
+Inserted function: sub_400b10
+Inserted function: sub_400c40
+Inserted function: sub_400c20
+Inserted function: sub_40be20
+Inserted function: sub_401100
+Inserted function: sub_401080
+Inserted function: sub_4063f0
+Inserted function: sub_400c50
+Inserted function: sub_405060
+Inserted function: sub_400ad0
+Inserted function: sub_400fa0
+Inserted function: sub_400be0
+Inserted function: sub_402dd0
+Inserted function: sub_401b00
+Inserted function: sub_404880
+Inserted function: sub_4017a0
+Inserted function: sub_4083d0
+Inserted function: sub_408860
+Inserted function: sub_409d90
+Inserted function: sub_4086e0
+Inserted function: sub_40b500
+Inserted function: sub_40b600
+Inserted function: sub_400c00
+Inserted function: sub_400b40
+Inserted function: sub_4049e0
+Inserted function: sub_402460
+Inserted function: sub_404a60
+Inserted function: sub_4051a0
+Inserted function: sub_400c30
+Inserted function: sub_404910
+Inserted function: sub_405430
+Inserted function: sub_401520
+Inserted function: sub_408a50
+Inserted function: sub_4042c0
+Inserted function: sub_400b60
+Inserted function: sub_400b90
+Inserted function: sub_400bd0
+Inserted function: sub_400c10
+Inserted function: sub_40c060
+Inserted function: sub_401250
+Inserted function: sub_400b00
+Inserted function: sub_404ae0
+Inserted function: sub_402360
+Inserted function: sub_406460
+Inserted function: sub_40a340
+Inserted function: sub_400b70
+Inserted function: sub_405560
+Inserted function: sub_404780
+Inserted function: sub_4044d0
+Inserted function: sub_40b0a0
+Inserted function: sub_406cf0
+Inserted function: sub_409a50
+Inserted function: sub_4056c0
+Inserted function: sub_404850
+Inserted function: sub_406ee0
+Inserted function: sub_40c190
+Inserted function: sub_402470
+Inserted function: sub_400af0
+Inserted function: sub_400b30
+inserting global data section named data_0x40c230
+inserting global data section named data_0x40d990
+inserting global data section named data_0x40db88
+inserting global data section named data_0x60ede0
+inserting global data section named data_0x60ede8
+inserting global data section named data_0x60edf0
+inserting global data section named data_0x60eff8
+inserting global data section named data_0x60f000
+inserting global data section named data_0x60f0f0
+inserting global data section named data_0x60f810
+dataSectionToTypesContents : 40c230 1760
+5984
+dataSectionToTypesContents : 40d990 1f4
+500
+dataSectionToTypesContents : 40db88 9ac
+2476
+dataSectionToTypesContents : 60ede0 8
+8
+dataSectionToTypesContents : 60ede8 8
+8
+dataSectionToTypesContents : 60edf0 8
+8
+dataSectionToTypesContents : 60eff8 8
+8
+dataSectionToTypesContents : 60f000 f0
+240
+dataSectionToTypesContents : 60f0f0 720
+1824
+dataSectionToTypesContents : 60f810 4380
+17280
+translate_MOV32mi: Other reloc
+translate_MOV64mi32: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV64mi32: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV64mi32: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV64mi32: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV64mi32: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doJumpTableViaSwitch: Doing jumpt table via switch
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400ac0
+doCallPCtarget address : 400ac0
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400b10
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 400b70
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400b10
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 404eb0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 400bf0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 4063f0
+doCallPC: Adding Unreachable Instruction to local noreturn
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+translate_MOV64mi32: Other reloc
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400c60
+doCallPCtarget address : 400af0
+doCallPCtarget address : 401df0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400d60
+doCallPCtarget address : 400d60
+doCallPCtarget address : 4011f0
+doCallPCtarget address : 401df0
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400c60
+doCallPCtarget address : 402320
+doCallPCtarget address : 4011f0
+doCallPCtarget address : 400ad0
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 400d60
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400d60
+doCallPCtarget address : 400ad0
+doCallPCtarget address : 400c20
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 400be0
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 4063f0
+doCallPCtarget address : 400b30
+doCallPCtarget address : 405060
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400b30
+doCallPCtarget address : 402dd0
+doCallPCtarget address : 400b30
+doCallPCtarget address : 400b30
+doCallPCtarget address : 401df0
+doCallPCtarget address : 401df0
+doCallPCtarget address : 402dd0
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 404290
+doCallPCtarget address : 400c20
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCtarget address : 400b80
+doCallPCExtern paramCount  : 1 : free
+1 : 399ee50
+doCallPCExtern paramCount  : 12 : printf
+12 : 399ee50
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCExtern paramCount  : 1 : puts
+1 : 399ee50
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV64mi32: Other reloc
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 409e60
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 409e60
+doCallPCtarget address : 400db0
+doCallPCtarget address : 4011f0
+doCallPCtarget address : 40c190
+doCallPCtarget address : 400c40
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 402470
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401210
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 401230
+doCallPCtarget address : 402470
+doCallPCtarget address : 400db0
+doCallPCtarget address : 401230
+doCallPCtarget address : 402470
+error: 
+Line: 471
+File: /home/ed/mcsema/mc-sema/cfgToLLVM/raiseX86.h
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple.bc

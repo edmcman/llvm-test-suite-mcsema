@@ -1,0 +1,148 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4011f0
+Inserted function: sub_400740
+Inserted function: sub_400890
+Inserted function: sub_400700
+Inserted function: sub_400730
+Inserted function: sub_4006b0
+Inserted function: sub_4006c0
+Inserted function: sub_4006f0
+Inserted function: sub_400710
+Inserted function: sub_400720
+inserting global data section named data_0x401580
+inserting global data section named data_0x40296c
+inserting global data section named data_0x4029b8
+inserting global data section named data_0x602de0
+inserting global data section named data_0x602de8
+inserting global data section named data_0x602df0
+inserting global data section named data_0x602ff8
+inserting global data section named data_0x603000
+inserting global data section named data_0x603068
+inserting global data section named data_0x603080
+dataSectionToTypesContents : 401580 13ea
+5098
+dataSectionToTypesContents : 40296c 4c
+76
+dataSectionToTypesContents : 4029b8 17c
+380
+dataSectionToTypesContents : 602de0 8
+8
+dataSectionToTypesContents : 602de8 8
+8
+dataSectionToTypesContents : 602df0 8
+8
+dataSectionToTypesContents : 602ff8 8
+8
+dataSectionToTypesContents : 603000 68
+104
+dataSectionToTypesContents : 603068 10
+16
+dataSectionToTypesContents : 603080 10
+16
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400890
+doCallPCtarget address : 400720
+doCallPCtarget address : 4006c0
+doCallPCtarget address : 400710
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400740
+doCallPCExtern paramCount  : 1 : fflush
+1 : 3fc3780
+Unsupported!
+400b0a 	unpcklpd	112(%rsp), %xmm2
+2841
+Unsupported!
+400b93 	movhpd	4203552(%rbp,%r14), %xmm1
+1641
+Unsupported!
+400cba 	unpckhpd	%xmm1, %xmm1
+2838
+doCallPCtarget address : 400700
+doCallPCtarget address : 400700
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400730
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400730
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400730
+doCallPCtarget address : 400730
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400720
+doCallPCtarget address : 400730
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 4006c0
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400720
+doCallPCtarget address : 400730
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400730
+doCallPCtarget address : 400730
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400720
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400730
+doCallPCtarget address : 4006f0
+error: 
+Line: 471
+File: /home/ed/mcsema/mc-sema/cfgToLLVM/raiseX86.h
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.bc

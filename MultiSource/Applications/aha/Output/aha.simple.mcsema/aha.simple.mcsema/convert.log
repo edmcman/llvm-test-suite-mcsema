@@ -1,0 +1,585 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 602128, dta_0x401173L, 1
+cur_pos: 602040
+dse_base: 602128
+new_cur_pos: 602129
+Deserializing symbol at: 602130, dta_0x401177L, 1
+cur_pos: 602129
+dse_base: 602130
+new_cur_pos: 602131
+Deserializing symbol at: 602138, dta_0x401243L, 1
+cur_pos: 602131
+dse_base: 602138
+new_cur_pos: 602139
+Deserializing symbol at: 602140, sub_0x400760L, 2
+cur_pos: 602139
+dse_base: 602140
+new_cur_pos: 602142
+Deserializing symbol at: 602160, dta_0x40117aL, 1
+cur_pos: 602142
+dse_base: 602160
+new_cur_pos: 602161
+Deserializing symbol at: 602168, dta_0x401171L, 1
+cur_pos: 602161
+dse_base: 602168
+new_cur_pos: 602169
+Deserializing symbol at: 602170, dta_0x40117eL, 1
+cur_pos: 602169
+dse_base: 602170
+new_cur_pos: 602171
+Deserializing symbol at: 602178, sub_0x400770L, 2
+cur_pos: 602171
+dse_base: 602178
+new_cur_pos: 60217a
+Deserializing symbol at: 602198, dta_0x401182L, 1
+cur_pos: 60217a
+dse_base: 602198
+new_cur_pos: 602199
+Deserializing symbol at: 6021a0, dta_0x401171L, 1
+cur_pos: 602199
+dse_base: 6021a0
+new_cur_pos: 6021a1
+Deserializing symbol at: 6021a8, dta_0x401186L, 1
+cur_pos: 6021a1
+dse_base: 6021a8
+new_cur_pos: 6021a9
+Deserializing symbol at: 6021b0, sub_0x400780L, 3
+cur_pos: 6021a9
+dse_base: 6021b0
+new_cur_pos: 6021b3
+Deserializing symbol at: 6021d0, dta_0x40118aL, 1
+cur_pos: 6021b3
+dse_base: 6021d0
+new_cur_pos: 6021d1
+Deserializing symbol at: 6021d8, dta_0x401171L, 1
+cur_pos: 6021d1
+dse_base: 6021d8
+new_cur_pos: 6021d9
+Deserializing symbol at: 6021e0, dta_0x40118eL, 1
+cur_pos: 6021d9
+dse_base: 6021e0
+new_cur_pos: 6021e1
+Deserializing symbol at: 6021e8, sub_0x400790L, 2
+cur_pos: 6021e1
+dse_base: 6021e8
+new_cur_pos: 6021ea
+Deserializing symbol at: 602208, dta_0x401190L, 1
+cur_pos: 6021ea
+dse_base: 602208
+new_cur_pos: 602209
+Deserializing symbol at: 602210, dta_0x401171L, 1
+cur_pos: 602209
+dse_base: 602210
+new_cur_pos: 602211
+Deserializing symbol at: 602218, dta_0x401194L, 1
+cur_pos: 602211
+dse_base: 602218
+new_cur_pos: 602219
+Deserializing symbol at: 602220, sub_0x4007c0L, 2
+cur_pos: 602219
+dse_base: 602220
+new_cur_pos: 602222
+Deserializing symbol at: 602240, dta_0x401196L, 5
+cur_pos: 602222
+dse_base: 602240
+new_cur_pos: 602245
+Deserializing symbol at: 602248, dta_0x401171L, 1
+cur_pos: 602245
+dse_base: 602248
+new_cur_pos: 602249
+Deserializing symbol at: 602250, dta_0x40119bL, 5
+cur_pos: 602249
+dse_base: 602250
+new_cur_pos: 602255
+Deserializing symbol at: 602258, sub_0x4007e0L, 2
+cur_pos: 602255
+dse_base: 602258
+new_cur_pos: 60225a
+Deserializing symbol at: 602278, dta_0x4011a0L, 4
+cur_pos: 60225a
+dse_base: 602278
+new_cur_pos: 60227c
+Deserializing symbol at: 602280, dta_0x401171L, 1
+cur_pos: 60227c
+dse_base: 602280
+new_cur_pos: 602281
+Deserializing symbol at: 602288, dta_0x4011a4L, 4
+cur_pos: 602281
+dse_base: 602288
+new_cur_pos: 60228c
+Deserializing symbol at: 602290, sub_0x4007f0L, 2
+cur_pos: 60228c
+dse_base: 602290
+new_cur_pos: 602292
+Deserializing symbol at: 6022b0, dta_0x4011adL, 3
+cur_pos: 602292
+dse_base: 6022b0
+new_cur_pos: 6022b3
+Deserializing symbol at: 6022b8, dta_0x401171L, 1
+cur_pos: 6022b3
+dse_base: 6022b8
+new_cur_pos: 6022b9
+Deserializing symbol at: 6022c0, dta_0x4011a8L, 4
+cur_pos: 6022b9
+dse_base: 6022c0
+new_cur_pos: 6022c4
+Deserializing symbol at: 6022c8, sub_0x400800L, 2
+cur_pos: 6022c4
+dse_base: 6022c8
+new_cur_pos: 6022ca
+Deserializing symbol at: 6022e8, dta_0x4011acL, 4
+cur_pos: 6022ca
+dse_base: 6022e8
+new_cur_pos: 6022ec
+Deserializing symbol at: 6022f0, dta_0x401171L, 1
+cur_pos: 6022ec
+dse_base: 6022f0
+new_cur_pos: 6022f1
+Deserializing symbol at: 6022f8, dta_0x4011b0L, 4
+cur_pos: 6022f1
+dse_base: 6022f8
+new_cur_pos: 6022fc
+Deserializing symbol at: 602300, sub_0x400820L, 3
+cur_pos: 6022fc
+dse_base: 602300
+new_cur_pos: 602303
+Deserializing symbol at: 602320, dta_0x4011b4L, 4
+cur_pos: 602303
+dse_base: 602320
+new_cur_pos: 602324
+Deserializing symbol at: 602328, dta_0x401171L, 1
+cur_pos: 602324
+dse_base: 602328
+new_cur_pos: 602329
+Deserializing symbol at: 602330, dta_0x4011b8L, 5
+cur_pos: 602329
+dse_base: 602330
+new_cur_pos: 602335
+Deserializing symbol at: 602338, sub_0x400840L, 3
+cur_pos: 602335
+dse_base: 602338
+new_cur_pos: 60233b
+Deserializing symbol at: 602358, dta_0x4011bdL, 4
+cur_pos: 60233b
+dse_base: 602358
+new_cur_pos: 60235c
+Deserializing symbol at: 602360, dta_0x401171L, 1
+cur_pos: 60235c
+dse_base: 602360
+new_cur_pos: 602361
+Deserializing symbol at: 602368, dta_0x4011c1L, 6
+cur_pos: 602361
+dse_base: 602368
+new_cur_pos: 60236e
+Deserializing symbol at: 602370, sub_0x400860L, 3
+cur_pos: 60236e
+dse_base: 602370
+new_cur_pos: 602373
+Deserializing symbol at: 602390, dta_0x4011c7L, 5
+cur_pos: 602373
+dse_base: 602390
+new_cur_pos: 602395
+Deserializing symbol at: 602398, dta_0x401171L, 1
+cur_pos: 602395
+dse_base: 602398
+new_cur_pos: 602399
+Deserializing symbol at: 6023a0, dta_0x4011ccL, 6
+cur_pos: 602399
+dse_base: 6023a0
+new_cur_pos: 6023a6
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400f90
+Inserted function: sub_400760
+Inserted function: sub_400780
+Inserted function: sub_400790
+Inserted function: sub_4010c0
+Inserted function: sub_4007c0
+Inserted function: sub_4007e0
+Inserted function: sub_400800
+Inserted function: sub_400820
+Inserted function: sub_400840
+Inserted function: sub_400860
+Inserted function: sub_400cc0
+Inserted function: sub_400510
+Inserted function: sub_400770
+Inserted function: sub_400dc0
+Inserted function: sub_4009e0
+Inserted function: sub_4008e0
+Inserted function: sub_400b20
+Inserted function: sub_400640
+Inserted function: sub_400530
+Inserted function: sub_4007f0
+inserting global data section named data_0x401160
+inserting global data section named data_0x401278
+inserting global data section named data_0x401398
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602040
+inserting global data section named data_0x602400
+dataSectionToTypesContents : 401160 116
+278
+dataSectionToTypesContents : 401278 11c
+284
+dataSectionToTypesContents : 401398 404
+1028
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 38
+56
+dataSectionToTypesContents : 602040 e8
+232
+dataSectionToTypesContents : 602128 1
+ Symbol name : 0x401173L : 401173 : 401160
+dataSectionToTypesContents : 602129 7
+7
+dataSectionToTypesContents : 602130 1
+ Symbol name : 0x401177L : 401177 : 401160
+dataSectionToTypesContents : 602131 7
+7
+dataSectionToTypesContents : 602138 1
+ Symbol name : 0x401243L : 401243 : 401160
+dataSectionToTypesContents : 602139 7
+7
+dataSectionToTypesContents : 602140 2
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 602142 1e
+30
+dataSectionToTypesContents : 602160 1
+ Symbol name : 0x40117aL : 40117a : 401160
+dataSectionToTypesContents : 602161 7
+7
+dataSectionToTypesContents : 602168 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 602169 7
+7
+dataSectionToTypesContents : 602170 1
+ Symbol name : 0x40117eL : 40117e : 401160
+dataSectionToTypesContents : 602171 7
+7
+dataSectionToTypesContents : 602178 2
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 60217a 1e
+30
+dataSectionToTypesContents : 602198 1
+ Symbol name : 0x401182L : 401182 : 401160
+dataSectionToTypesContents : 602199 7
+7
+dataSectionToTypesContents : 6021a0 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 6021a1 7
+7
+dataSectionToTypesContents : 6021a8 1
+ Symbol name : 0x401186L : 401186 : 401160
+dataSectionToTypesContents : 6021a9 7
+7
+dataSectionToTypesContents : 6021b0 3
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 6021b3 1d
+29
+dataSectionToTypesContents : 6021d0 1
+ Symbol name : 0x40118aL : 40118a : 401160
+dataSectionToTypesContents : 6021d1 7
+7
+dataSectionToTypesContents : 6021d8 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 6021d9 7
+7
+dataSectionToTypesContents : 6021e0 1
+ Symbol name : 0x40118eL : 40118e : 401160
+dataSectionToTypesContents : 6021e1 7
+7
+dataSectionToTypesContents : 6021e8 2
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 6021ea 1e
+30
+dataSectionToTypesContents : 602208 1
+ Symbol name : 0x401190L : 401190 : 401160
+dataSectionToTypesContents : 602209 7
+7
+dataSectionToTypesContents : 602210 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 602211 7
+7
+dataSectionToTypesContents : 602218 1
+ Symbol name : 0x401194L : 401194 : 401160
+dataSectionToTypesContents : 602219 7
+7
+dataSectionToTypesContents : 602220 2
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 602222 1e
+30
+dataSectionToTypesContents : 602240 5
+ Symbol name : 0x401196L : 401196 : 401160
+dataSectionToTypesContents : 602245 3
+3
+dataSectionToTypesContents : 602248 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 602249 7
+7
+dataSectionToTypesContents : 602250 5
+ Symbol name : 0x40119bL : 40119b : 401160
+dataSectionToTypesContents : 602255 3
+3
+dataSectionToTypesContents : 602258 2
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 60225a 1e
+30
+dataSectionToTypesContents : 602278 4
+ Symbol name : 0x4011a0L : 4011a0 : 401160
+dataSectionToTypesContents : 60227c 4
+4
+dataSectionToTypesContents : 602280 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 602281 7
+7
+dataSectionToTypesContents : 602288 4
+ Symbol name : 0x4011a4L : 4011a4 : 401160
+dataSectionToTypesContents : 60228c 4
+4
+dataSectionToTypesContents : 602290 2
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 602292 1e
+30
+dataSectionToTypesContents : 6022b0 3
+ Symbol name : 0x4011adL : 4011ad : 401160
+dataSectionToTypesContents : 6022b3 5
+5
+dataSectionToTypesContents : 6022b8 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 6022b9 7
+7
+dataSectionToTypesContents : 6022c0 4
+ Symbol name : 0x4011a8L : 4011a8 : 401160
+dataSectionToTypesContents : 6022c4 4
+4
+dataSectionToTypesContents : 6022c8 2
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 6022ca 1e
+30
+dataSectionToTypesContents : 6022e8 4
+ Symbol name : 0x4011acL : 4011ac : 401160
+dataSectionToTypesContents : 6022ec 4
+4
+dataSectionToTypesContents : 6022f0 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 6022f1 7
+7
+dataSectionToTypesContents : 6022f8 4
+ Symbol name : 0x4011b0L : 4011b0 : 401160
+dataSectionToTypesContents : 6022fc 4
+4
+dataSectionToTypesContents : 602300 3
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 602303 1d
+29
+dataSectionToTypesContents : 602320 4
+ Symbol name : 0x4011b4L : 4011b4 : 401160
+dataSectionToTypesContents : 602324 4
+4
+dataSectionToTypesContents : 602328 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 602329 7
+7
+dataSectionToTypesContents : 602330 5
+ Symbol name : 0x4011b8L : 4011b8 : 401160
+dataSectionToTypesContents : 602335 3
+3
+dataSectionToTypesContents : 602338 3
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 60233b 1d
+29
+dataSectionToTypesContents : 602358 4
+ Symbol name : 0x4011bdL : 4011bd : 401160
+dataSectionToTypesContents : 60235c 4
+4
+dataSectionToTypesContents : 602360 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 602361 7
+7
+dataSectionToTypesContents : 602368 6
+ Symbol name : 0x4011c1L : 4011c1 : 401160
+dataSectionToTypesContents : 60236e 2
+2
+dataSectionToTypesContents : 602370 3
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 602373 1d
+29
+dataSectionToTypesContents : 602390 5
+ Symbol name : 0x4011c7L : 4011c7 : 401160
+dataSectionToTypesContents : 602395 3
+3
+dataSectionToTypesContents : 602398 1
+ Symbol name : 0x401171L : 401171 : 401160
+dataSectionToTypesContents : 602399 7
+7
+dataSectionToTypesContents : 6023a0 6
+ Symbol name : 0x4011ccL : 4011cc : 401160
+dataSectionToTypesContents : 6023a6 4e
+78
+dataSectionToTypesContents : 602400 d0
+208
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400510
+doCallPCtarget address : 4010c0
+doCallPCtarget address : 400dc0
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400510
+doCallPCExtern paramCount  : 12 : printf
+12 : 23b9720
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400b20
+doCallPCtarget address : 400510
+doCallPCtarget address : 4009e0
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400510
+doCallPCtarget address : 4008e0
+doCallPCExtern paramCount  : 1 : putchar
+1 : 23b9720
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400510
+doCallPCtarget address : 400530
+doCallPCtarget address : 400510
+doCallPCtarget address : 400510
+doCallPCtarget address : 400530
+doCallPCtarget address : 400510
+doCallPCExtern paramCount  : 1 : putchar
+1 : 23b9720
+doCallPCtarget address : 4008e0
+doCallPCExtern paramCount  : 12 : printf
+12 : 23b9720
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400530
+doCallPCtarget address : 400510
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCExtern paramCount  : 1 : putchar
+1 : 23b9720
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple.bc

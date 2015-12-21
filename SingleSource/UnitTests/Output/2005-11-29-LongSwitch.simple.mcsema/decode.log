@@ -1,0 +1,49 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   262144    32 8192 allocating memory for b-tree...
+    65536     8 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+   589824            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (00000000004004A0-00000000004004BA) ... ... OK
+  1. Creating a new segment  (00000000004004C0-0000000000400500) ... ... OK
+  2. Creating a new segment  (0000000000400500-00000000004006A2) ... ... OK
+  3. Creating a new segment  (00000000004006A4-00000000004006AD) ... ... OK
+  4. Creating a new segment  (00000000004006B0-00000000004006BE) ... ... OK
+  5. Creating a new segment  (00000000004006C0-00000000004006FC) ... ... OK
+  6. Creating a new segment  (0000000000400700-0000000000400804) ... ... OK
+  7. Creating a new segment  (0000000000600DE0-0000000000600DE8) ... ... OK
+  8. Creating a new segment  (0000000000600DE8-0000000000600DF0) ... ... OK
+  9. Creating a new segment  (0000000000600DF0-0000000000600DF8) ... ... OK
+ 10. Creating a new segment  (0000000000600FF8-0000000000601000) ... ... OK
+ 11. Creating a new segment  (0000000000601000-0000000000601030) ... ... OK
+ 12. Creating a new segment  (0000000000601030-0000000000601040) ... ... OK
+ 13. Creating a new segment  (0000000000601040-0000000000601048) ... ... OK
+ 14. Creating a new segment  (0000000000601048-000000000060116C) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

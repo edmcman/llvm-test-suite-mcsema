@@ -1,0 +1,49 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   262144    32 8192 allocating memory for b-tree...
+    65536     8 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+   589824            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (00000000004007E8-0000000000400802) ... ... OK
+  1. Creating a new segment  (0000000000400810-0000000000400910) ... ... OK
+  2. Creating a new segment  (0000000000400910-0000000000401002) ... ... OK
+  3. Creating a new segment  (0000000000401004-000000000040100D) ... ... OK
+  4. Creating a new segment  (0000000000401010-0000000000401079) ... ... OK
+  5. Creating a new segment  (000000000040107C-0000000000401100) ... ... OK
+  6. Creating a new segment  (0000000000401100-0000000000401334) ... ... OK
+  7. Creating a new segment  (0000000000601DE0-0000000000601DE8) ... ... OK
+  8. Creating a new segment  (0000000000601DE8-0000000000601DF0) ... ... OK
+  9. Creating a new segment  (0000000000601DF0-0000000000601DF8) ... ... OK
+ 10. Creating a new segment  (0000000000601FF8-0000000000602000) ... ... OK
+ 11. Creating a new segment  (0000000000602000-0000000000602090) ... ... OK
+ 12. Creating a new segment  (0000000000602090-00000000006020A0) ... ... OK
+ 13. Creating a new segment  (00000000006020A0-00000000006020D8) ... ... OK
+ 14. Creating a new segment  (00000000006020D8-00000000006022A0) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

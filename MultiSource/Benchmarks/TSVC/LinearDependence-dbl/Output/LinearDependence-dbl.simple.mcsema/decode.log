@@ -1,0 +1,49 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   262144    32 8192 allocating memory for b-tree...
+   172032    21 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+   696320            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (0000000000400600-000000000040061A) ... ... OK
+  1. Creating a new segment  (0000000000400620-00000000004006C0) ... ... OK
+  2. Creating a new segment  (00000000004006C0-0000000000407452) ... ... OK
+  3. Creating a new segment  (0000000000407454-000000000040745D) ... ... OK
+  4. Creating a new segment  (0000000000407460-0000000000407B10) ... ... OK
+  5. Creating a new segment  (0000000000407B10-0000000000407BFC) ... ... OK
+  6. Creating a new segment  (0000000000407C00-0000000000407FB4) ... ... OK
+  7. Creating a new segment  (0000000000608DE0-0000000000608DE8) ... ... OK
+  8. Creating a new segment  (0000000000608DE8-0000000000608DF0) ... ... OK
+  9. Creating a new segment  (0000000000608DF0-0000000000608DF8) ... ... OK
+ 10. Creating a new segment  (0000000000608FF8-0000000000609000) ... ... OK
+ 11. Creating a new segment  (0000000000609000-0000000000609060) ... ... OK
+ 12. Creating a new segment  (0000000000609060-0000000000609078) ... ... OK
+ 13. Creating a new segment  (0000000000609080-0000000000B57EE8) ... ... OK
+ 14. Creating a new segment  (0000000000B57EE8-0000000000B580F8) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

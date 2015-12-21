@@ -1,0 +1,159 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_402940
+Inserted function: sub_400700
+Inserted function: sub_400e90
+Inserted function: sub_400740
+Inserted function: sub_400cb0
+Inserted function: sub_400750
+Inserted function: sub_4006f0
+Inserted function: sub_401db0
+Inserted function: sub_402680
+Inserted function: sub_402400
+Inserted function: sub_401070
+Inserted function: sub_402160
+Inserted function: sub_4009f0
+Inserted function: sub_400760
+Inserted function: sub_4006d0
+Inserted function: sub_400710
+Inserted function: sub_400730
+inserting global data section named data_0x402df0
+inserting global data section named data_0x402fa0
+inserting global data section named data_0x403058
+inserting global data section named data_0x603de0
+inserting global data section named data_0x603de8
+inserting global data section named data_0x603df0
+inserting global data section named data_0x603ff8
+inserting global data section named data_0x604000
+inserting global data section named data_0x604068
+inserting global data section named data_0x604080
+dataSectionToTypesContents : 402df0 1b0
+432
+dataSectionToTypesContents : 402fa0 b4
+180
+dataSectionToTypesContents : 403058 374
+884
+dataSectionToTypesContents : 603de0 8
+8
+dataSectionToTypesContents : 603de8 8
+8
+dataSectionToTypesContents : 603df0 8
+8
+dataSectionToTypesContents : 603ff8 8
+8
+dataSectionToTypesContents : 604000 68
+104
+dataSectionToTypesContents : 604068 14
+20
+dataSectionToTypesContents : 604080 80
+128
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400750
+doCallPCtarget address : 400750
+doCallPCtarget address : 400710
+doCallPCtarget address : 400740
+doCallPCtarget address : 400740
+doCallPCtarget address : 400730
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 400710
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400700
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+402a41 	orq	$16513, %rax
+1808
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400cb0
+doCallPCtarget address : 400e90
+doCallPCtarget address : 400e90
+doCallPCtarget address : 400e90
+doCallPCtarget address : 400cb0
+doCallPCtarget address : 400cb0
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 401db0
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 400e90
+doCallPCtarget address : 4006f0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 401db0
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 4009f0
+doCallPCtarget address : 400cb0
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple.bc

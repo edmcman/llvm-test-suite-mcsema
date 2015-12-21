@@ -1,0 +1,172 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 6022a3, dta_0x604f00L, 1
+cur_pos: 602060
+dse_base: 6022a3
+new_cur_pos: 6022a4
+Deserializing symbol at: 602373, dta_0x604500L, 1
+cur_pos: 6022a4
+dse_base: 602373
+new_cur_pos: 602374
+Deserializing symbol at: 603457, dta_0x60b000L, 1
+cur_pos: 602374
+dse_base: 603457
+new_cur_pos: 603458
+Deserializing symbol at: 6037cf, dta_0x604500L, 1
+cur_pos: 603458
+dse_base: 6037cf
+new_cur_pos: 6037d0
+Deserializing symbol at: 604acb, dta_0x605700L, 1
+cur_pos: 6037d0
+dse_base: 604acb
+new_cur_pos: 604acc
+Deserializing symbol at: 6083cb, dta_0x605000L, 1
+cur_pos: 604acc
+dse_base: 6083cb
+new_cur_pos: 6083cc
+Deserializing symbol at: 60bfb0, sub_0x400cbcL, 3
+cur_pos: 6083cc
+dse_base: 60bfb0
+new_cur_pos: 60bfb3
+Deserializing symbol at: 60c57f, sub_0x400756L, 6
+cur_pos: 60bfb3
+dse_base: 60c57f
+new_cur_pos: 60c585
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4009e0
+Inserted function: sub_400c80
+Inserted function: sub_4006a0
+Inserted function: sub_400690
+Inserted function: sub_4006c0
+Inserted function: sub_4006d0
+Inserted function: sub_400d50
+Inserted function: sub_400756
+Inserted function: sub_400670
+Inserted function: sub_400cbc
+Inserted function: sub_4006e0
+inserting global data section named data_0x400df0
+inserting global data section named data_0x400ed0
+inserting global data section named data_0x400f28
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602060
+inserting global data section named data_0x60cac0
+dataSectionToTypesContents : 400df0 de
+222
+dataSectionToTypesContents : 400ed0 54
+84
+dataSectionToTypesContents : 400f28 164
+356
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 58
+88
+dataSectionToTypesContents : 602060 243
+579
+dataSectionToTypesContents : 6022a3 1
+ Symbol name : 0x604f00L : 604f00 : 602060
+dataSectionToTypesContents : 6022a4 cf
+207
+dataSectionToTypesContents : 602373 1
+ Symbol name : 0x604500L : 604500 : 602060
+dataSectionToTypesContents : 602374 10e3
+4323
+dataSectionToTypesContents : 603457 1
+ Symbol name : 0x60b000L : 60b000 : 602060
+dataSectionToTypesContents : 603458 377
+887
+dataSectionToTypesContents : 6037cf 1
+ Symbol name : 0x604500L : 604500 : 602060
+dataSectionToTypesContents : 6037d0 12fb
+4859
+dataSectionToTypesContents : 604acb 1
+ Symbol name : 0x605700L : 605700 : 602060
+dataSectionToTypesContents : 604acc 38ff
+14591
+dataSectionToTypesContents : 6083cb 1
+ Symbol name : 0x605000L : 605000 : 602060
+dataSectionToTypesContents : 6083cc 3be4
+15332
+dataSectionToTypesContents : 60bfb0 3
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 60bfb3 5cc
+1484
+dataSectionToTypesContents : 60c57f 6
+!!!WARNING WARNING WARNING!!!
+	Assuming all callbacks are to translated code!!!
+dataSectionToTypesContents : 60c585 53b
+1339
+dataSectionToTypesContents : 60cac0 820
+2080
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4006d0
+doCallPCtarget address : 400690
+doCallPC: Adding Unreachable Instruction to local noreturn
+Unsupported!
+400a0a 	movd	%rax, %xmm0
+1594
+Unsupported!
+400a30 	movd	%rbx, %xmm5
+1594
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4006c0
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 4006e0
+doCallPCtarget address : 400c80
+doCallPCtarget address : 400d50
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple.bc

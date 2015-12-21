@@ -1,0 +1,49 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   557056    68 8192 allocating memory for b-tree...
+   557056    68 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  1376256            total memory allocated
+
+Loading processor module /home/ed/ida-6.8/procs/pc64.ilx64 for metapc...OK
+Autoanalysis subsystem has been initialized.
+Possible file format: ELF64 for x86-64 (Executable) (/home/ed/ida-6.8/loaders/elf64.llx64)
+Loading file '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/treecc/Output/treecc.simple.mcsema/treecc.simple' into database...
+Detected file format: ELF64 for x86-64 (Executable)
+Assuming __cdecl calling convention by default
+Type library 'gnuunx64' loaded. Applying types...
+Types applied to 0 names.
+  0. Creating a new segment  (0000000000400C50-0000000000400C6A) ... ... OK
+  1. Creating a new segment  (0000000000400C70-0000000000400EA0) ... ... OK
+  2. Creating a new segment  (0000000000400EA0-00000000004124A2) ... ... OK
+  3. Creating a new segment  (00000000004124A4-00000000004124AD) ... ... OK
+  4. Creating a new segment  (00000000004124B0-000000000041ABA5) ... ... OK
+  5. Creating a new segment  (000000000041ABA8-000000000041B33C) ... ... OK
+  6. Creating a new segment  (000000000041B340-000000000041D724) ... ... OK
+  7. Creating a new segment  (000000000061DDE0-000000000061DDE8) ... ... OK
+  8. Creating a new segment  (000000000061DDE8-000000000061DDF0) ... ... OK
+  9. Creating a new segment  (000000000061DDF0-000000000061DDF8) ... ... OK
+ 10. Creating a new segment  (000000000061DFF8-000000000061E000) ... ... OK
+ 11. Creating a new segment  (000000000061E000-000000000061E128) ... ... OK
+ 12. Creating a new segment  (000000000061E128-000000000061E138) ... ... OK
+ 13. Creating a new segment  (000000000061E140-000000000061E170) ... ... OK
+ 14. Creating a new segment  (000000000061E170-000000000061E7DC) ... ... OK
+Adding relocations...
+Patching PLT...
+Searching GOT loading... 0 items from 0 Ok
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File '/home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/treecc/Output/treecc.simple.mcsema/treecc.simple' has been successfully loaded into the database.
+Compiling file '/home/ed/ida-6.8/idc/ida.idc'...
+Executing function 'main'...
+Compiling file '/home/ed/ida-6.8/idc/onload.idc'...
+Executing function 'OnLoad'...
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module /home/ed/ida-6.8/procs/pc64.ilx64...

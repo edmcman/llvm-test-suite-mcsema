@@ -1,0 +1,257 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4007a0
+Inserted function: sub_400660
+Inserted function: sub_400640
+Inserted function: sub_402050
+Inserted function: sub_400610
+Inserted function: sub_401a00
+Inserted function: sub_400650
+Inserted function: sub_400670
+Inserted function: sub_402540
+inserting global data section named data_0x403120
+inserting global data section named data_0x403468
+inserting global data section named data_0x403500
+inserting global data section named data_0x603de0
+inserting global data section named data_0x603de8
+inserting global data section named data_0x603df0
+inserting global data section named data_0x603ff8
+inserting global data section named data_0x604000
+inserting global data section named data_0x604050
+inserting global data section named data_0x604060
+dataSectionToTypesContents : 403120 348
+840
+dataSectionToTypesContents : 403468 94
+148
+dataSectionToTypesContents : 403500 2a4
+676
+dataSectionToTypesContents : 603de0 8
+8
+dataSectionToTypesContents : 603de8 8
+8
+dataSectionToTypesContents : 603df0 8
+8
+dataSectionToTypesContents : 603ff8 8
+8
+dataSectionToTypesContents : 604000 50
+80
+dataSectionToTypesContents : 604050 10
+16
+dataSectionToTypesContents : 604060 4ef60
+323424
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4008f0 	addps	6628752(,%rdx,4), %xmm0
+114
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400ad0 	addps	6628752(,%rdx,4), %xmm0
+114
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400e20 	addps	6628752(,%rdx,4), %xmm0
+114
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+400ff0 	addps	6628752(,%rdx,4), %xmm0
+114
+Unsupported!
+4011f0 	addps	6628752(,%rdx,4), %xmm0
+114
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+4014a0 	addps	6307952(%rsi,%rdx,4), %xmm0
+114
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+Unsupported!
+401680 	addps	6307952(%rsi,%rdx,4), %xmm0
+114
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400650
+doCallPCtarget address : 400650
+doCallPCtarget address : 400650
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400610
+doCallPCtarget address : 400640
+doCallPCtarget address : 401a00
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCtarget address : 402050
+doCallPCtarget address : 400640
+doCallPCtarget address : 400670
+doCallPCtarget address : 400610
+doCallPCtarget address : 402540
+doCallPCtarget address : 400650
+doCallPCtarget address : 400650
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400650
+doCallPCtarget address : 400650
+doCallPCtarget address : 400650
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400650
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400650
+doCallPCtarget address : 400650
+doCallPCtarget address : 400640
+doCallPCtarget address : 400610
+doCallPCtarget address : 400610
+doCallPCtarget address : 400610
+doCallPCtarget address : 401a00
+doCallPCtarget address : 401a00
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCtarget address : 402050
+doCallPCtarget address : 400640
+doCallPCtarget address : 400660
+doCallPCtarget address : 400650
+doCallPCtarget address : 400640
+doCallPCtarget address : 400610
+doCallPCtarget address : 400640
+doCallPCtarget address : 400660
+doCallPCtarget address : 400660
+doCallPCtarget address : 400650
+doCallPCtarget address : 400650
+doCallPCtarget address : 400640
+doCallPCtarget address : 400610
+doCallPCtarget address : 401a00
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCtarget address : 402050
+doCallPCtarget address : 400640
+doCallPCtarget address : 400660
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.bc

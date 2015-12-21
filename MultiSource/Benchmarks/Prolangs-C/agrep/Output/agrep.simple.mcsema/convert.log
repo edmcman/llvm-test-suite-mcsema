@@ -1,0 +1,6 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Failed to open file /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple.cfg
+Could not process input module: /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple.cfg
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple.bc

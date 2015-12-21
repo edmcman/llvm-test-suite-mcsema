@@ -1,0 +1,397 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_401c30
+Inserted function: sub_403340
+Inserted function: sub_400bc0
+Inserted function: sub_402dd0
+Inserted function: sub_400b90
+Inserted function: sub_400bb0
+Inserted function: sub_401a60
+Inserted function: sub_400d00
+Inserted function: sub_402000
+Inserted function: sub_400bf0
+Inserted function: sub_400c70
+Inserted function: sub_400cb0
+Inserted function: sub_400cf0
+Inserted function: sub_400c10
+Inserted function: sub_400d50
+Inserted function: sub_403120
+Inserted function: sub_403770
+Inserted function: sub_400be0
+Inserted function: sub_400c60
+Inserted function: sub_402890
+Inserted function: sub_400ce0
+Inserted function: sub_401e30
+Inserted function: sub_400d40
+Inserted function: sub_401e60
+Inserted function: sub_400c40
+Inserted function: sub_403660
+Inserted function: sub_400c50
+Inserted function: sub_401f60
+Inserted function: sub_400d10
+Inserted function: sub_400cd0
+Inserted function: sub_401d90
+Inserted function: sub_401ed0
+Inserted function: sub_400e60
+Inserted function: sub_400c90
+Inserted function: sub_401420
+Inserted function: sub_400c80
+Inserted function: sub_400cc0
+Inserted function: sub_403170
+Inserted function: sub_402620
+Inserted function: sub_402cf0
+Inserted function: sub_400d30
+Inserted function: sub_400d20
+Inserted function: sub_400c30
+Inserted function: sub_4017c0
+Inserted function: sub_400c20
+Inserted function: sub_400bd0
+Inserted function: sub_401020
+Inserted function: sub_4031a0
+Inserted function: sub_4011e0
+Inserted function: sub_400b80
+Inserted function: sub_400ca0
+Inserted function: sub_400d60
+inserting global data section named data_0x4039c0
+inserting global data section named data_0x403fb0
+inserting global data section named data_0x4040d0
+inserting global data section named data_0x604de0
+inserting global data section named data_0x604de8
+inserting global data section named data_0x604df0
+inserting global data section named data_0x604ff8
+inserting global data section named data_0x605000
+inserting global data section named data_0x605110
+inserting global data section named data_0x605150
+dataSectionToTypesContents : 4039c0 5f0
+1520
+dataSectionToTypesContents : 403fb0 11c
+284
+dataSectionToTypesContents : 4040d0 5ac
+1452
+dataSectionToTypesContents : 604de0 8
+8
+dataSectionToTypesContents : 604de8 8
+8
+dataSectionToTypesContents : 604df0 8
+8
+dataSectionToTypesContents : 604ff8 8
+8
+dataSectionToTypesContents : 605000 110
+272
+dataSectionToTypesContents : 605110 40
+64
+dataSectionToTypesContents : 605150 340
+832
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doJumpTableViaSwitch: Doing jumpt table via switch
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 401a60
+doCallPCtarget address : 401d90
+doCallPCtarget address : 402000
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c40
+doCallPCtarget address : 401e60
+doCallPCtarget address : 402620
+doCallPCtarget address : 400e60
+doCallPCtarget address : 402890
+doCallPCtarget address : 402dd0
+doCallPCtarget address : 403170
+doCallPCtarget address : 403340
+doCallPCtarget address : 403770
+doCallPCtarget address : 403120
+doCallPCtarget address : 401e30
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bc0
+doCallPC: Adding Unreachable Instruction to local noreturn
+doCallPCtarget address : 403660
+doCallPCExtern paramCount  : 1 : exit
+1 : 2666080
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400c40
+doCallPCExtern paramCount  : 12 : printf
+12 : 2666080
+doCallPCExtern paramCount  : 1 : puts
+1 : 2666080
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400d40
+doCallPCtarget address : 400cd0
+doCallPCtarget address : 400c80
+doCallPCtarget address : 400bf0
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400bc0
+doCallPC: Adding Unreachable Instruction to local noreturn
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400c10
+doCallPCtarget address : 400d00
+doCallPCtarget address : 400ce0
+doCallPCtarget address : 400cd0
+doCallPCtarget address : 400ce0
+doCallPCtarget address : 400cd0
+doCallPCtarget address : 400cc0
+doCallPCtarget address : 400c10
+doCallPCtarget address : 400d50
+doCallPCtarget address : 400cd0
+doCallPCtarget address : 400c50
+doCallPCtarget address : 400c90
+doCallPCExtern paramCount  : 1 : fclose
+1 : 2666080
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 401f60
+doCallPCtarget address : 400d00
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400cf0
+doCallPCtarget address : 400cf0
+doCallPCtarget address : 400d10
+doCallPCtarget address : 400d10
+doCallPCtarget address : 400c70
+doCallPCtarget address : 400d00
+doCallPCtarget address : 400cb0
+doCallPCExtern paramCount  : 2 : fopen
+2 : 2666080
+doCallPCExtern paramCount  : 1 : fgetc
+1 : 2666080
+doCallPCExtern paramCount  : 4 : fread
+4 : 2666080
+doCallPCExtern paramCount  : 2 : calloc
+2 : 2666080
+doCallPCExtern paramCount  : 3 : fgets
+3 : 2666080
+doCallPCExtern paramCount  : 2 : strtod
+2 : 2666080
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c50
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400c60
+doCallPCtarget address : 400d20
+doCallPCtarget address : 400d30
+doCallPCtarget address : 400d20
+doCallPCExtern paramCount  : 1 : free
+1 : 2666080
+doCallPCtarget address : 400c30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 2666080
+doCallPCExtern paramCount  : 12 : sprintf
+12 : 2666080
+doCallPCtarget address : 400cf0
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400be0
+doCallPCtarget address : 402cf0
+doCallPCtarget address : 402cf0
+doCallPCtarget address : 402cf0
+doCallPCExtern paramCount  : 2 : strtok
+2 : 2666080
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c40
+doCallPCtarget address : 400c40
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 2666080
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400c80
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400b90
+doCallPCExtern paramCount  : 12 : printf
+12 : 2666080
+doCallPCExtern paramCount  : 1 : free
+1 : 2666080
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400b90
+doCallPCtarget address : 400bb0
+doCallPCtarget address : 400bc0
+doCallPC: Adding Unreachable Instruction to local noreturn
+doCallPCExtern paramCount  : 1 : strlen
+1 : 2666080
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400bf0
+doCallPCtarget address : 400cb0
+doCallPCtarget address : 400bd0
+doCallPCtarget address : 401ed0
+doCallPCtarget address : 401ed0
+doCallPCtarget address : 401ed0
+doCallPCExtern paramCount  : 12 : fscanf
+12 : 2666080
+doCallPCExtern paramCount  : 2 : strcpy
+2 : 2666080
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400c50
+doCallPCtarget address : 400be0
+doCallPCtarget address : 400cd0
+doCallPCtarget address : 400c20
+doCallPCtarget address : 400cd0
+doCallPCtarget address : 400d10
+doCallPCtarget address : 400d10
+doCallPCtarget address : 400d10
+doCallPCtarget address : 400d10
+doCallPCtarget address : 400c70
+doCallPCtarget address : 401020
+doCallPCtarget address : 4011e0
+doCallPCtarget address : 401420
+doCallPCtarget address : 401420
+doCallPCtarget address : 400cf0
+doCallPCtarget address : 4017c0
+doCallPCtarget address : 400d60
+doCallPCExtern paramCount  : 3 : strtol
+3 : 2666080
+doCallPCtarget address : 400cf0
+doCallPCtarget address : 400cf0
+doCallPCExtern paramCount  : 2 : strrchr
+2 : 2666080
+doCallPCExtern paramCount  : 2 : strcmp
+2 : 2666080
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 4031a0
+doCallPCtarget address : 400cf0
+doCallPCExtern paramCount  : 1 : free
+1 : 2666080
+doCallPCExtern paramCount  : 12 : fprintf
+12 : 2666080
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 2666080
+doCallPCExtern paramCount  : 2 : fputc
+2 : 2666080
+Unsupported!
+401958 	mulps	%xmm4, %xmm7
+1735
+Unsupported!
+4019b8 	mulps	%xmm5, %xmm7
+1735
+doCallPCtarget address : 400cf0
+Failure to convert to LLVM module!
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple.bc
