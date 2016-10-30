@@ -1,1 +1,0 @@
-/home/ed/mcsema/build/llvm-3.5/bin/llc: /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/MultiSource/Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple.opt.bc: error: Could not open input file: No such file or directory
